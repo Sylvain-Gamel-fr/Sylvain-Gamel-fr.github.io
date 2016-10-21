@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="">
+    <header class="media m-b-3">
+        {% if page.logo %}
+        <div class="media-left" >
+            <img class="media-object" src="/img/icon-posts/{{page.logo}}.png" width="92" alt="Logo">
+        </div>
+        {% endif %}
+        
+        <div class="media-body">
+            <h2 class="media-heading" >{{ page.title }}</h2>
+            <div><small class="">{{ post.date | date: "%Y %b %-d" }}</small></div>
+        </div>
+    </header>
+    
+    
+    <div class="container row">
+        <div class="col-xs-12 col-md-8 col-lg-9">
+        {{ content }}
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-3">
+            {% if page.youtube_id %}
+                <hr class="hidden-md-up m-t-3">
+                {% include youtube.html video_id=page.youtube_id %}
+            {% endif %}
+
+            {% include attachments.html title="Téléchargez..." %}
+            
+        </div>
+    </div>
+    
+    {% if page.ibooks_intro %}
+        {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
+    {% endif %}
+</article>

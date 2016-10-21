@@ -1,0 +1,4 @@
+- name: privacy
+  path: en
+  url: en/privacy
+  github: konklone

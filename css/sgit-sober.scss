@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "variables";
+@import "functions";
+@import "mixins";
+
+@import "bootstrap-customization";
+
+//@import "tps/bootstrap";
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "page_header";
+@import "page_footer";
+
+/*
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+
+
+
+
+@import "core";
+
+@import "icons";
+*/
+

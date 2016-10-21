@@ -1,7 +1,59 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Sylvain Gamel</h1>
-<p>Webpage to come.</p>
-</body>
-</html>
+---
+layout: default
+title: "Accueil"
+lang: "fr"
+---
+
+<div class="home">
+  
+  <h2>Langues</h2>
+  
+  <ul>
+    {% for language in site.data.languages %}
+    <li>
+      <a href="{{ language.code | prepend: site.baseurl }}">
+        {{ language.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  
+  <h2>Pages par Langues</h2>
+  
+  <ul>
+    {% for language in site.data.languages %}
+      <li>
+        LANGUE: 
+          <a href="{{ language.code | prepend: site.baseurl }}">{{ language.name }}</a> 
+          ({{language.code}})
+        <ul>
+          {% for currentPage in site.pages %}
+            {% if currentPage.lang == language.code %}
+              <li>
+                {{ currentPage.title }} - {{ currentPage.lang }}
+                <a class="page-link" href="{{ currentPage.url | prepend: site.baseurl }}">{{ currentPage.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <h2 class="page-heading">Blog</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Abonnez vous <a href="{{ "/feed.xml" | prepend: site.baseurl }}">par RSS</a></p>
+
+</div>

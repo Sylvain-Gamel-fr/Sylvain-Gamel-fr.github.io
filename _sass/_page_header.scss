@@ -1,0 +1,30 @@
+@import "functions";
+
+
+body > header {
+    
+    background-color: colorNamed(blueBase);
+    color: colorNamed(textInverted);
+    
+    padding-top: space(2);
+    box-shadow: 0px space() space() rgba(0,0,0,0.2);
+
+    // Align title padding with navbar
+    .navbar,
+    h1,
+    .text-muted {
+        padding-left:  space(2);
+        padding-right: space(2);
+    }
+    
+    // Titles
+    
+    h1 a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+
+

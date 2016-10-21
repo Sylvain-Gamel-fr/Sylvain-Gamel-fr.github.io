@@ -1,0 +1,12 @@
+@import "variables";
+
+
+@function colorNamed($name) {
+    @return map-get($colorPalette, $name);
+}
+
+
+@function space($qty: 1) {
+    @return 4px * $qty;
+}
+

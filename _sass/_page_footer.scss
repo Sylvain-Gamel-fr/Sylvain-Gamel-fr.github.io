@@ -1,0 +1,18 @@
+footer {
+ 
+    &.bg-inverse {
+        background-color: colorNamed(darkBg);
+        
+        a {
+            @include link-on-dark;
+        }
+    }
+    
+    height: auto;
+    bottom: 0px;
+    left:   0px;
+    right:  0px;
+    
+    padding-top:    12px;
+    padding-bottom:  8px;
+}

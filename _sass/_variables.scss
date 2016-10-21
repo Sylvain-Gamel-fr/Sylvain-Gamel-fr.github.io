@@ -1,0 +1,31 @@
+// Customize standard Bootstrap variables
+$enable-rounded: false;
+
+$line-height-base: 1.5;
+
+
+// Custom palette
+
+
+$colorPalette: (
+	mainBg: #fefefe,
+        darkBg: #303030,
+        thinBg: #fafafa,
+        
+        textInverted: #fefefe,
+        
+        blueBase:   #4a90e2,
+        blueMedium: #578CC9,
+        blueDark:   #5F7996,
+        
+        text: #323232,
+        invertedText: #e0e0e0,
+        
+        linkNormal: #e03333,
+        linkActive: #ff4040,
+        linkinvertedActive: #f0f0f0, // Over dark backgrounds
+        linkVisited: darken(#e03333, 10%),
+        
+        headings: #ff5842,
+        primary: rgb(243,72,170)
+);
