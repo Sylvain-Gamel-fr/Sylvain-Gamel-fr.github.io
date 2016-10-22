@@ -1,25 +1,32 @@
 <header>
     <div class="container p-b-2">
+	<h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        {% if site.slogan %}
+            <div class="text-muted">{{ site.slogan }}</div>
+        {% endif %}
 	<nav class="navbar">
             <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
                     data-target="#rootNavigation">&#9776;</button>
-            <div id="rootNavigation" class="collapse navbar-toggleable-xs" >
+            <div id="rootNavigation" 
+                 class="collapse navbar-toggleable-xs" >
                 <ul class="nav navbar-nav">
                     {% assign allSections = site.pages | sort:"order" %}
                     {% for current in allSections %}
 
                         {%  assign sectionActive = false %}
                         {%  assign cssClass = '' %}
+                        
                         {% if page.category == current.category %}
                             {%  assign sectionActive = true %}
                             {%  assign cssClass = 'active' %}
                         {% endif %}
+                        
                         {% if page.categories contains current.category %}
                             {%  assign sectionActive = true %}
                             {%  assign cssClass = 'active' %}
                         {% endif %}
 
-                        {% if current.order != -1 and current.title %}
+                        {% if current.order != -1 and current.title and current.lang == page.lang %}
                             <li class="nav-item">
                                 <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
                                     {{ current.title }}  
@@ -30,13 +37,22 @@
                             </li>
                         {% endif %}
                     {% endfor %}				
+                    <!-- Change language menu -->
+                    <li class="nav-item">
+                      <span class="navbar-text">—</span>
+                    </li>
+                    {% for language in site.data.languages %}
+                      {% if page.lang != language.code %}
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{ language.code | prepend: '/' | prepend: site.baseurl }}">
+                            {{ language.name }}
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
 	</nav>
-	<h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        {% if site.slogan %}
-            <div class="text-muted">{{ site.slogan }}</div>
-        {% endif %}
     </div>
     
     {% if page.layout != 'post' %}
