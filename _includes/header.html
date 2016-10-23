@@ -10,9 +10,11 @@
             <div id="rootNavigation" 
                  class="collapse navbar-toggleable-xs" >
                 <ul class="nav navbar-nav">
-                    {% assign allSections = site.pages | sort:"order" %}
+                    {% assign allSections = site.pages | sort: "order" %}
                     {% for current in allSections %}
 
+                      {% if null == current.categories || 0 == current.categories.length %}
+                    
                         {%  assign sectionActive = false %}
                         {%  assign cssClass = '' %}
                         
@@ -36,6 +38,7 @@
                                 </a>
                             </li>
                         {% endif %}
+                      {% endif %}
                     {% endfor %}				
                     <!-- Change language menu -->
                     <li class="nav-item">

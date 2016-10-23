@@ -2,6 +2,7 @@
 layout: page
 title: À propos
 lang: "fr"
+order: 100
 permalink: /fr/a-propos/
 ---
 
