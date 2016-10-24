@@ -9,51 +9,50 @@
                     data-target="#rootNavigation">&#9776;</button>
             <div id="rootNavigation" 
                  class="collapse navbar-toggleable-xs" >
-                <ul class="nav navbar-nav">
-                    {% assign allSections = site.pages | sort: "order" %}
-                    {% for current in allSections %}
+              <ul class="nav navbar-nav">
+                {% assign allSections = site.pages | sort: "order" %}
+                {% for current in allSections %}
 
-                      {% if null == current.categories || 0 == current.categories.length %}
-                    
-                        {%  assign sectionActive = false %}
-                        {%  assign cssClass = '' %}
-                        
-                        {% if page.category == current.category %}
-                            {%  assign sectionActive = true %}
-                            {%  assign cssClass = 'active' %}
-                        {% endif %}
-                        
-                        {% if page.categories contains current.category %}
-                            {%  assign sectionActive = true %}
-                            {%  assign cssClass = 'active' %}
-                        {% endif %}
+                  {% if null == current.categories || 0 == current.categories.length %}
 
-                        {% if current.order != -1 and current.title and current.lang == page.lang %}
-                            <li class="nav-item">
-                                <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
-                                    {{ current.title }}  
-                                    {% if sectionActive %}
-                                        <span class="sr-only">(actuelle)</span>
-                                    {% endif %}
-                                </a>
-                            </li>
-                        {% endif %}
-                      {% endif %}
-                    {% endfor %}				
-                    <!-- Change language menu -->
-                    <li class="nav-item">
-                      <span class="navbar-text">—</span>
-                    </li>
-                    {% for language in site.data.languages %}
-                      {% if page.lang != language.code %}
+                    {%  assign sectionActive = false %}
+                    {%  assign cssClass = '' %}
+
+                    {% if page.category == current.category %}
+                        {%  assign sectionActive = true %}
+                        {%  assign cssClass = 'active' %}
+                    {% endif %}
+
+                    {% if page.categories contains current.category %}
+                        {%  assign sectionActive = true %}
+                        {%  assign cssClass = 'active' %}
+                    {% endif %}
+
+                    {% if current.order != -1 and current.title and current.lang == page.lang %}
                         <li class="nav-item">
-                          <a class="nav-link" href="{{ language.code | prepend: '/' | prepend: site.baseurl }}">
-                            {{ language.name }}
-                          </a>
+                            <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
+                                {{ current.title }}  
+                                {% if sectionActive %}
+                                    <span class="sr-only">(actuelle)</span>
+                                {% endif %}
+                            </a>
                         </li>
-                      {% endif %}
-                    {% endfor %}
-                </ul>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}				
+              </ul>
+              <!-- Change language menu -->
+              <ul class="list-inline float-xs-right">
+                {% for language in site.data.languages %}
+                  {% if page.lang != language.code %}
+                    <li class="list-inline-item">
+                      <a class="nav-link" href="{{ language.code | prepend: '/' | prepend: site.baseurl }}">
+                        {{ language.name }}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
             </div>
 	</nav>
     </div>
