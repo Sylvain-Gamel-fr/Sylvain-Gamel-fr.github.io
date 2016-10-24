@@ -13,7 +13,6 @@ ruby RUBY_VERSION
 
 gem 'bootstrap', '~> 4.0.0.alpha4' 
 
-
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "sgit-sober", :path => '../sgamel-sober-theme'
 

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Publications
+title: Livres
 lang: "fr"
 order: 2
+permalink: /fr/livres/
 ---
 

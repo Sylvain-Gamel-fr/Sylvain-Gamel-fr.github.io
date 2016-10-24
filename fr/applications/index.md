@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: page_section
 title: Logiciels
 lang: "fr"
 order: 1
 subcategory: app
+permalink: /fr/applications/
 ---
 
 ### Applications pour iOS
