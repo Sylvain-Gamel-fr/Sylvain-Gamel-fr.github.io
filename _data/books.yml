@@ -1,0 +1,44 @@
+- title: Objective-C 2, précis et concis
+  pageCode: objc2
+  promoted: false
+  shortDescription:
+    fr: Mise à jour du classique d'O'Reilly pour Objective-C 2.
+    en: An update of the classical O'Reilly book for Objective-C 2 language.
+  cover:
+    small:  /images/books/cover-objc-p-et-c-small.jpg
+    medium: /images/books/cover-objc-p-et-c-medium.jpg
+
+
+- title: Automatisez sous Mac
+  pageCode: automatisez-sous-mac
+  promoted: true
+  shortDescription:
+    fr: La référence francophone pour explorer et maitriser Automator, 
+        l'outil de macOS pour passer vos applications en pilotage automatique.
+    en: French language reference to explore and master Automator, 
+        macOS tool to move your software in auto-pilot mode.
+  cover:
+    small:  /images/books/cover-automatisez-sous-mac-small.jpg
+    medium: /images/books/cover-automatisez-sous-mac-medium.jpg
+  youtube:
+    intro:
+  shop:
+    ibooks:
+
+
+- title: OS X dans la Poche, le PDF
+  pageCode: macOS-PDF
+  promoted: true
+  shortDescription:
+    fr: Explorez les outils de macOS pour manipuler, lire et modifier vos documents électroniques.
+    en: Explore macOS toolbox to handle, read and edit your electronic documents.
+  cover:
+    small:  /images/books/cover-osx-en-poche-pdf-small.jpg
+    medium: /images/books/cover-osx-en-poche-pdf-medium.jpg
+  youtube:
+    intro:
+  shop:
+    ibooks:
+    lulu:
+    amazon:
+  

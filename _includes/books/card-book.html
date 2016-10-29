@@ -1,0 +1,41 @@
+{% assign lang = include.lang %}
+{% assign book = include.book %}
+
+{% if book.title[ lang ] %}
+  {% assign title = book.title[ lang ] %}
+{% else %}
+  {% assign title = book.title %}
+{% endif %}
+
+{% if book.pageCode[ lang ] %}
+  {% assign bookPage = book.pageCode[ lang ] %}
+{% else %}
+  {% assign bookPage = book.pageCode %}
+{% endif %}
+
+{% if book.shortDescription[ lang ] %}
+  {% assign description = book.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = book.shortDescription %}
+{% endif %}
+
+<div class="media">
+  <a class="media-left" 
+     href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}">
+    <img class="media-object" 
+         src="{{ book.cover.small | relative_url }}" 
+         alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">{{ title }}</h4>
+    <p>
+      {{ description }}
+    </p>
+          <small class="text-xs-right">
+        <a href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}" 
+           class="">{{ site.data.i18n[ 'nav_see_more' ][ lang ] }}</a>
+      </small>
+
+  </div>
+</div>
+

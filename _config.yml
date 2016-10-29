@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Sylvain Gamel
 slogan: Domptez l'informatique avant qu'elle ne vous dompte.
-email: sylvain@SGinTech.fr
+email: contact@SGinTech.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Indépendant, je vous propose mes services de développeurs, des services
-  pour un monde connecté ainsi que des formations.
+  Développement mobile ou internet. 
+  Formations internet, mobilité et bureautique.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://SylvainGamel.fr" # the base hostname & protocol for your site
 twitter_username: sgamel

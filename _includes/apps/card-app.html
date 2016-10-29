@@ -1,0 +1,41 @@
+{% assign lang = include.lang %}
+{% assign app  = include.app %}
+
+{% if app.name[ lang ] %}
+  {% assign appName = app.name[ lang ] %}
+{% else %}
+  {% assign appName = app.name %}
+{% endif %}
+
+{% if app.pageCode[ lang ] %}
+  {% assign appPage = app.pageCode[ lang ] %}
+{% else %}
+  {% assign appPage = app.pageCode %}
+{% endif %}
+
+{% if app.shortDescription[ lang ] %}
+  {% assign description = app.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = app.shortDescription %}
+{% endif %}
+
+<div class="media">
+  <a class="media-left" 
+     href="{{ appPage | prepend: "applications/" | prepend: site.baseurl }}">
+    <img class="media-object" 
+         src="{{ app.icon.small | relative_url }}" 
+         alt="{{ site.data.i18n[ 'app_icon_alt' ][ lang ] }}" >
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">{{ appName }}</h4>
+    <p>
+      {{ description }}
+    </p>
+          <small class="text-xs-right">
+        <a href="{{ appPage | prepend: "applications/" | prepend: site.baseurl }}" 
+           class="">{{ site.data.i18n[ 'nav_see_more' ][ lang ] }}</a>
+      </small>
+
+  </div>
+</div>
+

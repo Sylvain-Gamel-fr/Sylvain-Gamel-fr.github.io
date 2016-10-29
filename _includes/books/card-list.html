@@ -1,0 +1,16 @@
+{% assign lang     = include.lang %}
+{% assign bookList = include.bookList %}
+
+<hr>
+
+<div class="row">
+{% for book in bookList %}
+  {% if book.promoted %}
+    <div class="col-xs-12 col-md-6 col-lg-4" >
+    {% include books/card-book.html lang=lang book=book %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<hr>

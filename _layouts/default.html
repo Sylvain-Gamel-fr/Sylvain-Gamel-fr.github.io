@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-      
-    {% include header.html banner=page.header_banner %}
+  <body>      
+    {% include page/header.html banner=page.header_banner %}
     
     <section class="container">
         <div class="wrapper row" >
@@ -11,7 +10,7 @@
         </div>
     </section>
     
-    {% include footer.html %}
+    {% include page/footer.html %}
     
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

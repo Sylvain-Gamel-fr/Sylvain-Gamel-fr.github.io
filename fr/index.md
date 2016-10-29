@@ -5,20 +5,28 @@ lang: fr
 permalink: fr/
 ---
 
+{% assign lang = page.lang %}
+
+
 Je m’appelle Sylvain Gamel et je suis un consultant indépendant spécialisé 
 dans les nouvelles technologies de l’information et de la communication (NTIC).
 
-### Logiciels
+### Applications Mobiles
 
 Je publie quelques applications pour iPhone et iPad.
 
-Mais je peux également écrire vos application mobiles ou web
-sur demande.
+
+{% include apps/card-list.html lang=lang appList=site.data.applications %}
+
+
+Je peux également écrire vos application mobiles ou web sur demande.
 
 [En savoir plus...](/fr/applications)
 
 
 ### Livres
+
+{% include books/card-list.html lang=lang bookList=site.data.books %}
 
 *Vous avez un Mac ?*
 

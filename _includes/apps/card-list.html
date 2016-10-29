@@ -1,0 +1,14 @@
+{% assign lang    = include.lang %}
+{% assign appList = include.appList %}
+
+<hr>
+
+<div class="row">
+{% for app in appList %}
+    <div class="col-xs-12 col-md-6 col-lg-4" >
+    {% include apps/card-app.html lang=lang app=app %}
+    </div>
+{% endfor %}
+</div>
+
+<hr>

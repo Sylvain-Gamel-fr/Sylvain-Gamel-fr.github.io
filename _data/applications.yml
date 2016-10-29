@@ -1,0 +1,58 @@
+- name: 
+    fr: Calculette TVA
+    en: VAT Calculator
+  pageCode:
+    fr: calc-tva
+    en: vat-calc
+  shortDescription:
+    fr: Calculez rapidement un montant hors-taxes ou TTC pour plus de 50 pays.
+    en: Quick and efficient computation of VAT amounts for more than 50 countries.
+  icon:
+    small: /images/apps/icon-calculette-TVA_150px.png
+  url:
+    app_store: https://itunes.apple.com/app/apple-store/id425126917?pt=476347&ct=ownweb&mt=8
+  youtube:
+    intro: 
+        en: https://youtu.be/_6pTfm-ashY
+        fr: https://youtu.be/jn1jY7RykVc
+  
+
+- name: 
+    fr: Cartes SCRUM
+    en: SCRUM Cards
+  pageCode:
+    fr: cartes-scrum
+    en: scrum-cards
+  shortDescription:
+    fr: Ayez toujours votre jeu de cartes SCRUM toujours dans la poche.
+    en: Get your SCRUM cards always in your pocket.
+  icon:
+    small: /images/apps/icon-SCRUM-cards_150px.png
+  url:
+    app_store: http://itunes.apple.com/us/app/cartes-scrum/id436760091?mt=8
+  youtube:
+    intro:
+        en: https://youtu.be/-anKt0mJ_Vo
+        fr: https://youtu.be/C2xU9gu-Gj4
+
+
+- name: 
+    fr: me-Metrics
+    en: me-Metrics
+  pageCode: me-metrics
+  shortDescription:
+    fr: Comptez ce que vous voulez, où vous voulez.
+    en: Count what you want, where you want.
+  icon:
+    small: /images/apps/icon-meMetrics_150px.png
+  url:
+    app_store: https://itunes.apple.com/us/app/me-metrics/id982837103?l=fr&ls=1&mt=8
+  youtube:
+    intro: https://youtu.be/mmD8QfJ6jH8
+    demo: 
+        - https://youtu.be/6vExXADbyQ8
+        - https://youtu.be/16ardaE42Lg
+        - https://youtu.be/D6QZ-m6DCJI
+        - https://youtu.be/idKluIVLeSY
+        
+
