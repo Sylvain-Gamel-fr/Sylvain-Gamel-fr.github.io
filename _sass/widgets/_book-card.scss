@@ -1,0 +1,19 @@
+// Images adjudting time depending on breakpoint
+
+.media.book-card {
+
+    img.media-object {
+        width:  6em;
+        height: auto;
+
+        @include media-breakpoint-up(sm) {
+            width:  12em;
+        }
+        @include media-breakpoint-up(lg) {
+            width:  auto;
+        }
+    }
+
+}
+
+

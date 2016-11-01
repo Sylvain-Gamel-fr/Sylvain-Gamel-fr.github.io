@@ -1,0 +1,36 @@
+/* 
+    Created on : 29 févr. 2016, 22:10:46
+    Author     : sylvain
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    
+    // Minimum padding on mobile
+    padding: 0 space(2);
+    
+    @include media-breakpoint-up(sm) {
+        padding: 0;
+    }
+    
+    // But remove padding on page header/footer
+    header,
+    .navigation,
+    footer {
+        margin-left:  space(-2);
+        margin-right: space(-2);
+    }
+}
+
+
+section {
+    padding: space(8) 0;
+}
+
+article {
+    padding: space(6) 0;
+}

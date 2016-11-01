@@ -12,18 +12,21 @@
 //@import "tps/bootstrap";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "page_header";
-@import "page_footer";
+@import "typography";
+@import "widgets/app-card";
+@import "widgets/book-card";
+
+
+@import "page/layout";
+@import "page/page_header";
+@import "page/page_footer";
 
 /*
+
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 
-
-
-
-@import "core";
-
 */
+
 
 @import "icons";

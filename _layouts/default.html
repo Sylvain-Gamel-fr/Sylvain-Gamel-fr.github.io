@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+{% assign lang = "fr" %}
+{% if page.lang %}
+  {% assign lang = page.lang %}
+{% endif %}
+
+<html lang="{{ lang }}" >
   {% include head.html %}
-  <body>      
-    {% include page/header.html banner=page.header_banner %}
+  <body>
+    {% include page/header.html %}
     
     <section class="container">
         <div class="wrapper row" >

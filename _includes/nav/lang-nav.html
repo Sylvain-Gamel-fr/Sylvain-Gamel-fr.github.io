@@ -1,0 +1,13 @@
+{% assign lang=include.lang %}
+
+<ul class="nav navbar-nav float-sm-right">
+  {% for language in site.data.languages %}
+    {% if lang != language.code %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ language.code | prepend: '/' | prepend: site.baseurl }}">
+        {{ language.name }}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

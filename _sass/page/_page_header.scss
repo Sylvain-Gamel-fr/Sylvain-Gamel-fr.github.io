@@ -1,0 +1,139 @@
+@import "functions";
+
+
+header.page-heading {
+
+    background-color: transparent;
+    color: colorNamed(paleGrey);
+
+    padding: 0;
+
+    // Align title padding with navbar
+    .navbar {
+        padding: space(2) 0;
+    }
+
+    // Titles
+
+    h1 {
+        color: colorNamed(paleGrey);
+        
+        font-size: 1.2em;
+        
+        @include media-breakpoint-up(sm) {
+            font-size: 1.8em;
+        }
+        @include media-breakpoint-up(md) {
+            font-size: 2.4em;
+        }
+    }
+    a {
+        @include link-colors(white, paleGrey, white);
+        
+        text-decoration: none;
+        &:hover {
+            //text-decoration: none;
+        }
+    }
+
+    small {
+        display: inline-block;
+        font-size: 0.6em;
+        line-height: 1.2;
+        
+        @include media-breakpoint-up(sm) {
+            font-size: 0.8em;
+        }
+        @include media-breakpoint-up(md) {
+            font-size: 1.0em;
+        }
+    }
+    
+}
+
+header.page-heading .title {
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header.page-heading {
+    position: relative;
+    
+    overflow-y: hidden;
+    z-index: 0;
+    
+    height: 6em;
+    
+    @include media-breakpoint-up(sm) {
+        height: 10em;
+    }
+    @include media-breakpoint-up(md) {
+        height: 15em;
+    }
+    
+    .header-visual {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        
+        z-index: -1;
+        
+        img {
+            min-width: 100%;
+            max-width: 200%;
+            
+            min-height: 100%;
+            max-height: 200%;
+
+            //margin-left: 50%;
+            //transform: translateX(-50%);
+            
+            transform: translate(0%, -50%);
+
+            @include media-breakpoint-up(md) {
+                transform: translate(0%, -25%);
+            }
+            @include media-breakpoint-up(lg) {
+                transform: translate(0%, -50%);
+            }
+        }
+    }
+}
+
+    
+.navigation {
+    background-color: colorNamed(blueDark);
+    color: colorNamed(paleGrey);
+    
+    margin-bottom: space(4);
+    box-shadow: 0px space() space() rgba(0,0,0,0.2);
+
+    
+    button.navbar-toggler {
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+    }
+    
+    a {
+        @include link-colors(white, paleGrey, white);
+        
+        text-decoration: none;
+        
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: colorNamed(blue);
+        }
+        
+        &.active {
+            font-weight: bold;
+            
+            color: colorNamed(paleGrey);
+        }
+    }
+}
+
+

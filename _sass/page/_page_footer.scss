@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+footer.page-footer {
+
+    border-top: 1px solid colorNamed(lightGrey);
+    background-color: colorNamed(paleGrey);
+    
+    // Assuming that body height fills view port, ensure that footer is always 
+    // on page bottom.
+    position: absolute;
+    //float: left;
+    //width: 100%;
+    height: auto;
+    top:   100%;
+    left:   0px;
+    right:  0px;
+    
+    padding: space(4) 0;
+}

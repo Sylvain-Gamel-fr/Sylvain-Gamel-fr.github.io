@@ -1,68 +1,51 @@
-<header>
-    <div class="container p-b-2">
-	<h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        {% if site.slogan %}
-            <div class="text-muted">{{ site.slogan }}</div>
-        {% endif %}
-	<nav class="navbar">
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
-                    data-target="#rootNavigation">&#9776;</button>
-            <div id="rootNavigation" 
-                 class="collapse navbar-toggleable-xs" >
-              <ul class="nav navbar-nav">
-                {% assign allSections = site.pages | sort: "order" %}
-                {% for current in allSections %}
+{% assign lang = "fr" %}
+{% if page.lang %}
+  {% assign lang = page.lang %}
+{% endif %}
 
-                  {% if null == current.categories || 0 == current.categories.length %}
+{% assign bannerImg= "Apple-wireless-keyboard" %}
+{% if page.header_banner %}
+  {% assign bannerImg = page.header_banner %}
+{% endif %}
 
-                    {%  assign sectionActive = false %}
-                    {%  assign cssClass = '' %}
+{% if include.bannerImg %}
+  {% assign bannerImg = include.bannerImg %}
+{% endif %}
 
-                    {% if page.category == current.category %}
-                        {%  assign sectionActive = true %}
-                        {%  assign cssClass = 'active' %}
-                    {% endif %}
 
-                    {% if page.categories contains current.category %}
-                        {%  assign sectionActive = true %}
-                        {%  assign cssClass = 'active' %}
-                    {% endif %}
-
-                    {% if current.order != -1 and current.title and current.lang == page.lang %}
-                        <li class="nav-item">
-                            <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
-                                {{ current.title }}  
-                                {% if sectionActive %}
-                                    <span class="sr-only">(actuelle)</span>
-                                {% endif %}
-                            </a>
-                        </li>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}				
-              </ul>
-              <!-- Change language menu -->
-              <ul class="list-inline float-xs-right">
-                {% for language in site.data.languages %}
-                  {% if page.lang != language.code %}
-                    <li class="list-inline-item">
-                      <a class="nav-link" href="{{ language.code | prepend: '/' | prepend: site.baseurl }}">
-                        {{ language.name }}
-                      </a>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </div>
-	</nav>
+<header class="page-heading" >
+  {% if page.layout != 'post' %}
+    <div class="header-visual">
+      {% if bannerImg %}
+        <img class="" src="/images/heading/{{bannerImg}}.jpg" aria-hidden="true">
+      {% endif %}
     </div>
-    
-    {% if page.layout != 'post' %}
-        <div class="header-visual">
-            {% if include.banner %}
-                <img class="img-fluid" src="/img/top-backgrounds/{{include.banner}}" aria-hidden="true">
-            {% endif %}
-        </div>
-    {% endif %}
-    
+  {% endif %}
+
+  <div class="title">
+    <div class="container">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      {% if site.slogan %}
+        <small>{{ site.slogan }}</small>
+      {% endif %}
+    </div>
+  </div>
+
 </header>
+
+<div class="navigation">
+
+<div class="container">
+  <nav class="navbar">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
+            data-target="#rootNavigation">&#9776;</button>
+    <div id="rootNavigation" 
+         class="collapse navbar-toggleable-xs" >
+      {% include nav/sections-nav.html lang=lang %}
+      <!-- Change language menu -->
+      <hr class="hidden-sm-up">
+      {% include nav/lang-nav.html lang=lang %}
+    </div>
+  </nav>
+</div>
+  </div>

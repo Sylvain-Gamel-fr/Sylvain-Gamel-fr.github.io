@@ -28,7 +28,7 @@ github_username:  sylvaingml
 markdown: kramdown
 #theme: sgit-sober
 
-exclude: [ "node_modules" ]
+exclude: [ "node_modules", "design" ]
 
 gems:
   - jekyll-redirect-from
