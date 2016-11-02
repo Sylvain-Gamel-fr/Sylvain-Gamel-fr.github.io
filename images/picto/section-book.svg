@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>section-book</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,8.00287799 C0,3.58301052 3.59136164,0 8.0014394,0 L111.998561,0 C116.417634,0 120,3.5887945 120,7.99795384 L120,151.997122 L118.782122,151.863788 C114.389566,151.382889 111.216749,154.552831 111.695993,158.94916 L111.810546,160 L7.99626756,160 C3.58005093,160 0,156.41484 0,151.997122 L0,8.00287799 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M12,8.00287799 C12,3.58301052 15.5913616,0 20.0014394,0 L123.998561,0 C128.417634,0 132,3.5887945 132,7.99795384 L132,151.997122 L130.782122,151.863788 C126.389566,151.382889 123.216749,154.552831 123.695993,158.94916 L123.810546,160 L19.9962676,160 C15.5800509,160 12,156.41484 12,151.997122 L12,8.00287799 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M25,8.00287799 C25,3.58301052 28.5913616,0 33.0014394,0 L136.998561,0 C141.417634,0 145,3.5887945 145,7.99795384 L145,151.997122 L143.782122,151.863788 C139.389566,151.382889 136.216749,154.552831 136.695993,158.94916 L136.810546,160 L32.9962676,160 C28.5800509,160 25,156.41484 25,151.997122 L25,8.00287799 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M25,8.00287799 C25,3.58301052 28.5913616,0 33.0014394,0 L136.998561,0 C141.417634,0 145,3.5887945 145,7.99795384 L145,151.997122 L143.782122,151.863788 C139.389566,151.382889 136.216749,154.552831 136.695993,158.94916 L136.810546,160 L32.9962676,160 C28.5800509,160 25,156.41484 25,151.997122 L25,8.00287799 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M13,8.00287799 C13,3.58301052 16.5913616,0 21.0014394,0 L124.998561,0 C129.417634,0 133,3.5887945 133,7.99795384 L133,151.997122 L131.782122,151.863788 C127.389566,151.382889 124.216749,154.552831 124.695993,158.94916 L124.810546,160 L20.9962676,160 C16.5800509,160 13,156.41484 13,151.997122 L13,8.00287799 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M0,8.00287799 C0,3.58301052 3.59136164,0 8.0014394,0 L111.998561,0 C116.417634,0 120,3.5887945 120,7.99795384 L120,151.997122 L118.782122,151.863788 C114.389566,151.382889 111.216749,154.552831 111.695993,158.94916 L111.810546,160 L7.99626756,160 C3.58005093,160 0,156.41484 0,151.997122 L0,8.00287799 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="160" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-book">
+            <circle id="Oval-2" fill-opacity="0.3" fill="#7ED321" cx="150" cy="150" r="140"></circle>
+            <g id="book" transform="translate(16.000000, 75.000000)">
+                <g id="Group-2" stroke="#4A4A4A" fill="#FFFFFF">
+                    <use id="Rectangle" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                    <use id="Rectangle" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                    <use id="Rectangle" mask="url(#mask-6)" stroke-width="10" xlink:href="#path-5"></use>
+                </g>
+                <g id="Group-3" transform="translate(140.000000, 0.000000)" stroke="#4A4A4A" fill="#FFFFFF">
+                    <use id="Rectangle" mask="url(#mask-8)" stroke-width="10" transform="translate(85.000000, 80.000000) scale(-1, 1) translate(-85.000000, -80.000000) " xlink:href="#path-7"></use>
+                    <use id="Rectangle" mask="url(#mask-10)" stroke-width="10" transform="translate(73.000000, 80.000000) scale(-1, 1) translate(-73.000000, -80.000000) " xlink:href="#path-9"></use>
+                    <use id="Rectangle" mask="url(#mask-12)" stroke-width="10" transform="translate(60.000000, 80.000000) scale(-1, 1) translate(-60.000000, -80.000000) " xlink:href="#path-11"></use>
+                </g>
+                <g id="Group" transform="translate(156.000000, 15.000000)" stroke="#9B9B9B" stroke-linecap="square">
+                    <path d="M0.48167378,1 L89.550537,1" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,128 L89.550537,128" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,59 L89.550537,59" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,24 L89.550537,24" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,36 L89.550537,36" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,13 L89.550537,13" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,47 L89.550537,47" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,70 L89.550537,70" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,93 L89.550537,93" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,116 L89.550537,116" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,82 L89.550537,82" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,105 L89.550537,105" id="Line" stroke-width="2"></path>
+                </g>
+                <g id="Group" transform="translate(39.000000, 15.000000)" stroke="#9B9B9B" stroke-linecap="square">
+                    <path d="M0.48167378,1 L89.550537,1" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,128 L89.550537,128" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,59 L89.550537,59" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,24 L89.550537,24" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,36 L89.550537,36" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,13 L89.550537,13" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,47 L89.550537,47" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,70 L89.550537,70" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,93 L89.550537,93" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,116 L89.550537,116" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,82 L89.550537,82" id="Line" stroke-width="2"></path>
+                    <path d="M0.48167378,105 L89.550537,105" id="Line" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

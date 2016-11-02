@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>section-mobile-app</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-mobile-app">
+            <circle id="Oval-2" fill-opacity="0.3" fill="#4A90E2" cx="150" cy="150" r="140"></circle>
+            <g id="Group" transform="translate(65.000000, 58.000000)">
+                <g id="tablet" transform="translate(37.745098, 0.000000)">
+                    <g>
+                        <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="120" height="160" rx="8"></rect>
+                        <rect id="Rectangle-Copy-4" fill="#4A4A4A" x="0" y="0" width="120" height="160" rx="8"></rect>
+                        <rect id="Rectangle-Copy" fill="#FFFFFF" x="5" y="5" width="110" height="135" rx="8"></rect>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#4A4A4A" cx="60.5" cy="150.5" r="7.5"></circle>
+                    </g>
+                </g>
+                <g id="mobile" transform="translate(0.000000, 71.061003)">
+                    <g id="Group">
+                        <g>
+                            <rect id="Rectangle-Copy-3" fill="#4A4A4A" x="0" y="0" width="61" height="98" rx="8"></rect>
+                            <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="3.05" y="3.0625" width="54.9" height="82.6875" rx="8"></rect>
+                            <ellipse id="Oval-Copy" stroke="#FFFFFF" stroke-width="2" fill="#4A4A4A" cx="30.805" cy="92.18125" rx="4.575" ry="4.59375"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

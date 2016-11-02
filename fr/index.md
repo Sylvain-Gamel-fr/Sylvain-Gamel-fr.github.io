@@ -11,9 +11,9 @@ permalink: fr/
 Je m’appelle Sylvain Gamel et je suis un consultant indépendant spécialisé 
 dans les nouvelles technologies de l’information et de la communication (NTIC).
 
-
-### Applications Mobiles
-
+{% include page/section-title.html 
+    title="Applications Mobiles"
+    src="/images/picto/section-mobile-app.svg" %}
 
 J'ai développé quelques applications pour iPhone et iPad.
 
@@ -24,7 +24,9 @@ Je peux également écrire vos application mobiles ou web sur demande.
 [En savoir plus...](/fr/applications)
 
 
-### Livres
+{% include page/section-title.html 
+    title="Livres"
+    src="/images/picto/section-book.svg" %}
 
 *Vous avez un Mac ?*
 
@@ -35,7 +37,9 @@ J'ai publié quelques livres pour vous aider à améliorer votre productivité.
 [En savoir plus...](/fr/livres)
 
 
-### Développement
+{% include page/section-title.html 
+    title="Développement"
+    src="/images/picto/section-dev.svg" %}
 
 
 Vous avez besoin d’un développement logiciel, de conseils ou d’une expertise 
@@ -48,16 +52,19 @@ Apprenez en plus sur mes compétences.
 [En savoir plus...](/fr/a-propos)
 
 
-### Formations
-
+{% include page/section-title.html 
+    title="Formations"
+    src="/images/picto/section-training.svg" %}
 
 Vous êtes un particulier, ou une entreprise, et vous souhaitez vous former, 
 ou former votre personnel, à l’utilisation des nouvelles technologies ? 
 
-Contactez moi pour définir un plan de formation.
+Contactez moi pour définir votre plan de formation.
 
 
-### Contact
+{% include page/section-title.html 
+    title="Contact"
+    src="/images/picto/section-mail.svg" %}
 
 
 N'hésitez pas à me contacter pour plus de renseignements.

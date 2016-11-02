@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>section-dev</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5.71428571" y="1" width="114.285714" height="114.285714" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="114.285714" height="114.285714" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="144" y="1" width="114.285714" height="114.285714" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="114.285714" height="114.285714" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-dev">
+            <circle id="Oval-2" fill-opacity="0.3" fill="#D39521" cx="150" cy="150" r="140"></circle>
+            <g id="Group" transform="translate(16.000000, 89.000000)">
+                <rect id="Rectangle-Copy-8" fill="#4A4A4A" x="0" y="6.71428571" width="125.714286" height="114.285714" rx="8"></rect>
+                <use id="Rectangle-Copy-9" stroke="#4A4A4A" mask="url(#mask-2)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-Copy-8" fill="#4A4A4A" x="138.285714" y="6.71428571" width="125.714286" height="114.285714" rx="8"></rect>
+                <use id="Rectangle-Copy-9" stroke="#4A4A4A" mask="url(#mask-4)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <text id="⌘" font-family="LucidaGrande, Lucida Grande" font-size="46" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="68" y="100">⌘</tspan>
+                </text>
+                <text id="cmd" font-family="HelveticaNeue-CondensedBold, Helvetica Neue" font-size="24" font-style="condensed" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="14.0952381" y="100.467532">cmd</tspan>
+                </text>
+                <text id="B" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="96" font-weight="400" fill="#4A4A4A">
+                    <tspan x="167" y="94">B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{% assign title = include.title %}
+{% assign source = include.src %}
+{% assign description = include.alt %}
+
+<div class="section-title container-fluid">
+  <h3 class="">
+    <img src="{{ source | relative_url }}" alt="{{ description }}" >
+    {{ title }}
+  </h3>
+</div>
+
+
