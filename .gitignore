@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-/nbproject/private/
+/nbproject/private/node_modules
+node_modules
+
