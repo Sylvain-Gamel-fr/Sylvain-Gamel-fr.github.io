@@ -1,4 +1,5 @@
-- name: 
+- id: vatcalc
+  name: 
     fr: Calculette TVA
     en: VAT Calculator
   pageCode:
@@ -17,7 +18,8 @@
         fr: https://youtu.be/jn1jY7RykVc
   
 
-- name: 
+- id: scrumcards
+  name: 
     fr: Cartes SCRUM
     en: SCRUM Cards
   pageCode:
@@ -36,7 +38,8 @@
         fr: https://youtu.be/C2xU9gu-Gj4
 
 
-- name: 
+- id: memetrics
+  name: 
     fr: me-Metrics
     en: me-Metrics
   pageCode: me-metrics

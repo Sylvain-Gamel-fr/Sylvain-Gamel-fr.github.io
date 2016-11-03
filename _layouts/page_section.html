@@ -1,66 +1,62 @@
 ---
 layout: default
 ---
-<article class="media">
-    <header class="m-t-1 m-b-3">
-        {% if page.logo %}
-        <div class="media-left media-middle" >
-            <img class="media-object" src="/img/icon-posts/{{page.logo}}.png" width="92" alt="Logo">
-        </div>
-        {% endif %}
-        
-        <div class="media-body m-b-3">
-            <h2 class="media-heading" >{{ page.title }}</h2>
-            {% if page.date %}
-                <div><small class="">{{ page.date | date: "%Y %b %-d" }}</small></div>
-            {% endif %}
-        </div>
-    </header>
-    
-    <div class="row">
-        <div class="col-xs-12 col-sm-8 m-t-1">
-            <div>
-                {{ content }}
-            </div>
 
-            {% if page.ibooks_intro %}
-                {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
-            {% endif %}
-        </div>
-    </div>
+
+<article class="media">
+  <header>
+    {% include page/section-title.html 
+        title=page.title
+        src=page.logoImage %}
+  </header>
+    
+  <div class="row">
+      <div class="col-xs-12 col-sm-8 m-t-1">
+          <div>
+              {{ content }}
+          </div>
+
+          {% if page.ibooks_intro %}
+              {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
+          {% endif %}
+      </div>
+  </div>
 </article>
 
 {% assign pageCategory = page.category %}
 {% assign listOfPosts = site.categories[pageCategory]  %}
 
-<article>
-    <header class="">
-        <h2 class="">Articles</h2>
+{% if listOfPosts %}
+  <article>
+    <header>
+      {% include page/section-title.html 
+          title="Articles" %}
     </header>
-    
-    <ul class="list-group list-of-post">
-        {% for post in listOfPosts %}
-            <li class='list-group-item'>
-                <div class="media">
-                    <div class="media-body">
-                        <div class="m-b-2">
-                            <h3 class="media-heading" >
-                                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                            </h3>
-                            <div><small class="">{{ post.date | date: "%Y %b %-d" }}</small></div>
-                        </div>
 
-                        <div class="media-body">{{ post.excerpt }}</div>
-                    </div>
+      <ul class="list-group list-of-post">
+          {% for post in listOfPosts %}
+              <li class='list-group-item'>
+                  <div class="media">
+                      <div class="media-body">
+                          <div class="m-b-2">
+                              <h3 class="media-heading" >
+                                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                              </h3>
+                              <div><small class="">{{ post.date | date: "%Y %b %-d" }}</small></div>
+                          </div>
 
-                    {% if post.logo %}
-                        <div class="media-right text-xs-right" >
-                            <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
-                        </div>
-                    {% endif %}
+                          <div class="media-body">{{ post.excerpt }}</div>
+                      </div>
 
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-</article>
+                      {% if post.logo %}
+                          <div class="media-right text-xs-right" >
+                              <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
+                          </div>
+                      {% endif %}
+
+                  </div>
+              </li>
+          {% endfor %}
+      </ul>
+  </article>
+{% endif %}

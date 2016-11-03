@@ -1,0 +1,10 @@
+{% assign lang    = include.lang %}
+{% assign appList = include.appList %}
+
+  <ul class="list-unstyled">
+    {% for app in appList %}
+      <li class="pb-2" >
+        {% include apps/app-info.html lang=lang app=app %}
+      </li>
+    {% endfor %}
+  </ul>

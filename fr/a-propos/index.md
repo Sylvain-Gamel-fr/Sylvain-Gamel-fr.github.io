@@ -6,22 +6,21 @@ order: 100
 permalink: /fr/a-propos/
 ---
 
-# À Propos
 
 Je développe des logiciels depuis 1997 dans des contextes variés 
 et avec des technologies diverses.
 
 
 Il m'est tout autant possible de vous aider en amont du développement, 
-en collaboration avec vous et vos utilisateurs, 
-pour définir le cahier des charges de votre projet et mener à terme les
-spécifications fonctionnelles de votre produit.
+en collaboration avec vous et vos utilisateurs, pour définir le cahier 
+des charges de votre projet et mener à terme les spécifications 
+fonctionnelles de votre produit.
 
 
-## Quelques projets
+### Quelques projets
 
 
-### Assistance maîtrise d’ouvrage
+#### Assistance maîtrise d’ouvrage
 
 
 Rédaction de spécifications fonctionnelles pour la gestion des adhésions dans une 
@@ -31,7 +30,7 @@ Définition du contenu des écrans, de leur ergonomie, de leurs enchaînements e
 en charge de la validation auprès des utilisateurs.
 
 
-### Applications SMS
+#### Applications SMS
 
 
 Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination 
@@ -40,7 +39,7 @@ des établissements scolaires pour la notification des absences.
 _Project en Java et UI implémentée avec Swing._
 
 
-### Outils de développement
+#### Outils de développement
 
 
 Pilotage et implémentation d’une suite d’outils de génération de code pour des tests 
@@ -49,7 +48,7 @@ de plateformes embarquées.
 _Projet utilisant Perl, C et C++._
 
 
-### Réservation aérienne
+#### Réservation aérienne
 
 
 Implémentation de composants dans le moteur de réservation pour le site des abonnés 
@@ -74,13 +73,13 @@ Conception et réalisation d’un moteur de règles et d’une bibliothèque de 
 insérer des contenus de façon conditionnelle dans les pages.
 
 
-### Finance
+#### Finance
 
 
 Socle applicatif Java pour construire des applications de gestion et suivi boursier.
 
 
-### Sites d’annuaires
+#### Sites d’annuaires
 
 
 - Achat de fichier d’adresses pour publipostage ;
@@ -88,10 +87,10 @@ Socle applicatif Java pour construire des applications de gestion et suivi bours
 - Réalisation complète en PHP sur une base PostgreSQL.
 
 
-## Mon profil
+### Mon profil
 
 
-### Multilingue
+#### Multilingue
 
 
 - Java ;
@@ -106,7 +105,7 @@ Vous utilisez d'autres langages de développement ?
 Ce n'est pas un problème, je peux aussi l'apprendre.
 
 
-### Multiplateforme
+#### Multiplateforme
 
 
 - Java J2SE ou J2EE ;
@@ -114,7 +113,7 @@ Ce n'est pas un problème, je peux aussi l'apprendre.
 - Unix ;
 - Service web ou client léger.
 
-### Ouvert
+#### Ouvert
 
 
 - Méthode SCRUM ou cycle en V ?
@@ -124,7 +123,7 @@ Ce n'est pas un problème, je peux aussi l'apprendre.
 Aucun problème pour moi, je saurai m'adapter.
 
 
-### Avec vos outils
+#### Avec vos outils
 
 
 - Eclipse, WebStorm, NetBeans ;

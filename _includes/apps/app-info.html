@@ -1,0 +1,41 @@
+{% assign lang  = include.lang %}
+{% assign appId = include.appId %}
+{% assign app   = include.app %}
+
+
+{% if appId %}
+  {% assign matchingApp = site.data.applications | where: "id", appId %}
+  {% assign app   = matchingApp.first %}
+{% endif %}
+
+
+{% if app.name[ lang ] %}
+  {% assign appName = app.name[ lang ] %}
+{% else %}
+  {% assign appName = app.name %}
+{% endif %}
+
+{% if app.pageCode[ lang ] %}
+  {% assign appPage = app.pageCode[ lang ] %}
+{% else %}
+  {% assign appPage = app.pageCode %}
+{% endif %}
+
+{% if app.shortDescription[ lang ] %}
+  {% assign description = app.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = app.shortDescription %}
+{% endif %}
+
+
+
+<div class="app-info mt-1 mb-2">
+  <a href="{{ appPage | prepend: "applications/" | prepend: site.baseurl }}">
+    <img src="{{ app.icon.small | relative_url }}" 
+         alt="{{ site.data.i18n[ 'app_icon_alt' ][ lang ] }}" >
+    {{ appName }}
+  </a>
+</div>
+<p>
+  {{ description }}
+</p>
