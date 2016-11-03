@@ -5,7 +5,7 @@ title: "Sylvain Gamel"
 
 <script lang="JavaScript">
 var homeURL = "en/";
-if ( "fr-fr" === navigator.language ) {
+if ( "fr-fr" === navigator.language.toLowerCase() ) {
     homeURL = "fr/";
 }
 
