@@ -11,10 +11,11 @@ Je développe des logiciels depuis 1997 dans des contextes variés
 et avec des technologies diverses.
 
 
-Il m'est tout autant possible de vous aider en amont du développement, 
+Il m'est tout autant possible de vous aider *en amont du développement*, 
 en collaboration avec vous et vos utilisateurs, pour définir le cahier 
-des charges de votre projet et mener à terme les spécifications 
-fonctionnelles de votre produit.
+des charges de votre projet et mener à terme les *spécifications 
+fonctionnelles* de votre produit.
+
 
 
 ### Quelques projets
@@ -23,11 +24,13 @@ fonctionnelles de votre produit.
 #### Assistance maîtrise d’ouvrage
 
 
-Rédaction de spécifications fonctionnelles pour la gestion des adhésions dans une 
+Rédaction de *spécifications fonctionnelles* pour la gestion des adhésions dans une 
 mutuelle toulonnaise.
 
-Définition du contenu des écrans, de leur ergonomie, de leurs enchaînements et prise 
-en charge de la validation auprès des utilisateurs.
+- définition du contenu et de l'enchainement des écrans;
+- conception de l'*ergonomie*;
+- prise en charge de la validation auprès des utilisateurs.
+
 
 
 #### Applications SMS
@@ -36,25 +39,38 @@ en charge de la validation auprès des utilisateurs.
 Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination 
 des établissements scolaires pour la notification des absences.
 
-_Project en Java et UI implémentée avec Swing._
+##### Architecture technique
+
+- project en Java;
+- UI implémentée avec Swing.
 
 
-#### Outils de développement
 
+#### Outils de validation
 
 Pilotage et implémentation d’une suite d’outils de génération de code pour des tests 
 de plateformes embarquées. 
 
-_Projet utilisant Perl, C et C++._
+##### Architecture technique
+
+- analyse des fichiers d'interfaces en Word et C
+- *parsing* des fichiers d'en-tête réalisé en *Perl*
+- génération de code *TTCN3* pour execution sur plateformes de simulation et SoC physique
+- plateforme de communication et simulation ecrite en C++
+
 
 
 #### Réservation aérienne
 
 
+##### Backend
+
 Implémentation de composants dans le moteur de réservation pour le site des abonnés 
 d’une grande compagnie européenne. 
 
 _Mise en œuvre avec Java J2EE._
+
+##### Application web client et administratives
 
 Mise à jour et création de pages pour le flot de réservations pour une grande 
 compagnie nord-américaine. 
@@ -78,6 +94,12 @@ insérer des contenus de façon conditionnelle dans les pages.
 
 Socle applicatif Java pour construire des applications de gestion et suivi boursier.
 
+##### Plateforme technique
+
+- Java client
+- deploiement automatique via navigateur Internet
+
+
 
 #### Sites d’annuaires
 
@@ -86,22 +108,39 @@ Socle applicatif Java pour construire des applications de gestion et suivi bours
 - Mini-sites personnalisés pour les hôtels.
 - Réalisation complète en PHP sur une base PostgreSQL.
 
+-----
 
-### Mon profil
-
-
-#### Multilingue
+### Ma (_petite_) Tour de Babel
 
 
-- Java ;
-- Web: JavaScript, TypeScript, HTML5, CSS, SASS, LessCSS
-- Swing ;
-- Objective-C
-- C ;
+##### Côté serveur
+
+- Java
+- Environnements Unix. 
+
+
+##### Côté utilisateur
+
+- Java Swing ;
+- JavaScript, TypeScript
+- HTML
+- CSS comme base mais aussi LessCSS et SASS
+
+
+##### Dans le mobile
+
+- Objective-C (j'ai même commis [un livre](/fr/books) sur le sujet);
+- Swing
+
+##### Mais aussi…
+
 - C++ ;
+- C ;
 - Perl ;
+- Oui j'ai aussi fait du PHP, mais c'est trop ancien pour oser en parler ouvertement. 
 
-Vous utilisez d'autres langages de développement ? 
+_Vous utilisez d'autres langages de développement ?_
+
 Ce n'est pas un problème, je peux aussi l'apprendre.
 
 
@@ -112,6 +151,7 @@ Ce n'est pas un problème, je peux aussi l'apprendre.
 - Mac OS X ou iOS avec Cocoa ;
 - Unix ;
 - Service web ou client léger.
+
 
 #### Ouvert
 
