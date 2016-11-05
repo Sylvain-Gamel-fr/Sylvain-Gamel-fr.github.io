@@ -2,34 +2,36 @@
   <div class="container" >
 
     <div class="row">
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-12 col-sm-5 offset-sm-1">
+        
         <ul class="list-unstyled">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">contact</a></li>
           <li class="rss-subscribe">
             <a href="{{ "/feed.xml" | prepend: site.baseurl }}">fils RSS</a>
           </li>
         </ul>
-      </div>
+        
+        <hr class="fine" >
 
-      <div class="col-xs-6 col-sm-3">
-        <ul class="list-unstyled">
-          {% if site.twitter_username %}
-          <li class="">
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li class="">
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+        <ul class="list-unstyled" >
+          {% for currentLink in site.data.ownedLinks %}
+          <li class="list-item-custom">
+              <a href="{{ currentLink.url }}">
+                <img class="social-icon" src="{{ "/images/social/" | append: currentLink.icon | relative_url }}" alt="{{ currentLink.service }}">
+                {{ currentLink.name }}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
+        
       </div>
 
       <div class="col-xs-12 col-sm-6">
-        <small>{{ site.description }}</small>
+        <strong>{{ site.title }}</strong>
+        <p class="small">{{ site.description }}</p>
+        
+        <hr class="fine" >
+        
       </div>
     </div>
   </div>

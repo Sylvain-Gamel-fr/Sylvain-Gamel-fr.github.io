@@ -104,7 +104,7 @@ header.page-heading {
 
     
 .navigation {
-    background-color: colorNamed(blueDark);
+    background-color: colorNamed(blueBase);
     color: colorNamed(paleGrey);
     
     margin-bottom: space(4);
@@ -131,7 +131,8 @@ header.page-heading {
         &.active {
             font-weight: bold;
             
-            color: colorNamed(paleGrey);
+            color: colorNamed(yellowBase);
+            border-bottom: 4px solid colorNamed(yellowBase);
         }
     }
 }
