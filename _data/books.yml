@@ -1,22 +1,36 @@
-- title: Objective-C 2, précis et concis
-  pageCode: objc2
+- id: objc2
+  title: Objective-C 2, précis et concis
+  first_publication_year: 2010
   promoted: false
   shortDescription:
-    fr: Mise à jour du classique d'O'Reilly pour Objective-C 2.
+    fr: Mise à jour du classique des éditions O'Reilly pour Objective-C 2. 
+    
+        Ce livre publié par les éditions DigitBooks n'est aujourd'hui *plus 
+        disponible*.
     en: An update of the classical O'Reilly book for Objective-C 2 language.
+    
+        This book, published by DigitBooks Editions is *no longer available*.
   cover:
     small:  /images/books/cover-objc-p-et-c-small.jpg
     medium: /images/books/cover-objc-p-et-c-medium.jpg
 
 
-- title: Automatisez sous Mac
+- id: automator
+  title: Automatisez sous Mac
+  first_publication_year: 2014
   pageCode: automatisez-sous-mac
   promoted: true
   shortDescription:
     fr: La référence francophone pour explorer et maitriser Automator, 
         l'outil de macOS pour passer vos applications en pilotage automatique.
+        
+        Initialement publié chez DigitBooks, cette troisième édition est uniquement
+        disponible sur la *boutique iBooks*.
     en: French language reference to explore and master Automator, 
         macOS tool to move your software in auto-pilot mode.
+        
+        Initially published by DigitBooks Editions, this third edition is only 
+        available on the *iBooks Store*.
   cover:
     small:  /images/books/cover-automatisez-sous-mac-small.jpg
     medium: /images/books/cover-automatisez-sous-mac-medium.jpg
@@ -26,19 +40,28 @@
     ibooks:
 
 
-- title: OS X dans la Poche, le PDF
+- id: macenpoche-pdf
+  title: OS X dans la Poche, le PDF
+  first_publication_year: 2015
   pageCode: macOS-PDF
   promoted: true
   shortDescription:
-    fr: Explorez les outils de macOS pour manipuler, lire et modifier vos documents électroniques.
-    en: Explore macOS toolbox to handle, read and edit your electronic documents.
+    fr: Découvrez comment exploiter au mieux le format PDF avec les applications
+        fournie avec votre Mac.
+        
+        Explorez les outils de macOS pour manipuler, lire ou modifier vos 
+        documents électroniques.
+    en: Discover how you to best-use the PDF format within software provided
+        with your Mac.
+        
+        Explore macOS toolbox to handle, read and edit your electronic documents.
   cover:
     small:  /images/books/cover-osx-en-poche-pdf-small.jpg
     medium: /images/books/cover-osx-en-poche-pdf-medium.jpg
   youtube:
     intro:
   shop:
-    ibooks:
-    lulu:
-    amazon:
+    ibooks: 
+    lulu: 
+    amazon: 
   

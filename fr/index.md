@@ -34,7 +34,7 @@ J'ai publié quelques livres pour vous aider à améliorer votre productivité.
 
 {% include books/card-list.html lang=lang bookList=site.data.books %}
 
-[En savoir plus...](/fr/livres)
+[En savoir plus...](/fr/books)
 
 
 {% include page/section-title.html 

@@ -1,0 +1,57 @@
+{% assign lang  = include.lang %}
+
+{% assign bookId = include.bookId %}
+{% assign book   = include.book %}
+
+
+{% if bookId %}
+  {% assign matchingBook = site.data.books | where: "id", bookId %}
+  {% assign book = matchingBook.first %}
+{% endif %}
+
+
+{% if book.name[ title ] %}
+  {% assign title = book.title[ lang ] %}
+{% else %}
+  {% assign title = book.title %}
+{% endif %}
+
+{% assign pageURL = null %}
+{% if book.pageCode %} 
+  {% assign bookPage = book.pageCode %}
+  {% assign pageURL = bookPage | prepend: "books/" | prepend: site.baseurl %}
+{% endif %}
+
+{% if book.shortDescription[ lang ] %}
+  {% assign description = book.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = book.shortDescription %}
+{% endif %}
+
+
+<div class="row mb-3">
+  <div class="col-xs-12 col-md-3 col-lg-4 text-xs-center text-md-right">
+    {% if pageURL %}
+      <a href="{{ pageURL }}">
+        <img src="{{ book.cover.small | relative_url }}" 
+           alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
+      </a>
+    {% else %}
+      <img src="{{ book.cover.small | relative_url }}" 
+         alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
+    {% endif %}
+  </div>
+  <div class="col-xs-12 col-md-9 col-lg-8 pl-2">
+    <h4 class="media-heading">{{ title }}</h4>
+    <p>
+      {{ description | markdownify}}
+    </p>
+    <hr class="fine">
+    {% if pageURL %}
+      <a href="{{ pageURL }}" class="">
+        {{ site.data.i18n[ 'nav_see_more' ][ lang ] }}
+      </a>
+    {% endif %}
+  </div>
+</div>
+

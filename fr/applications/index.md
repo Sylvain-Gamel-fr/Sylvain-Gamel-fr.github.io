@@ -1,11 +1,11 @@
 ---
 layout: page_section
 title: Logiciels
-logoImage: "/images/picto/section-book.svg"
 lang: fr
 order: 1
 subcategory: app
 permalink: /fr/applications/
+logoImage: "/images/picto/section-mobile-app.svg"
 ---
 
 {% assign lang = page.lang %}
