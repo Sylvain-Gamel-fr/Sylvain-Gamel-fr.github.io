@@ -1,0 +1,11 @@
+- id: ibooks
+  name: iBooks Store
+  badge: 
+    fr: icons/ibooks-badge-fr.svg
+    en: icons/ibooks-badge-en.svg
+
+- id: lulu
+  name: Lulu
+  badge: icons/lulu-small.svg
+  
+  

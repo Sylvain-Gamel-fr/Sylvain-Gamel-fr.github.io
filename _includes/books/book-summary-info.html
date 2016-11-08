@@ -46,11 +46,46 @@
     <p>
       {{ description | markdownify}}
     </p>
+    
     <hr class="fine">
+    
     {% if pageURL %}
       <a href="{{ pageURL }}" class="">
         {{ site.data.i18n[ 'nav_see_more' ][ lang ] }}
       </a>
+    {% endif %}
+    
+    {% if book.shop %}
+      <hr class="fine">
+  
+      <ul class="list-inline">
+        {% for shop in book.shop %}
+          {% assign shopId  = shop[ 0 ] %}
+          {% assign shopURL = shop[ 1 ] %}
+          
+          {% assign shopInfo = site.data.store | where: "id", shopId | first %}
+          
+          {% if shopInfo.name[ lang ] %}
+            {% assign shopName = shopInfo.name[ lang ] %}
+          {% else %}
+            {% assign shopName = shopInfo.name %}
+          {% endif %}
+
+          {% if shopInfo.badge[ lang ] %}
+            {% assign shopIcon = shopInfo.badge[ lang ] %}
+          {% else %}
+            {% assign shopIcon = shopInfo.badge %}
+          {% endif %}
+          
+        <li class="list-inline-item">
+          <a href="">
+            <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
+                 alt="{{ shopName}}" >
+          </a>
+        </li>
+
+        {% endfor %}
+      </ul>
     {% endif %}
   </div>
 </div>

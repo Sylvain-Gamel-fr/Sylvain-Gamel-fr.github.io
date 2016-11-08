@@ -37,7 +37,7 @@
   youtube:
     intro:
   shop:
-    ibooks:
+    ibooks: https://itunes.apple.com/fr/book/automatisez-sous-mac/id892601170?mt=11
 
 
 - id: macenpoche-pdf
@@ -61,7 +61,6 @@
   youtube:
     intro:
   shop:
-    ibooks: 
-    lulu: 
-    amazon: 
+    ibooks: https://itunes.apple.com/fr/book/os-x-dans-la-poche-le-pdf/id1057048520?mt=11
+    lulu:   http://www.lulu.com/commerce/index.php?fBuyContent=17739669
   
