@@ -8,4 +8,9 @@
   name: Lulu
   badge: icons/lulu-small.svg
   
-  
+- id: app_store
+  name: App Store
+  badge: 
+    fr: icons/appstore-badge-fr.svg
+    en: icons/appstore-badge-en.svg
+

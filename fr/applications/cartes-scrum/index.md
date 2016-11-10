@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_app
 title: Cartes SCRUM
 lang: "fr"
 order: 2

@@ -1,0 +1,18 @@
+{% assign lang=include.lang %}
+{% assign appId=include.appId %}
+{% assign imgSrc=include.src %}
+{% assign description=include.description %}
+
+{% assign imgAlt = site.data.i18n[ 'app_screenshot_alt' ][ lang ] %}
+
+<div class="row mt-1 mb-2">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <img src="{{ imgSrc | prepend: "/" | prepend: appId | prepend: "/images/screenshots/" | relative_url }}" 
+         alt="{{ imgAlt }}" 
+         class="img-fluid m-b-1" >
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    {{ description }}
+  </div>
+</div>

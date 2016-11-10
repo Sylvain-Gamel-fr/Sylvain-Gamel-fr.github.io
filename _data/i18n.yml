@@ -4,6 +4,9 @@ nav_see_more:
 app_icon_alt:
     en: application's icon
     fr: icône de l'application
+app_screenshot_alt:
+    en: application screenshot
+    fr: copie d'écran de l'application
 book_cover_alt:
     en: book font cover
     fr: couverture du livre

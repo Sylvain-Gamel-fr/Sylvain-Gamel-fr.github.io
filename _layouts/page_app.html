@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang %}
+
+{% assign matchingApp = site.data.applications | where: "id", page.id %}
+{% assign app = matchingApp.first %}
+  
+{% if app.name[ lang ] %}
+  {% assign appName = app.name[ lang ] %}
+{% else %}
+  {% assign appName = app.name %}
+{% endif %}
+
+{% if app.shortDescription[ lang ] %}
+  {% assign description = app.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = app.shortDescription %}
+{% endif %}
+
+{% if app.slogan[ lang ] %}
+  {% assign slogan = app.slogan[ lang ] %}
+{% else %}
+  {% assign slogan = app.slogan %}
+{% endif %}
+
+<article class="media">
+  <header>
+    {% include page/section-title.html title=appName src=app.icon.default %}
+  </header>
+  
+  {% if app.youtube and app.youtube.intro  %}
+    {% assign introVideo = app.youtube.intro %}
+    
+    {% if app.youtube.intro[ lang ] %}
+      {% assign introVideo = app.youtube.intro[ lang ] %}
+    {% endif %}
+  {% endif %}
+  
+  {% if introVideo %}
+    {% include widgets/youtube.html videoId=introVideo %}
+  {% endif %}
+  
+  <div class="row">
+    <div class="col-xs-12 col-sm-3 m-t-1">
+      {% if slogan %}
+        <p class="text-muted">{{ slogan }}</p>
+      {% endif %}
+      
+      {% if app.shop %}
+        <ul class="list-inline">
+          {% for shop in app.shop %}
+            {% assign shopId  = shop[ 0 ] %}
+            {% assign shopURL = shop[ 1 ] %}
+
+            {% assign shopInfo = site.data.store | where: "id", shopId | first %}
+
+            {% if shopInfo.name[ lang ] %}
+              {% assign shopName = shopInfo.name[ lang ] %}
+            {% else %}
+              {% assign shopName = shopInfo.name %}
+            {% endif %}
+
+            {% if shopInfo.badge[ lang ] %}
+              {% assign shopIcon = shopInfo.badge[ lang ] %}
+            {% else %}
+              {% assign shopIcon = shopInfo.badge %}
+            {% endif %}
+
+          <li class="list-inline-item mr-1 mb-1">
+            <a href="">
+              <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
+                   alt="{{ shopName}}" >
+            </a>
+          </li>
+
+          {% endfor %}
+        </ul>      
+      {% endif %}
+      
+      {% if page.sideNote %}
+      <div class="small">
+        {{ page.sideNote | markdownify }}
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="col-xs-12 col-sm-9 m-t-1">
+      {{ content }}
+    </div>
+  </div>
+</article>
+
+<hr class="fine" >
+
+
+{% assign pageCategory = page.category %}
+{% assign listOfPosts = site.categories[pageCategory]  %}
+
+{% if listOfPosts %}
+  <article>
+    <header>
+      {% include page/section-title.html 
+          title="Articles" %}
+    </header>
+
+      <ul class="list-group list-of-post">
+          {% for post in listOfPosts %}
+              <li class='list-group-item'>
+                  <div class="media">
+                      <div class="media-body">
+                          <div class="m-b-2">
+                              <h3 class="media-heading" >
+                                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                              </h3>
+                              <div><small class="">{{ post.date | date: "%Y %b %-d" }}</small></div>
+                          </div>
+
+                          <div class="media-body">{{ post.excerpt }}</div>
+                      </div>
+
+                      {% if post.logo %}
+                          <div class="media-right text-xs-right" >
+                              <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
+                          </div>
+                      {% endif %}
+
+                  </div>
+              </li>
+          {% endfor %}
+      </ul>
+  </article>
+{% endif %}
