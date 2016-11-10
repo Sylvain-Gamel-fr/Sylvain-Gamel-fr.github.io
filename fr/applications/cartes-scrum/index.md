@@ -3,7 +3,7 @@ layout: page_app
 title: Cartes SCRUM
 lang: "fr"
 order: 2
-categories: app
+categories: apps
 id: scrumcards
 ---
 

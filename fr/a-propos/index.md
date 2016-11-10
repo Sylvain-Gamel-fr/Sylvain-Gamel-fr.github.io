@@ -1,6 +1,8 @@
 ---
 layout: page
 title: À propos
+topNavigation: true
+subcategory: about
 lang: "fr"
 order: 100
 permalink: /fr/a-propos/

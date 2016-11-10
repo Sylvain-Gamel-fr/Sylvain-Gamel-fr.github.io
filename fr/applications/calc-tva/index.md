@@ -1,9 +1,9 @@
 ---
 layout: page_app
 title: Calculette TVA
+categories: apps
 lang: "fr"
 order: 1
-categories: app
 id: vatcalc
 sideNote:
     Obtenir un montant hors-taxes ou TTC en toute simplicité, 

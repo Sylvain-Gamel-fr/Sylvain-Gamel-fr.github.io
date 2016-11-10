@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Accueil"
+topNavigation: true
 lang: fr
 permalink: fr/
 ---

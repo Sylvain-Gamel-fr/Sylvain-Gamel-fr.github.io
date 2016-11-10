@@ -19,12 +19,17 @@
         {%  assign cssClass = 'active' %}
       {% endif %}
 
+      {% if current.subcategory and page.categories contains current.subcategory %}
+        {%  assign sectionActive = true %}
+        {%  assign cssClass = 'active' %}
+      {% endif %}
+
       {% if page.permalink == current.permalink %}
         {%  assign sectionActive = true %}
         {%  assign cssClass = 'active' %}
       {% endif %}
       
-      {% if current.order != -1 and current.title and current.lang == page.lang %}
+      {% if current.order != -1 and current.title and current.lang == page.lang and true == current.topNavigation %}
       <li class="nav-item">
         <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
           {{ current.title }}  

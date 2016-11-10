@@ -2,8 +2,9 @@
 layout: page_section
 title: Logiciels
 lang: fr
+topNavigation: true
+subcategory: apps
 order: 1
-subcategory: app
 permalink: /fr/applications/
 logoImage: "/images/picto/section-mobile-app.svg"
 ---

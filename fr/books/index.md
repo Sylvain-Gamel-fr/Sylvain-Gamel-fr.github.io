@@ -1,11 +1,12 @@
 ---
 layout: page_section
 title: Livres
+topNavigation: true
+subcategory: books
 lang: "fr"
 order: 2
 permalink: /fr/books/
 logoImage: "/images/picto/section-book.svg"
-subcategory: book
 ---
 
 {% assign lang = page.lang %}
