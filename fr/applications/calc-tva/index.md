@@ -1,10 +1,12 @@
 ---
 layout: page_app
 title: Calculette TVA
+slogan: La TVA facile
 categories: apps
 lang: "fr"
 order: 1
 id: vatcalc
+header_banner: banner_calcTVA-iPhone-16-9
 sideNote:
     Obtenir un montant hors-taxes ou TTC en toute simplicité, 
     pour toutes les TVA Européennes et même plus.

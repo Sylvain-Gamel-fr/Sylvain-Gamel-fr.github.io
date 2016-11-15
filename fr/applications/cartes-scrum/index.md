@@ -1,6 +1,7 @@
 ---
 layout: page_app
 title: Cartes SCRUM
+slogan: Le planning agile au bout des doigts
 categories: apps
 lang: "fr"
 order: 2

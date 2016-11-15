@@ -12,6 +12,7 @@ body {
     
     // Minimum padding on mobile
     padding: 0 space(2);
+    margin: 0;
     
     @include media-breakpoint-up(sm) {
         padding: 0;

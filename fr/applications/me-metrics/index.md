@@ -1,10 +1,12 @@
 ---
 layout: page_app
 title: me-Metrics
+slogan: Comptez ce qui compte pour vous !
 categories: apps
 lang: "fr"
 order: 3
 id: memetrics
+header_banner: banner_me-metrics
 sideNote:
     Comptez ce qui compte pour vous, à votre façon !
 
