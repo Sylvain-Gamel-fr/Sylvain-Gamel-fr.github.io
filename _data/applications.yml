@@ -34,6 +34,7 @@
     en: Get your SCRUM cards always in your pocket.
   icon:
     small: /images/apps/icon-SCRUM-cards_150px.png
+    default: /images/apps/icon-SCRUM-cards.svg
   shop:
     app_store: http://itunes.apple.com/us/app/cartes-scrum/id436760091?mt=8
   youtube:
@@ -52,6 +53,7 @@
     en: Count what you want, where you want.
   icon:
     small: /images/apps/icon-meMetrics_150px.png
+    default: /images/apps/icon-meMetrics.svg
   shop:
     app_store: https://itunes.apple.com/us/app/me-metrics/id982837103?l=fr&ls=1&mt=8
   youtube:

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>meMetrics-doPlus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M357.009067,0 L666.990933,0 C769.792,0 821.179733,0 876.5184,17.4933333 C936.9344,39.4837333 984.516267,87.0656 1006.50667,147.4816 C1024,202.811733 1024,254.216533 1024,357.009067 L1024,666.990933 C1024,769.792 1024,821.179733 1006.50667,876.5184 C984.516267,936.9344 936.9344,984.516267 876.5184,1006.49813 C821.179733,1024 769.792,1024 666.990933,1024 L357.009067,1024 C254.208,1024 202.811733,1024 147.4816,1006.49813 C87.0656,984.516267 39.4837333,936.9344 17.4933333,876.5184 C0,821.179733 0,769.792 0,666.990933 L0,357.009067 C0,254.216533 0,202.811733 17.4933333,147.4816 C39.4837333,87.0656 87.0656,39.4837333 147.4816,17.4933333 C202.811733,0 254.208,0 357.009067,0 L357.009067,0" id="path-1"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#B8E986" offset="0%"></stop>
+            <stop stop-color="#6E9547" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="9.74452717%" x2="50%" y2="93.0843326%" id="linearGradient-4">
+            <stop stop-color="#FFF89A" offset="0%"></stop>
+            <stop stop-color="#E5DC5C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M395.7568,128 L628.2432,128 C705.344,128 743.8848,128 785.3888,141.12 C830.7008,157.6128 866.3872,193.2992 882.88,238.6112 C896,280.1088 896,318.6624 896,395.7568 L896,628.2432 C896,705.344 896,743.8848 882.88,785.3888 C866.3872,830.7008 830.7008,866.3872 785.3888,882.8736 C743.8848,896 705.344,896 628.2432,896 L395.7568,896 C318.656,896 280.1088,896 238.6112,882.8736 C193.2992,866.3872 157.6128,830.7008 141.12,785.3888 C128,743.8848 128,705.344 128,628.2432 L128,395.7568 C128,318.6624 128,280.1088 141.12,238.6112 C157.6128,193.2992 193.2992,157.6128 238.6112,141.12 C280.1088,128 318.656,128 395.7568,128 L395.7568,128" id="path-5"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#E31A93" offset="0%"></stop>
+            <stop stop-color="#AD0D6E" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="62.5874877%" cy="100%" fx="62.5874877%" fy="100%" r="64.2994566%" id="radialGradient-8">
+            <stop stop-color="#E4E2E2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <path d="M638.81214,221.999989 C590.801955,351.62375 466.176291,444 320,444 C173.823709,444 49.1980449,351.62375 1.18785994,221.999989 C49.1980522,92.3762444 173.823713,0 320,0 C466.176287,0 590.801948,92.3762444 638.812136,222 Z" id="path-9"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-11" cx="272.19917" cy="307.077844" rx="84.9792531" ry="85.0778443"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="6" dy="6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="app-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="meMetrics-doPlus">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="meMetrics-embed1" mask="url(#mask-2)">
+                <rect id="Rectangle-6" fill="url(#linearGradient-3)" fill-rule="evenodd" x="0" y="0" width="1024" height="1024"></rect>
+                <g id="inner-border" transform="translate(512.000000, 512.000000) rotate(-345.000000) translate(-512.000000, -512.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <path d="M522.206855,396.077348 L660.939998,396.077348 C706.948867,396.077348 729.947573,396.077348 754.714529,404.324665 C781.753857,414.692147 803.049238,437.12485 812.891096,465.608268 C820.72028,491.69393 820.72028,515.928973 820.72028,564.391015 L820.72028,710.533479 C820.72028,758.999543 820.72028,783.226541 812.891096,809.316225 C803.049238,837.799643 781.753857,860.232347 754.714529,870.595805 C729.947573,878.847145 706.948867,878.847145 660.939998,878.847145 L522.206855,878.847145 C476.197986,878.847145 453.195461,878.847145 428.432324,870.595805 C401.392996,860.232347 380.097615,837.799643 370.255758,809.316225 C362.426573,783.226541 362.426573,758.999543 362.426573,710.533479 L362.426573,564.391015 C362.426573,515.928973 362.426573,491.69393 370.255758,465.608268 C380.097615,437.12485 401.392996,414.692147 428.432324,404.324665 C453.195461,396.077348 476.197986,396.077348 522.206855,396.077348 L522.206855,396.077348" id="Path-14" fill="url(#linearGradient-7)" fill-rule="evenodd" transform="translate(591.573427, 637.462247) rotate(-330.000000) translate(-591.573427, -637.462247) "></path>
+                <text id="+---(optional)" transform="translate(619.000000, 592.500000) rotate(-330.000000) translate(-619.000000, -592.500000) " font-family="HelveticaNeue-UltraLight, Helvetica Neue" font-size="650" font-weight="200" fill="#FFFDD8">
+                    <tspan x="424" y="817">+</tspan>
+                </text>
+                <g id="Œil-2" stroke-width="1" fill-rule="evenodd" transform="translate(324.000000, 71.000000)">
+                    <g id="cornée">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="url(#radialGradient-8)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <path d="M386.701602,430.269158 C420.003548,399.205765 440.829876,354.91208 440.829876,305.748503 C440.829876,211.774111 364.73686,135.592814 270.871369,135.592814 C177.005878,135.592814 100.912863,211.774111 100.912863,305.748503 C100.912863,324.622706 103.98233,342.779164 109.648767,359.744834 C168.149538,407.433496 242.801481,436.023952 324.123343,436.023952 C345.501126,436.023952 366.417982,434.048203 386.701673,430.269144 Z" id="iris" fill="#B8E986"></path>
+                    <g id="pupille" opacity="0.70936334">
+                        <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
