@@ -17,6 +17,9 @@
 
 - id: automator
   title: Automatisez sous Mac
+  subTitle:
+      en: Let Automator works for you
+      fr: Automator travaille pour vous
   first_publication_year: 2014
   pageCode: automatisez-sous-mac
   promoted: true
@@ -35,7 +38,7 @@
     small:  /images/books/cover-automatisez-sous-mac-small.jpg
     medium: /images/books/cover-automatisez-sous-mac-medium.jpg
   youtube:
-    intro:
+    intro: PU3gBr3Uvas
   shop:
     ibooks: https://itunes.apple.com/fr/book/automatisez-sous-mac/id892601170?mt=11
 

@@ -3,6 +3,13 @@
   {% assign lang = page.lang %}
 {% endif %}
 
+{% if include.title %}
+  {% assign title = include.title %}
+{% else %}
+  {% assign title= page.title %}
+{% endif %}
+
+
 {% assign bannerImg= "Apple-wireless-keyboard" %}
 {% if page.header_banner %}
   {% assign bannerImg = page.header_banner %}
@@ -24,13 +31,13 @@
 
   <div class="title">
     <div class="container">
-      {% if page.title %}
+      {% if title %}
         <div class="row">
           <div class="col-xs-12 col-sm-6 push-sm-6">
             <div class="h1 text-xs-right site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
           </div>
           <div class="col-xs-12 col-sm-6 pull-sm-6">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ title }}</h1>
             {% if page.slogan %}
               <small>{{ page.slogan }}</small>
             {% endif %}

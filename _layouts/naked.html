@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% assign lang = "fr" %}
+{% if page.lang %}
+  {% assign lang = page.lang %}
+{% endif %}
+<html lang="{{ lang }}" >
+  {% include page/head.html %}
+  <body>
+    {{ content }}
+    <script src="/js/tps/jquery.min.js"></script>
+    <script src="/js/tps/tether.min.js"></script>
+    <script src="/js/tps/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-{% assign lang = "fr" %}
-{% if page.lang %}
-  {% assign lang = page.lang %}
-{% endif %}
+---
+layout: naked
+---
+{% include page/header.html %}
 
-<html lang="{{ lang }}" >
-  {% include page/head.html %}
-  <body>
-    {% include page/header.html %}
-    
-    <section class="container">
-        <div class="wrapper row" >
-            {{ content }}
-        </div>
-    </section>
-    
-    {% include page/footer.html %}
-    
-    <script src="/js/tps/jquery.min.js"></script>
-    <script src="/js/tps/tether.min.js"></script>
-    <script src="/js/tps/bootstrap.min.js"></script>
-    
-    <!-- jQuery first, then Bootstrap JS.
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-     -->
-  </body>
-</html>
+<section class="container pt-0">
+    <div class="wrapper row" >
+        {{ content }}
+    </div>
+</section>
+
+{% include page/footer.html %}

@@ -1,0 +1,189 @@
+---
+layout: naked
+---
+
+{% assign lang = page.lang %}
+
+{% assign matchingBook = site.data.books | where: "id", page.id %}
+{% assign book = matchingBook.first %}
+  
+
+{% if book.title[ lang ] %}
+  {% assign bookTitle = book.title[ lang ] %}
+{% else %}
+  {% assign bookTitle = book.title %}
+{% endif %}
+{% assign page.title = bookTitle %}
+
+
+{% if book.subTitle[ lang ] %}
+  {% assign bookSubTitle = book.subTitle[ lang ] %}
+{% else %}
+  {% assign bookSubTitle = book.subTitle %}
+{% endif %}
+
+{% if book.shortDescription[ lang ] %}
+  {% assign description = book.shortDescription[ lang ] %}
+{% else %}
+  {% assign description = book.shortDescription %}
+{% endif %}
+
+{% if book.slogan[ lang ] %}
+  {% assign slogan = book.slogan[ lang ] %}
+{% else %}
+  {% assign slogan = book.slogan %}
+{% endif %}
+
+{% include page/header.html title=bookTitle %}
+<div class="wrapper row" >
+  <section class="container pt-0">
+    <article class="">
+      <header class="container-fluid pl-0 pr-0">
+        <h2 class="text-xs-left w-100">
+          <img src="{{ book.cover.medium  }}" 
+               alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}"
+               class="float-xs-right ml-2">
+          {{ bookTitle }}<br>
+          <em class="text-muted small">{{ bookSubTitle }}</em>
+        </h2>
+        
+        {% if page.summary %}
+          <p>
+            {{ page.summary | markdownify }}
+          </p>
+        {% endif %}
+      </header>
+
+      <div class="mt-2 mb-2">
+        {% if book.youtube and book.youtube.intro  %}
+          {% assign introVideo = book.youtube.intro %}
+
+          {% if book.youtube.intro[ lang ] %}
+            {% assign introVideo = book.youtube.intro[ lang ] %}
+          {% endif %}
+        {% endif %}
+
+        {% if introVideo %}
+          {% include widgets/youtube.html videoId=introVideo %}
+        {% endif %}
+      </div>
+      
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-9 mt-2">
+          {{ content }}
+        </div>
+
+        <div class="col-xs-12 col-sm-3 mt-2">
+          {% if slogan %}
+            <p class="text-muted">{{ slogan }}</p>
+          {% endif %}
+
+          {% if book.shop %}
+            <ul class="list-inline text-xs-center">
+              {% for shop in book.shop %}
+                {% assign shopId  = shop[ 0 ] %}
+                {% assign shopURL = shop[ 1 ] %}
+
+                {% assign shopInfo = site.data.store | where: "id", shopId | first %}
+
+                {% if shopInfo.name[ lang ] %}
+                  {% assign shopName = shopInfo.name[ lang ] %}
+                {% else %}
+                  {% assign shopName = shopInfo.name %}
+                {% endif %}
+
+                {% if shopInfo.badge[ lang ] %}
+                  {% assign shopIcon = shopInfo.badge[ lang ] %}
+                {% else %}
+                  {% assign shopIcon = shopInfo.badge %}
+                {% endif %}
+
+              <li class="list-inline-item mr-1 mb-1">
+                <a href="{{shopURL}}">
+                  <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
+                       alt="{{ shopName}}" >
+                </a>
+              </li>
+
+              {% endfor %}
+            </ul>      
+          {% endif %}
+
+          {% if page.sideNote %}
+          <div class="small">
+            {{ page.sideNote | markdownify }}
+          </div>
+          {% endif %}
+
+
+          {% if book.youtube.demo %}
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">
+                  {{ site.data.i18n[ 'app_demoVideo_title' ][ lang ] }}
+                </h4>
+              </div>
+              <ul class="list-unstyled">
+              {% for videoId in book.youtube.demo %}
+                <li class="mb-1 text-xs-right">
+                  {% include widgets/youtube.html videoId=videoId fill=true %}
+
+                  <a href="https://www.youtube.com/watch?v={{videoId}}" 
+                     target="_blank" 
+                     class="text-xs-right small">
+                    {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
+                  </a>
+                </li>
+              {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+
+    <hr class="fine" >
+
+    {% assign pageCategory = page.category %}
+    {% assign listOfPosts = site.categories[pageCategory]  %}
+
+    {% if listOfPosts %}
+      <article>
+        <header>
+          {% include page/section-title.html 
+              title="Articles" %}
+        </header>
+
+          <ul class="list-group list-of-post">
+              {% for post in listOfPosts %}
+                  <li class='list-group-item'>
+                      <div class="media">
+                          <div class="media-body">
+                              <div class="m-b-2">
+                                  <h3 class="media-heading" >
+                                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                  </h3>
+                                  <div><small class="">{{ post.date | date: "%Y %b %-d" }}</small></div>
+                              </div>
+
+                              <div class="media-body">{{ post.excerpt }}</div>
+                          </div>
+
+                          {% if post.logo %}
+                              <div class="media-right text-xs-right" >
+                                  <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
+                              </div>
+                          {% endif %}
+
+                      </div>
+                  </li>
+              {% endfor %}
+          </ul>
+      </article>
+    {% endif %}
+
+  </section>
+</div>
+
+{% include page/footer.html %}

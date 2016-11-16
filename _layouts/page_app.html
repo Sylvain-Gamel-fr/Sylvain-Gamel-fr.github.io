@@ -43,13 +43,18 @@ layout: default
   {% endif %}
   
   <div class="row">
-    <div class="col-xs-12 col-sm-3 m-t-1">
+
+    <div class="col-xs-12 col-sm-9 mt-2">
+      {{ content }}
+    </div>
+
+    <div class="col-xs-12 col-sm-3 mt-2">
       {% if slogan %}
         <p class="text-muted">{{ slogan }}</p>
       {% endif %}
       
       {% if app.shop %}
-        <ul class="list-inline">
+        <ul class="list-inline text-xs-center">
           {% for shop in app.shop %}
             {% assign shopId  = shop[ 0 ] %}
             {% assign shopURL = shop[ 1 ] %}
@@ -69,7 +74,7 @@ layout: default
             {% endif %}
 
           <li class="list-inline-item mr-1 mb-1">
-            <a href="">
+            <a href="{{shopURL}}">
               <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
                    alt="{{ shopName}}" >
             </a>
@@ -108,10 +113,6 @@ layout: default
           </ul>
         </div>
       {% endif %}
-    </div>
-
-    <div class="col-xs-12 col-sm-9 m-t-1">
-      {{ content }}
     </div>
   </div>
 </article>

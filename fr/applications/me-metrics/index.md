@@ -12,8 +12,8 @@ sideNote:
 
 ---
 
-- Une application;
-- Un widget pour la vue Aujourd'hui ;
+- Une application ;
+- Un widget pour la vue Aujourd'hui ;
 - Une application Apple Watch avec sa vue coup d'œil.
 
 

@@ -19,7 +19,7 @@
 {% assign pageURL = null %}
 {% if book.pageCode %} 
   {% assign bookPage = book.pageCode %}
-  {% assign pageURL = bookPage | prepend: "books/" | prepend: site.baseurl %}
+  {% assign pageURL = bookPage | prepend: site.baseurl %}
 {% endif %}
 
 {% if book.shortDescription[ lang ] %}
@@ -80,7 +80,7 @@
           {% endif %}
           
         <li class="list-inline-item mr-1 mb-1">
-          <a href="">
+          <a href="{{ shopURL }}">
             <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
                  alt="{{ shopName}}" >
           </a>
