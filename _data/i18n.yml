@@ -7,6 +7,12 @@ app_icon_alt:
 app_screenshot_alt:
     en: application screenshot
     fr: copie d'écran de l'application
+app_demoVideo_title:
+    en: Demo Videos
+    fr: Vidéos de démonstrations
 book_cover_alt:
     en: book font cover
     fr: couverture du livre
+youtube_link:
+    en: See on YouTube...
+    fr: Voir sur YouTube...
