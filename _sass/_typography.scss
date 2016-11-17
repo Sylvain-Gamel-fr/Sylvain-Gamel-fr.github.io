@@ -23,7 +23,21 @@ h3 {
 
 p {
     line-height: 1.7em;
+    margin-bottom: 2.5em;
 }
+
+blockquote {
+    margin: 1.5em;
+    padding: 0.7em;
+    border: 1px solid colorNamed(lightGrey);
+    
+    box-shadow: 0 4px 8px 1px transparentize(black, 0.9);
+    
+    *:last-child {
+        margin-bottom: 0;
+    }
+}
+
 
 hr {
     &.fine {
@@ -31,3 +45,31 @@ hr {
         color: colorNamed(blueBase);
     }
 }
+
+
+ul:not(.list-unstyled) {
+    list-style-type: none;
+    list-style-position: outside;
+    
+    padding-left: 2em;
+    
+    li {
+        margin-bottom: 1em;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    li:before {
+        content: "—";
+        display: inline-block;
+        
+        padding-right: 0.5em;
+        margin-left: -2em;
+        
+        width: 2em;
+        text-align: right;
+    }
+}
+

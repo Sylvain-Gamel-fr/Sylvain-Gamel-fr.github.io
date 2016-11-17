@@ -24,9 +24,11 @@ Le plus souvent, leur première arme secrète est l’automatisation des tâches
 Sur macOS, tous les utilisateurs peuvent laisser leur Mac faire le travail 
 à leur place. Il vous suffit d’apprendre à utiliser _Automator_.
 
-_Automator vous intéresse?_ 
-Vous pouvez aller plus loin en découvrant tout son potentiel dans mon livre 
-_Automatisez sous Mac_.
+> _Automator vous intéresse?_ 
+>
+> Vous pouvez aller plus loin en découvrant tout son potentiel dans mon livre 
+> « _Automatisez sous Mac_ ».
+
 
 Ce livre a été écrit pour Mac OS X et décrit Automator à partir de Mac OS X 10.7
 et au delà.

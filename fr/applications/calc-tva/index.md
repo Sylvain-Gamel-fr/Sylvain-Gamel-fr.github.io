@@ -31,7 +31,7 @@ Il vous assistera pour:
 - Calculer la TVA à partir des montant HT ou TTC.
 - Choisir le taux de TVA parmis ceux de 59 pays d'Europe et du monde.
 
-    Cet utilitaire simple et intuitif vous facilitera la gestion de vos comptes.
+> Cet utilitaire simple et intuitif vous facilitera la gestion de vos comptes.
 
 ### Fonctionnalités
 

@@ -53,36 +53,7 @@ layout: default
         <p class="text-muted">{{ slogan }}</p>
       {% endif %}
       
-      {% if app.shop %}
-        <ul class="list-inline text-xs-center">
-          {% for shop in app.shop %}
-            {% assign shopId  = shop[ 0 ] %}
-            {% assign shopURL = shop[ 1 ] %}
-
-            {% assign shopInfo = site.data.store | where: "id", shopId | first %}
-
-            {% if shopInfo.name[ lang ] %}
-              {% assign shopName = shopInfo.name[ lang ] %}
-            {% else %}
-              {% assign shopName = shopInfo.name %}
-            {% endif %}
-
-            {% if shopInfo.badge[ lang ] %}
-              {% assign shopIcon = shopInfo.badge[ lang ] %}
-            {% else %}
-              {% assign shopIcon = shopInfo.badge %}
-            {% endif %}
-
-          <li class="list-inline-item mr-1 mb-1">
-            <a href="{{shopURL}}">
-              <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
-                   alt="{{ shopName}}" >
-            </a>
-          </li>
-
-          {% endfor %}
-        </ul>      
-      {% endif %}
+      {% include widgets/shop-link-list.html shopList=app.shop %}
       
       {% if page.sideNote %}
       <div class="small">

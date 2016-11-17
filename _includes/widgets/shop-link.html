@@ -1,0 +1,15 @@
+<!--
+
+DISPLAY LINK TO ONLINE SHOP
+
+Inputs:
+
+- url: url to insert in the link
+- icon: icon name for the shop, must be located inside "/images"
+- name: name for the specified shop
+
+-->
+<a href="{{ include.url }}">
+  <img src="{{ include.icon | prepend: "/images/" | prepend: site.baseURL }}" 
+       alt="{{ include.name }}" >
+</a>
