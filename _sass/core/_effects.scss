@@ -4,10 +4,10 @@
     box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
     border: 1px solid #bbb;        
     
-    transform: perspective(600px) rotateX(14deg) rotateY(-7deg) rotateZ(-2deg) translateZ(0px);
+    transform: perspective(600px) rotateX(17deg) rotateY(-12deg) rotateZ(-2deg)  translateY(-70px) translateZ(-1em);
     
     &:hover {
-        transform: perspective(600px) rotateX(23deg) rotateY(-22deg) rotateZ(-2deg)  translateY(-70px) translateZ(-1em);
+        transform: perspective(600px) rotateX(14deg) rotateY(-7deg) rotateZ(-2deg) translateZ(0px);
     }
     
     &,
@@ -29,6 +29,33 @@
     
     &,
     &:hover {
+        transition: 0.2s 0.1s transform;
+    }
+}
+
+.fx-fine-border {
+    border: 1px solid #bbb;        
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.fx-flat-popin {
+    transform: scale(1);
+    
+    &:hover,
+    &:focus {
+        transform: scale(1.4);
+        
+        &.fx-light-zoom {
+            transform: scale(1.1);
+        }
+        &.fx-medium-zoom {
+            transform: scale(1.25);
+        }
+    }
+    
+    &,
+    &:hover,
+    &:focus {
         transition: 0.2s 0.1s transform;
     }
 }

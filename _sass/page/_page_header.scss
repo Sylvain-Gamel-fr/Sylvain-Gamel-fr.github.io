@@ -20,13 +20,6 @@ header.page-heading {
         color: colorNamed(paleGrey);
         
         line-height: 1.2em;
-        
-        @include media-breakpoint-up(sm) {
-            line-height: 1.8em;
-        }
-        @include media-breakpoint-up(md) {
-            line-height: 2.4em;
-        }
     }
 
     h1, .h1 {

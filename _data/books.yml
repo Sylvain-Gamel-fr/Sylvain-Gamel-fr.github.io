@@ -45,6 +45,9 @@
 
 - id: macenpoche-pdf
   title: OS X dans la Poche, le PDF
+  subTitle:
+      en: Let PDF be your native language!
+      fr: Passez le turbo avec les PDFs !
   first_publication_year: 2015
   pageCode: macOS-PDF
   promoted: true
@@ -62,7 +65,7 @@
     small:  /images/books/cover-osx-en-poche-pdf-small.jpg
     medium: /images/books/cover-osx-en-poche-pdf-medium.jpg
   youtube:
-    intro:
+    intro: 3CV_yhasPjM
   shop:
     ibooks: https://itunes.apple.com/fr/book/os-x-dans-la-poche-le-pdf/id1057048520?mt=11
     lulu:   http://www.lulu.com/commerce/index.php?fBuyContent=17739669

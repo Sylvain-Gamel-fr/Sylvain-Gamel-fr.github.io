@@ -34,12 +34,12 @@
     {% if pageURL %}
       <a href="{{ pageURL }}" class="mb-1" >
         <img src="{{ book.cover.small | relative_url }}" 
-             class="img-fluid mb-1"
+             class="img-fluid mb-1 fx-flat-popin fx-light-zoom fx-fine-border"
              alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
       </a>
     {% else %}
       <img src="{{ book.cover.small | relative_url }}" 
-           class="img-fluid mb-1"
+           class="img-fluid mb-1 fx-fine-border"
            alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
     {% endif %}
   </div>
@@ -60,7 +60,7 @@
     {% if book.shop %}
       <hr class="fine">
   
-      <ul class="list-inline">
+      <ul class="list-inline list-unstyled">
         {% for shop in book.shop %}
           {% assign shopId  = shop[ 0 ] %}
           {% assign shopURL = shop[ 1 ] %}
@@ -82,7 +82,8 @@
         <li class="list-inline-item mr-1 mb-1">
           <a href="{{ shopURL }}">
             <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
-                 alt="{{ shopName}}" >
+                 alt="{{ shopName}}" 
+                 class="fx-flat-popin-borderless" >
           </a>
         </li>
 
