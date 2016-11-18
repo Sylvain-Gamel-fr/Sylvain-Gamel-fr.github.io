@@ -1,19 +1,24 @@
 - service: Twitter
-  name: sgamel
+  name: Mon Twitter
   url: https://twitter.com/sgamel
-  icon: social-youtube.svg
+  icon: social-twitter.svg
     
 - service: YouTube
-  name: "Sylvain Gamel"
+  name: Chaine YouTube
   url: https://youtube.com/user/sgamel
-  icon: social-twitter.svg
+  icon: social-youtube.svg
   
 - service: Github
-  name: sylvaingml
+  name: Personnel
   url: https://github.com/sylvaingml
   icon: social-github.svg
   
+- service: Github
+  name: Automatisation
+  url: https://github.com/automatisez
+  icon: social-github.svg
+  
 - service: Facebook
-  name: "Sylvain Gamel, SARL S.G. InTech"
+  name: "Facebook"
   url: https://www.facebook.com/SGinTech/
   icon: social-facebook.svg

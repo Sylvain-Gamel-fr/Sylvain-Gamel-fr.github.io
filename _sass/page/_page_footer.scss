@@ -32,4 +32,23 @@ footer.page-footer {
         transform: translate(-100%, 0.5ex);
         padding-right: 0.5em;
     }
+    
+    @include media-breakpoint-down(sm) {
+        .list-social {
+            display: block;
+            
+            li.list-item-custom {
+                display: inline-block;
+                margin-right: 0.7em;
+                font-size: 0.8em;
+            }
+            
+            img.social-icon {
+                position: relative;
+                display: inline-block;
+                transform: none;
+                padding-right: 0.25em;
+            }
+        }
+    }
 }
