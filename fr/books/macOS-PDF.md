@@ -4,7 +4,7 @@ slogan: Oubliez le papier, passez au PDF !
 categories: books
 lang: "fr"
 id: macenpoche-pdf
-header_banner: banner_robots
+header_banner: banner_macOS-enPoche-pdf.svg
 summary:
     Vous savez peut-être déjà créer un PDF avec la fonction 
     d’impression de votre Mac. 

@@ -6,7 +6,7 @@ categories: apps
 lang: "fr"
 order: 3
 id: memetrics
-header_banner: banner_me-metrics
+header_banner: banner_me-metrics.jpg
 sideNote:
     Comptez ce qui compte pour vous, à votre façon !
 

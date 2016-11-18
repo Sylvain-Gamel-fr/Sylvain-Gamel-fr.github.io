@@ -4,7 +4,7 @@ slogan: Un robot qui travaille pour vous...
 categories: books
 lang: "fr"
 id: automator
-header_banner: banner_robots
+header_banner: banner_robots.jpg
 summary:
     Apprenez à laisser votre ordinateur prendre en charge les tâches 
     les plus répétitives pour vous concentrer sur l’essentiel.

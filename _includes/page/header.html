@@ -10,7 +10,7 @@
 {% endif %}
 
 
-{% assign bannerImg= "Apple-wireless-keyboard" %}
+{% assign bannerImg= "Apple-wireless-keyboard.jpg" %}
 {% if page.header_banner %}
   {% assign bannerImg = page.header_banner %}
 {% endif %}
@@ -24,7 +24,7 @@
   {% if page.layout != 'post' %}
     <div class="header-visual">
       {% if bannerImg %}
-        <img class="" src="/images/heading/{{bannerImg}}.jpg" aria-hidden="true">
+        <img class="" src="/images/heading/{{bannerImg}}" aria-hidden="true">
       {% endif %}
     </div>
   {% endif %}
