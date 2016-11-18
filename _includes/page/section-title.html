@@ -1,10 +1,12 @@
 {% assign title = include.title %}
 {% assign source = include.src %}
 {% assign description = include.alt %}
+{% assign fxClasses = include.fxClasses %}
 
 <div class="section-title container-fluid">
   <h2 class="">
-    <img src="{{ source | relative_url }}" alt="{{ description }}" >
+    <img src="{{ source | relative_url }}" alt="{{ description }}"
+         class="{{ fxClasses }}">
     {{ title }}
   </h2>
 </div>

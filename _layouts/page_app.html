@@ -25,9 +25,9 @@ layout: default
   {% assign slogan = app.slogan %}
 {% endif %}
 
-<article class="media">
+<article>
   <header>
-    {% include page/section-title.html title=appName src=app.icon.default %}
+    {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
   </header>
   
   {% if app.youtube and app.youtube.intro  %}

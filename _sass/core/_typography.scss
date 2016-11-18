@@ -20,6 +20,32 @@ h3 {
     margin: 1.5em 0 1em 0;
 }
 
+section h3 {
+    position: relative;
+    
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        display: block;
+
+        width:   100vw;
+        top:   -0.1em;
+        bottom: -0.1em;
+        
+        background-color: colorNamed(greenBase);
+    }
+    
+    &:before {
+        left:    calc(-100vw - 0.3em);
+        border-right: 2px solid colorNamed(greenDark);
+    }
+    
+    &:after {
+        left: calc(100% + 0.3em);
+        border-left: 2px solid colorNamed(greenDark);
+    }
+}
 
 p {
     line-height: 1.7em;
