@@ -1,0 +1,14 @@
+.book-title {
+    img {
+        width: 70%;
+        margin: 0.5em 15%;
+        
+        @include media-breakpoint-up(md) {
+            width: 30vw;
+            margin: 0.5em;
+        }
+        @include media-breakpoint-up(lg) {
+            width: auto;
+        }
+    }
+}

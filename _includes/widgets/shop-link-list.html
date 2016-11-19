@@ -11,9 +11,20 @@ Inputs:
 This rely on the 'store' data collection.
 
 -->
-{% if include.shopList %}
+{% assign shopList=include.shopList %}
+{% assign titleKey=include.titleKey %}
+
+{% if titleKey %}
+  {% assign title=site.data.i18n[ titleKey ][ lang ] %}
+{% endif %}
+
+{% if shopList %}
+  {% if title %}
+    <h4>{{ title }}</h4>
+  {% endif %}
+
   <ul class="list-unstyled list-inline text-xs-center">
-    {% for shop in include.shopList %}
+    {% for shop in shopList %}
       {% assign shopId  = shop[ 0 ] %}
       {% assign shopURL = shop[ 1 ] %}
 

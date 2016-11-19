@@ -13,6 +13,12 @@ app_demoVideo_title:
 book_cover_alt:
     en: book font cover
     fr: couverture du livre
+book_buyNow_title:
+    en: Buy it now
+    fr: Achetez le maintenant
+app_getNow_title:
+    en: Get it now
+    fr: Téléchargez maintenant
 youtube_link:
     en: See on YouTube...
     fr: Voir sur YouTube...

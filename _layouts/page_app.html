@@ -53,7 +53,7 @@ layout: default
         <p class="text-muted">{{ slogan }}</p>
       {% endif %}
       
-      {% include widgets/shop-link-list.html shopList=app.shop %}
+      {% include widgets/shop-link-list.html shopList=app.shop titleKey='app_getNow_title' %}
       
       {% if page.sideNote %}
       <div class="small">
@@ -88,13 +88,13 @@ layout: default
   </div>
 </article>
 
-<hr class="fine" >
-
 
 {% assign pageCategory = page.category %}
 {% assign listOfPosts = site.categories[pageCategory]  %}
 
 {% if listOfPosts %}
+  <hr class="fine" >
+
   <article>
     <header>
       {% include page/section-title.html 
