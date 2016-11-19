@@ -17,6 +17,10 @@ summary:
 
 sideNote:
     Faite passer votre Mac en pilotage automatique.
+
+    
+    Retrouvez plus d'information sur _Automator_ en visitant le site
+    dédié [Automatisez.net](https://Automatisez.net)
 ---
 
 Les utilisateurs les plus avancés semblent souvent posséder des supers pouvoirs.
