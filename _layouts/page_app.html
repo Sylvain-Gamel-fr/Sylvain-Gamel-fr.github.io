@@ -49,41 +49,43 @@ layout: default
     </div>
 
     <div class="col-xs-12 col-sm-3 mt-2">
-      {% if slogan %}
-        <p class="text-muted">{{ slogan }}</p>
-      {% endif %}
-      
-      {% include widgets/shop-link-list.html shopList=app.shop titleKey='app_getNow_title' %}
-      
-      {% if page.sideNote %}
-      <div class="small">
-        {{ page.sideNote | markdownify }}
-      </div>
-      {% endif %}
-      
-      
-      {% if app.youtube.demo %}
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title">
-              {{ site.data.i18n[ 'app_demoVideo_title' ][ lang ] }}
-            </h4>
-          </div>
-          <ul class="list-unstyled">
-          {% for videoId in app.youtube.demo %}
-            <li class="mb-1 text-xs-right">
-              {% include widgets/youtube.html videoId=videoId fill=true %}
-              
-              <a href="https://www.youtube.com/watch?v={{videoId}}" 
-                 target="_blank" 
-                 class="text-xs-right small">
-                {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
-              </a>
-            </li>
-          {% endfor %}
-          </ul>
+      <aside>
+        {% if slogan %}
+          <p class="text-muted">{{ slogan }}</p>
+        {% endif %}
+
+        {% include widgets/shop-link-list.html shopList=app.shop titleKey='app_getNow_title' %}
+
+        {% if page.sideNote %}
+        <div class="small">
+          {{ page.sideNote | markdownify }}
         </div>
-      {% endif %}
+        {% endif %}
+
+
+        {% if app.youtube.demo %}
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">
+                {{ site.data.i18n[ 'app_demoVideo_title' ][ lang ] }}
+              </h4>
+            </div>
+            <ul class="list-unstyled">
+            {% for videoId in app.youtube.demo %}
+              <li class="mb-1 text-xs-right">
+                {% include widgets/youtube.html videoId=videoId fill=true %}
+
+                <a href="https://www.youtube.com/watch?v={{videoId}}" 
+                   target="_blank" 
+                   class="text-xs-right small">
+                  {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </aside>
     </div>
   </div>
 </article>

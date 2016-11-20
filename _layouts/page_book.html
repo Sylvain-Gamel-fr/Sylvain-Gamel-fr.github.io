@@ -75,51 +75,53 @@ layout: naked
         </div>
 
         <div class="col-xs-12 col-sm-3 mt-2">
-          {% if slogan %}
-            <p class="text-muted">{{ slogan }}</p>
-          {% endif %}
+          <aside>
+            {% if slogan %}
+              <p class="text-muted">{{ slogan }}</p>
+            {% endif %}
 
-          {% include widgets/shop-link-list.html shopList=book.shop titleKey='book_buyNow_title' %}
+            {% include widgets/shop-link-list.html shopList=book.shop titleKey='book_buyNow_title' %}
 
-          {% if page.sideNote %}
-          <div class="small">
-            {{ page.sideNote | markdownify }}
-          </div>
-          {% endif %}
-
-
-          {% if book.youtube.demo %}
-            <div class="card">
-              <div class="card-block">
-                <h4 class="card-title">
-                  {{ site.data.i18n[ 'app_demoVideo_title' ][ lang ] }}
-                </h4>
-              </div>
-              <ul class="list-unstyled">
-              {% for videoId in book.youtube.demo %}
-                <li class="mb-1 text-xs-right">
-                  {% include widgets/youtube.html videoId=videoId fill=true %}
-
-                  <a href="https://www.youtube.com/watch?v={{videoId}}" 
-                     target="_blank" 
-                     class="text-xs-right small">
-                    {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
-                  </a>
-                </li>
-              {% endfor %}
-              </ul>
+            {% if page.sideNote %}
+            <div class="small">
+              {{ page.sideNote | markdownify }}
             </div>
-          {% endif %}
+            {% endif %}
+
+
+            {% if book.youtube.demo %}
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">
+                    {{ site.data.i18n[ 'app_demoVideo_title' ][ lang ] }}
+                  </h4>
+                </div>
+                <ul class="list-unstyled">
+                {% for videoId in book.youtube.demo %}
+                  <li class="mb-1 text-xs-right">
+                    {% include widgets/youtube.html videoId=videoId fill=true %}
+
+                    <a href="https://www.youtube.com/watch?v={{videoId}}" 
+                       target="_blank" 
+                       class="text-xs-right small">
+                      {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </aside>
         </div>
       </div>
     </article>
-
-    <hr class="fine" >
 
     {% assign pageCategory = page.category %}
     {% assign listOfPosts = site.categories[pageCategory]  %}
 
     {% if listOfPosts %}
+      <hr class="fine" >
+
       <article>
         <header>
           {% include page/section-title.html 

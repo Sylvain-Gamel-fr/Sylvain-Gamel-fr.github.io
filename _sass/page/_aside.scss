@@ -1,0 +1,13 @@
+@import "../variables";
+
+aside {
+    background-color: transparentize(colorNamed(whiteGrey), 0.3);
+
+    padding: 0.5em;
+
+    border: 1px solid colorNamed(paleGrey);
+    border-radius: 4px;
+    
+    // A small nice effect for Safari
+    -webkit-backdrop-filter: blur(10px);
+}
