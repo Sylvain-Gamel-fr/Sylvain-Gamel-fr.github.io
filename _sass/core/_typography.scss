@@ -87,6 +87,10 @@ hr {
 }
 
 
+.text-smallcaps {
+    font-variant: small-caps;
+}
+
 ul:not(.list-unstyled) {
     list-style-type: none;
     list-style-position: outside;
@@ -113,3 +117,52 @@ ul:not(.list-unstyled) {
     }
 }
 
+dl.timeline {
+    padding-right: 15px;
+    
+    dt,
+    dd {
+        position: relative;
+        
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: -10px;
+            width:  1px;
+            
+            background-color: colorNamed(blueBase);
+        }
+        
+        &:last-child:after {
+            background: linear-gradient(to bottom, colorNamed(blueBase) 0%, transparent 70%);
+        }
+    }
+    
+    dd:after {
+        top: -2em;
+        bottom: -3em;
+        z-index: -1;
+    }
+    
+    dt {
+        text-align: right;
+        
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            
+            width:  12px;
+            height: 12px;
+            
+            background-color: colorNamed(yellowBase);
+            border: 1px solid colorNamed(blueBase);
+            border-radius: 50%;
+        }
+    }
+    
+}
