@@ -50,15 +50,26 @@ permalink: /fr/a-propos/
         </p>
 
 
-        <h3>Quelques projets</h3>
+        <h3>Quelques domaines d'activité</h3>
+        
+        <ul>
+          {% for project in site.data.resume_project_types %}
+            {% if project.title[ page.lang ] %}
+              {% assign prjTitle = project.title[ page.lang ] %}
+            {% else %}
+              {% assign prjTitle = project.title %}
+            {% endif %}
+          
+            <li>
+              <a href="#project_type_{{ project.id }}">{{ prjTitle }}</a>
+            </li>
+          {% endfor %}
+        </ul>
         
         {% for project in site.data.resume_project_types %}
           {% include resume/project_type.html project=project %}
         {% endfor %}
 
-        <hr>
-
-        
 
         <h3>Ma (<em>petite</em>) Tour de Babel</h3>
 

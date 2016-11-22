@@ -30,29 +30,9 @@ Parameters:
   {% assign technologies = include.project.technologies %}
 {% endif %}
 
-<h4>{{ title | markdownify }}</h4>
+<h4 id="project_type_{{ include.project.id }}">{{ title | markdownify }}</h4>
 
 {{ description | markdownify }}
-
-{% if scope %}
-  <h5 class="mt-2 mb-2">{{ site.data.i18n[ 'resume_scope' ][ page.lang ] }}</h5>
-  <ul>
-    {% for scopeItem in scope %}
-      <li>{{ scopeItem }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
-
-{% if technologies %}
-  <h5 class="mt-2 mb-2">{{ site.data.i18n[ 'resume_listOfTechno' ][ page.lang ] }}</h5>
-  <ul>
-    {% for techItem in technologies %}
-      <li>{{ techItem }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
 
 {% capture accordionId %}accordion_{{include.project.id}}{% endcapture %}
 

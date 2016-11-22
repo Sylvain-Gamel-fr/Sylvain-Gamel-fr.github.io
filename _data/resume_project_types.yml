@@ -6,6 +6,7 @@
     en: 
   scope:
     fr: 
+        - analyse de besoins pour l'adhésion à des contrats d'assurance&nbsp;;
         - définition du contenu et de l'enchainement des écrans&nbsp;;
         - conception de l'ergonomie&nbsp;;
         - prise en charge de la validation auprès des utilisateurs.
@@ -34,7 +35,7 @@
 - id: testingTools
   title: 
     fr: Outils de validation
-    en: 
+    en: Test and Validation tools
   description:
     fr: Pilotage et implémentation d’une suite d’outils de génération de code 
         pour des tests de plateformes embarquées. 
@@ -53,6 +54,7 @@
         - Analyse syntaxique et génération en Perl
         - Simulateurs et communications implémentées en C++ et Java
     en:
+  
   
 - id: 1A
   title: 
