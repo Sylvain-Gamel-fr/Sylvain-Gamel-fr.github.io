@@ -1,0 +1,105 @@
+<!-- Description for a single family of project or a specific project.
+
+Parameters:
+
+- project: a specific project description object.
+
+-->
+
+{% if include.project.title[ page.lang ] %}
+  {% assign title = include.project.title[ page.lang ] %}
+{% else %}
+  {% assign title = include.project.title %}
+{% endif %}
+
+{% if include.project.description[ page.lang ] %}
+  {% assign description = include.project.description[ page.lang ] %}
+{% else %}
+  {% assign description = include.project.description %}
+{% endif %}
+
+{% if include.project.scope[ page.lang ] %}
+  {% assign scope = include.project.scope[ page.lang ] %}
+{% else %}
+  {% assign scope = include.project.scope %}
+{% endif %}
+
+{% if include.project.technologies[ page.lang ] %}
+  {% assign technologies = include.project.technologies[ page.lang ] %}
+{% else %}
+  {% assign technologies = include.project.technologies %}
+{% endif %}
+
+<h4>{{ title | markdownify }}</h4>
+
+{{ description | markdownify }}
+
+{% if scope %}
+  <h5 class="mt-2 mb-2">{{ site.data.i18n[ 'resume_scope' ][ page.lang ] }}</h5>
+  <ul>
+    {% for scopeItem in scope %}
+      <li>{{ scopeItem }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if technologies %}
+  <h5 class="mt-2 mb-2">{{ site.data.i18n[ 'resume_listOfTechno' ][ page.lang ] }}</h5>
+  <ul>
+    {% for techItem in technologies %}
+      <li>{{ techItem }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% capture accordionId %}accordion_{{include.project.id}}{% endcapture %}
+
+<div id="{{ accordionId }}" role="tablist" aria-multiselectable="true" >
+  
+  {% if scope %}
+    {% capture itemId %}{{ accordionId }}_scope{% endcapture %}
+    {% assign title  = site.data.i18n[ 'resume_scope' ][ page.lang ] %}
+    
+    {% capture content %}
+      <ul>
+        {% for scopeItem in scope %}
+          <li>{{ scopeItem }}</li>
+        {% endfor %}
+      </ul>
+    {% endcapture %}
+    
+    {% include widgets/accordion_item.html parentId=accordionId id=itemId
+      title=title
+      content=content %}
+  {% endif %}
+  
+  {% if technologies %}
+    {% capture itemId %}{{ accordionId }}_tech{% endcapture %}
+    {% assign title  = site.data.i18n[ 'resume_listOfTechno' ][ page.lang ] %}
+
+    {% capture content %}
+      <ul>
+        {% for techItem in technologies %}
+          <li>{{ techItem }}</li>
+        {% endfor %}
+      </ul>
+    {% endcapture %}
+    
+    {% include widgets/accordion_item.html parentId=accordionId id=itemId
+      title=title
+      content=content %}
+  {% endif %}
+  
+  <div class="text-xs-right">
+    <button type="button" class="btn btn-link btn-sm"
+            onclick="$('#{{ accordionId }} [role=tabpanel]').collapse('show');" >
+      {{ site.data.i18n[ 'expand_all' ][ page.lang ] }}
+    </button>
+    <button type="button" class="btn btn-link btn-sm"
+            onclick="$('#{{ accordionId }} [role=tabpanel]').collapse('hide');" >
+      {{ site.data.i18n[ 'collapse_all' ][ page.lang ] }}
+    </button>
+  </div>
+</div>

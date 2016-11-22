@@ -1,0 +1,146 @@
+- id: moa
+  title: Assistance maîtrise d’ouvrage
+  description:
+    fr: Rédaction de _spécifications fonctionnelles_ pour la gestion 
+        des adhésions dans une mutuelle toulonnaise.
+    en: 
+  scope:
+    fr: 
+        - définition du contenu et de l'enchainement des écrans&nbsp;;
+        - conception de l'ergonomie&nbsp;;
+        - prise en charge de la validation auprès des utilisateurs.
+  technologies:
+  
+  
+- id: sms
+  title: 
+    fr: Applications SMS
+    en: SMS Software
+  description:
+    fr: Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination 
+        des établissements scolaires pour la notification des absences.
+    en: 
+  scope:
+    fr: 
+        - Refonte de l'architecture de l'application client
+        - Redéfiniton de l'ergonomie des interfaces
+  technologies:
+    fr: 
+        - Java (client)
+        - "Java/Swing: Interfaces utilisateur"
+    en: 
+
+  
+- id: testingTools
+  title: 
+    fr: Outils de validation
+    en: 
+  description:
+    fr: Pilotage et implémentation d’une suite d’outils de génération de code 
+        pour des tests de plateformes embarquées. 
+        
+        
+        Les modules simulés pouvant interagir avec des éléments sur simulateur
+        ou _SoC_.
+    en:
+  scope:
+    fr:
+        - analyse de fichiers d'interfaces en C, Excel, Word
+        - génération de modules simulants les interfaces analysées
+        - génération d'interfaces pour le langage TTCN3 pour piloter ses simulateurs
+  technologies:
+    fr:
+        - Analyse syntaxique et génération en Perl
+        - Simulateurs et communications implémentées en C++ et Java
+    en:
+  
+- id: 1A
+  title: 
+    fr: Réservation aérienne
+    en: Online Air Booking
+  description:
+    fr: "##### Serveur
+        
+        
+        Implémentation de composants dans le moteur de réservation pour 
+        le site des abonnés d’une grande compagnie européenne.
+        
+        
+        ##### Outils d'administration
+        
+        
+        Conception et réalisation d’un moteur de règles et d’une 
+        bibliothèque de tags JSP pour insérer du contenu de façon 
+        conditionnelle dans les pages.
+        
+        
+        ##### Application web clientes
+        
+        
+        Mise à jour et création de pages pour le flot de réservations 
+        pour une grande compagnie nord-américaine.
+        
+        Conception et implémentation de pages HTML à partir de maquettes 
+        graphiques pour une compagnie aérienne australienne.
+
+
+        ##### Application web mobile
+        
+        
+        Réalisation des maquettes et du site mobile de réservation de 
+        vols pour une compagnie aérienne australienne."
+    en:
+  technologies:
+      - Java/J2EE
+      - JSP
+      - HTML5
+      - LessCss, Sass
+      - JavaScript, TypeScript
+  
+  
+- id: finance
+  title: 
+    fr: Finance
+    en: Finance
+  description:
+    fr: Socle applicatif Java pour construire des applications de 
+        gestion et suivi boursier.
+    en:
+  scope:
+    fr: 
+        - Application Java intégrée dans un navigateur&nbsp;
+        - Construction de composants métier et UI réutilisables.
+  technologies:
+    fr: 
+        - Java
+        - Deploiement automatique via navigateur Internet.
+    en:
+
+  
+- id: directory
+  title: 
+    fr: Sites d’annuaires
+    en: Directories
+  description:
+    fr: Développement d'une activité internet pour une société vendant 
+        du fichier d'adresses sur CDROM.
+        
+        
+        Création d'une solution de vente de site de référencement 
+        pour hotels.
+    en:
+  scope:
+    fr: 
+        - outils de capture de fichier d'adresse sur flux télématique&nbsp;
+        - administration système&nbsp;
+        - conception SGBD&nbsp;
+        - conception et développement des applications internet&nbsp;
+          <li>Mini-sites personnalisés pour les hôtels.</li>
+          <li>Réalisation complète en PHP sur une base PostgreSQL.
+  technologies:
+    - Linux
+    - Apache
+    - SGBD PostgreSQL
+    - PHP/FI
+    - Perl
+  

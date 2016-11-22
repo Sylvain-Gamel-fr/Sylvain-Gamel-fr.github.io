@@ -22,3 +22,17 @@ app_getNow_title:
 youtube_link:
     en: See on YouTube...
     fr: Voir sur YouTube...
+
+resume_scope:
+    en: Project scope
+    fr: Périmètre fonctionnel
+resume_listOfTechno:
+    en: Applied technologies
+    fr: Technologies mises en œuvre    
+    
+expand_all:
+    en: Expand all
+    fr: Tout déplier
+collapse_all:
+    en: Collapse all
+    fr: Tout plier

@@ -51,130 +51,14 @@ permalink: /fr/a-propos/
 
 
         <h3>Quelques projets</h3>
+        
+        {% for project in site.data.resume_project_types %}
+          {% include resume/project_type.html project=project %}
+        {% endfor %}
 
+        <hr>
 
-        <h4>Assistance maîtrise d’ouvrage</h4>
-
-        <p>
-          Rédaction de <em>spécifications fonctionnelles</em> pour la gestion des adhésions 
-          dans une mutuelle toulonnaise.
-        </p>
-
-        <ul>
-          <li>définition du contenu et de l'enchainement des écrans&nbsp;;</li>
-          <li>conception de l'<em>ergonomie</em>&nbsp;;</li>
-          <li>prise en charge de la validation auprès des utilisateurs.</li>
-        </ul>
-
-
-        <h4>Applications SMS</h4>
-
-
-        <p>
-          Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination 
-          des établissements scolaires pour la notification des absences.
-        </p>
-
-        <h5>Architecture technique</h5>
-
-        <ul>
-          <li>project en Java&nbsp;;</li>
-          <li>UI implémentée avec Swing.</li>
-        </ul>
-
-
-        <h4>Outils de validation</h4>
-
-
-        <p>
-          Pilotage et implémentation d’une suite d’outils de génération de code pour des tests 
-          de plateformes embarquées. 
-        </p>
-
-        <h5>Architecture technique</h5>
-
-        <ul>
-          <li>analyse des fichiers d'interfaces en Word et C&nbsp;;</li>
-          <li><em>parsing</em> des fichiers d'en-tête réalisé en <em>Perl</em>&nbsp;;</li>
-          <li>
-            génération de code <em>TTCN3</em> pour execution sur plateformes de 
-            simulation et SoC physique&nbsp;;
-          </li>
-          <li>plateforme de communication et simulation ecrite en C++.</li>
-        </ul>
-
-
-        <h4>Réservation aérienne</h4>
-
-
-        <h5>Backend</h5>
-
-        <p>
-          Implémentation de composants dans le moteur de réservation pour le 
-          site des abonnés d’une grande compagnie européenne. 
-        </p>
-
-        <p>
-          <em>Mise en œuvre avec Java J2EE.</em>
-        </p>
-
-        <h5>Application web client et administratives</h5>
-
-
-        <p>
-          Mise à jour et création de pages pour le flot de réservations 
-          pour une grande compagnie nord-américaine. 
-        </p>
-
-        <p>
-          <em>Mise en œuvre en Java J2EE JSP, HTML et CSS.</em>
-        </p>
-
-
-        <p>
-          Conception et implémentation de pages HTML à partir de maquettes 
-          graphiques pour une compagnie aérienne australienne.
-        </p>
-
-        <p>
-          Réalisation des maquettes et du site mobile de réservation de vols 
-          pour une compagnie aérienne australienne. 
-        </p>
-
-        <p><em>Site réalisé avec jQuery mobile en HTML5.</em></p>
-
-        <p>
-          Conception et réalisation d’un moteur de règles et d’une bibliothèque 
-          de tags JSP pour insérer des contenus de façon conditionnelle dans les pages.
-        </p>
-
-
-        <h4>Finance</h4>
-
-
-        <p>
-          Socle applicatif Java pour construire des applications de 
-          gestion et suivi boursier.
-        </p>
-
-
-        <h5>Plateforme technique</h5>
-
-        <ul>
-          <li>Java client&nbsp;;</li>
-          <li>deploiement automatique via navigateur Internet.</li>
-        </ul>
-
-
-        <h4>Sites d’annuaires</h4>
-
-
-        <ul>
-          <li>Achat de fichier d’adresses pour publipostage.</li>
-          <li>Mini-sites personnalisés pour les hôtels.</li>
-          <li>Réalisation complète en PHP sur une base PostgreSQL.</li>
-        </ul>
-
+        
 
         <h3>Ma (<em>petite</em>) Tour de Babel</h3>
 
