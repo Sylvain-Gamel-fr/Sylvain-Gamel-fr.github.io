@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="706px" height="102px" viewBox="0 0 706 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>background-stripes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background-stripes">
+            <path d="M683.043367,16 L0,16 L0,36 L656.767857,36 L683.043367,16 Z" id="Combined-Shape" fill="#F8E81C"></path>
+            <path d="M695.732143,41 L0,41 L0,61 L669.456633,61 L695.732143,41 Z" id="Combined-Shape" fill="#7ED321"></path>
+            <path d="M587.043367,66 L0,66 L0,86 L560.767857,86 L587.043367,66 Z" id="Combined-Shape" fill="#4990E2"></path>
+        </g>
+    </g>
+</svg>

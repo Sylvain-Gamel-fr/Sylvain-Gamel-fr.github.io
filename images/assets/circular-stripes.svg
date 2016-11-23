@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="178px" height="187px" viewBox="0 0 178 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>circular-stripes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="circular-stripes" stroke="">
+            <circle id="Oval-3" stroke-width="8" cx="89" cy="89" r="75"></circle>
+            <ellipse id="Oval-3-Copy" stroke-width="6" transform="translate(88.529923, 88.529923) rotate(-40.000000) translate(-88.529923, -88.529923) " cx="88.5299232" cy="88.5299232" rx="60" ry="60"></ellipse>
+            <ellipse id="Oval-3-Copy-2" stroke-width="4" transform="translate(89.130517, 89.130517) rotate(-80.000000) translate(-89.130517, -89.130517) " cx="89.1305169" cy="89.1305169" rx="45" ry="45"></ellipse>
+            <ellipse id="Oval-3-Copy-3" stroke-width="2" transform="translate(88.980762, 88.980762) rotate(-120.000000) translate(-88.980762, -88.980762) " cx="88.9807621" cy="88.9807621" rx="30" ry="30"></ellipse>
+        </g>
+    </g>
+</svg>

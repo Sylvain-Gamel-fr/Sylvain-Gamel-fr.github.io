@@ -1,0 +1,122 @@
+.card.contact {
+    width: 100%;
+    margin: 2em auto;
+    
+    @include media-breakpoint-up(md) {
+        width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 60%;
+    }
+    
+    box-shadow: 0px 12px 16px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    
+    .card-header {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+    
+    .card-footer {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+    
+    .card-block .middle-decoration {
+        position: relative;
+        margin-left:  -1.25rem;
+        margin-right: -1.25rem;
+        
+        z-index: 0;
+        overflow: hidden;
+        
+        height: 6em;
+        line-height: 6em;
+        
+        img {
+            margin-top: 6em;
+            max-height: 100%;
+        }
+        
+        @include media-breakpoint-up(sm) {
+            height: 8em;
+            line-height: 8em;
+
+            img {
+                margin-top: 8em;
+            }
+        }
+        @include media-breakpoint-up(lg) {
+            height: 12em;
+            line-height: 12em;
+
+            img {
+                margin-top: 12em;
+            }
+        }
+        
+        img {
+            z-index: 1;
+            transform: translate(-50%, -100%);
+            margin-right: 1em;
+        }
+        
+        .float-xs-left.shall-cut {
+            //transform: translate(-50%, -100%);
+            //margin-right: 2em;
+        }
+        
+        .decoration {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 82%;
+            margin: 0;
+            
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+    }
+    
+    // Typography
+    
+    .card-header {
+        font-size: 150%;
+        font-weight: 200;
+    }
+
+    .card-footer {
+        font-size: 70%;
+        font-weight: 300;
+    }
+    
+    // ----
+    
+    .name {
+        letter-spacing: 1pt;
+    }
+    
+    .cie-name {
+        @include media-breakpoint-down(sm) {
+            display: block;
+        }
+    }
+    
+    
+    .address {
+        line-height: 1.4;
+        
+        .city {
+            display: block;
+            
+            margin-top: 0.5em;
+        }
+        
+        .country {
+            display: block;
+            
+            margin-top: 0.5em;
+        }
+    }
+}
+

@@ -1,32 +1,53 @@
 {% assign contact = site.data.contact-info %}
 
 <div class="contact card">
-  <div class="card-header h3 pt-2 pb-2">
-    {{ contact.name.first }} <span class="text-smallcaps">{{ contact.name.last }}</span>
+  <div class="card-header">
+    <span class="name">
+      {{ contact.name.first }} 
+      <span class="text-smallcaps">{{ contact.name.last }}</span>
+    </span>
     {% if contact.company %}
-      —
-      <span class="text-smallcaps">
-        {{ contact.company.status }}
+      <span class="hidden-sm-down">—</span>
+      <span class="cie-name">
+        <span class="text-smallcaps">
+          {{ contact.company.status }}
+        </span>
+        {{ contact.company.name }}
       </span>
-      {{ contact.company.name }}
     {% endif %}
   </div>
   
-  <div class="card-block">
+  <div class="body card-block">
+    <div class="middle-decoration clearfix mb-1" role="presentation" >
+      <img src="{{ '/images/assets/background-stripes.svg' | relative_url }}" 
+           class="decoration" >
+      <img src="{{ '/images/assets/desktop-computer.svg' | relative_url }}" 
+           class="float-xs-left hidden-sm-down shall-cut" >
+      <img src="{{ '/images/assets/tablet.svg' | relative_url }}" 
+           class="float-xs-left hidden-xs-down" >
+      <img src="{{ '/images/assets/mobile-phone.svg' | relative_url }}" 
+           class="float-xs-left" >
+
+    </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6 mb-2">
+      <div class="address col-xs-12 col-md-6 mb-2">
+        <hr class="hidden-sm-up">
         {% for addrRow in contact.address.street %}
-        <div>{{ addrRow }}</div>
+          <div>{{ addrRow }}</div>
         {% endfor %}
-        <div>
-          {{ contact.address.zip }}
-          <span class="text-smallcaps small">
-            {{ contact.address.city }} {{ contact.address.country }}
-          </span>
+        <div class="row">
+          <div class="col-xs-3">
+            <span class="city">{{ contact.address.zip }}</span>
+          </div>
+          <div class="col-xs-9 text-smallcaps">
+            <span class="city">{{ contact.address.city }}</span>
+            <span class="country">{{ contact.address.country }}</span>
+          </div>
         </div>
       </div>
       
       <div class="col-xs-12 col-md-6 mb-2" >
+        <hr class="hidden-sm-up">
         <dl>
           <dt>Tél.&nbsp;:</dt>
           <dd>
@@ -41,8 +62,8 @@
     </div>
   </div>
   
-  <div class="card-footer small text-xs-center">
-    <ul class="list-unstyled list-inline list-text-separator" >
+  <div class="card-footer text-xs-center">
+    <ul class="list-unstyled list-inline list-text-separator mb-0" >
       {% for legal in contact.company.legal %}
         <li class="list-inline-item">{{ legal }}</li>
       {% endfor %}

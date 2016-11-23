@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="236px" viewBox="0 0 295 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop-computer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8" y="8" width="279" height="188.80597" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="283" height="192.80597">
+            <rect x="6" y="6" width="283" height="192.80597" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Cartes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-computer">
+            <rect id="Rectangle-2" fill="#4A4A4A" x="106.470588" y="196.80597" width="82.0588235" height="24.6268657"></rect>
+            <path d="M221.352941,227.250596 C221.352941,223.139183 218.016842,219.791045 213.901556,219.791045 L81.0984439,219.791045 C76.9919534,219.791045 73.6470588,223.1308 73.6470588,227.250596 L221.352941,227.250596 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+            <g id="Rectangle-Copy-6">
+                <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="16.2058824" y="16.2089552" width="262.588235" height="147.761194" rx="8"></rect>
+        </g>
+    </g>
+</svg>
