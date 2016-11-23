@@ -15,6 +15,16 @@ dans les nouvelles technologies de l’information et de la communication (NTIC)
 
 
 {% include page/section-title.html 
+    title="Livres"
+    src="/images/picto/section-book.svg" %}
+
+{% include books/card-list.html lang=lang bookList=site.data.books %}
+
+[En savoir plus...](/fr/books)
+
+
+
+{% include page/section-title.html 
     title="Applications Mobiles"
     src="/images/picto/section-mobile-app.svg" %}
 
@@ -27,12 +37,13 @@ Je peux également écrire vos application mobiles ou web sur demande.
 
 
 {% include page/section-title.html 
-    title="Livres"
-    src="/images/picto/section-book.svg" %}
+    title="Formations"
+    src="/images/picto/section-training.svg" %}
 
-{% include books/card-list.html lang=lang bookList=site.data.books %}
+Vous êtes un particulier, ou une entreprise, et vous souhaitez vous former, 
+ou former votre personnel, à l’utilisation des nouvelles technologies ? 
 
-[En savoir plus...](/fr/books)
+Contactez moi pour définir votre plan de formation.
 
 
 
@@ -52,19 +63,10 @@ Apprenez en plus sur mes compétences.
 
 
 {% include page/section-title.html 
-    title="Formations"
-    src="/images/picto/section-training.svg" %}
-
-Vous êtes un particulier, ou une entreprise, et vous souhaitez vous former, 
-ou former votre personnel, à l’utilisation des nouvelles technologies ? 
-
-Contactez moi pour définir votre plan de formation.
-
-
-{% include page/section-title.html 
     title="Contact"
     src="/images/picto/section-mail.svg" %}
 
 
 N'hésitez pas à me contacter pour plus de renseignements.
 
+{% include resume/contact-info.html %}

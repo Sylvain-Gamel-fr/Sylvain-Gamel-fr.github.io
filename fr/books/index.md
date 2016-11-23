@@ -4,7 +4,7 @@ title: Livres
 topNavigation: true
 subcategory: books
 lang: "fr"
-order: 2
+order: 1
 permalink: /fr/books/
 logoImage: "/images/picto/section-book.svg"
 ---

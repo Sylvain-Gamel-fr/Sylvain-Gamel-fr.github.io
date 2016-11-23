@@ -4,7 +4,7 @@ title: Logiciels
 lang: fr
 topNavigation: true
 subcategory: apps
-order: 1
+order: 2
 header_banner: banner_calcTVA-iPad.jpg
 permalink: /fr/applications/
 logoImage: "/images/picto/section-mobile-app.svg"

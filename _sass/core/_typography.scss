@@ -166,3 +166,33 @@ dl.timeline {
     }
     
 }
+
+
+.list-text-separator {
+    li {
+        &:after {
+            content: ";";
+            margin-left: 0.5em;
+            display: inline-block;
+        }
+        &:last-child:after {
+            content: ".";
+            margin-left: 0;
+            display: inline-block;
+        }
+    }
+}
+
+
+.card.contact {
+    width: 100%;
+    margin: 2em auto;
+    
+    @include media-breakpoint-up(md) {
+        width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 60%;
+    }
+}
+

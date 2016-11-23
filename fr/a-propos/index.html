@@ -66,6 +66,18 @@ permalink: /fr/a-propos/
           {% endfor %}
         </ul>
         
+        <div class="text-xs-right">
+          <button type="button" class="btn btn-link btn-sm"
+                  onclick="$('[role=tablist] [role=tabpanel]').collapse('show');" >
+            {{ site.data.i18n[ 'expand_all' ][ page.lang ] }}
+          </button>
+          <button type="button" class="btn btn-link btn-sm"
+                  onclick="$('[role=tablist] [role=tabpanel]').collapse('hide');" >
+            {{ site.data.i18n[ 'collapse_all' ][ page.lang ] }}
+          </button>
+        </div>
+        
+        
         {% for project in site.data.resume_project_types %}
           {% include resume/project_type.html project=project %}
         {% endfor %}

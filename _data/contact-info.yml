@@ -1,0 +1,33 @@
+name:
+    first: Sylvain
+    last: Gamel
+address:
+    street: 
+        - 216 Chemin de Chense
+    zip: 83600
+    city: Les Adrets de l'Estérel
+    country: France
+company: 
+    name: "S.G. inTech"
+    status: "e.u.r.l."
+    legal:  
+        - "E.U.R.L. au capital de 5000€"
+        - "RDC Draguignan B 528 079 197"
+        - "SIRET 52807919700018"
+        - "Code NAF (ex. APE) 6202A"
+        - "TVA Intracommunautaire: FR41528079197"
+phone: "(+33) 6 42 42 56 52"
+email: contact+web@SGinTech.fr
+links:
+    - name: S.G. inTech
+      icon: corporate
+      url:  http://sgintech.fr/
+    - name: Coding Blog
+      icon: corporate
+      url:  http://code.SylvainGamel.fr/
+    - name: Personnal Blog
+      icon: Tumblr
+      url:  http://tumblr.SylvainGamel.fr/
+    - name: YouTube
+      icon: YouTube
+      url:  http://youtube.SylvainGamel.fr/
