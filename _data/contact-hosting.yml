@@ -1,0 +1,36 @@
+- role: editor
+  company: 
+    name: "S.G. inTech"
+    status: "e.u.r.l."
+    legal:  
+            - "E.U.R.L. au capital de 5000€"
+            - "RDC Draguignan B 528 079 197"
+            - "SIRET 52807919700018"
+            - "Code NAF (ex. APE) 6202A"
+            - "TVA Intracommunautaire: FR41528079197"
+  address:
+    street: 
+            - 216 Chemin de Chense
+    zip: 83600
+    city: Les Adrets de l'Estérel
+    country: France
+  phone: "(+33) 6 42 42 56 52"
+  email: contact+web@SGinTech.fr
+
+
+- role: hosting
+  company: 
+    name: "GitHub B.V."
+    legal:  
+            - "E.U.R.L. au capital de 5000€"
+            - "RDC Paris B 808 709 794"
+            - "SIRET 80870979400016"
+            - "Code NAF 6201Z"
+  address:
+    street: 
+            - PRIUS BERNHARDPLEIN 200 
+    city: Pays Bas
+    country: United States
+  phone: "+1 (877) 448-4820"
+  email: sales@github.com
+

@@ -1,5 +1,5 @@
 ---
-layout: naked
+layout: default
 title: À propos
 topNavigation: true
 subcategory: about
@@ -8,9 +8,6 @@ order: 100
 permalink: /fr/a-propos/
 ---
 
-{% include page/header.html title=page.title %}
-
-<div class="wrapper row" >
   <section class="about-resume container pt-0">
 
     <header class="card fx-medium-shadow">
@@ -18,8 +15,11 @@ permalink: /fr/a-propos/
         <img src="/images/portrait/sylvain-gml.jpg" alt="Ma photo" class="portrait rounded-circle ">
         <h2 class="card-title mt-0 mb-2 text-xs-left">Sylvain <span class="text-smallcaps">Gamel</span></h4>
         <div class="card-subtitle text-muted">
-          Ingénieur développement,<br>
-          Assistance Maîtrise d’ouvrage
+          <ul class="list-unstyled">
+            <li>Ingénieur développement,</li>
+            <li>Assistance Maîtrise d’ouvrage,</li>
+            <li>Interfaces et expérience utilisateur.</li>
+          </ul>
         </div>
       </div>
     </header>
@@ -272,4 +272,3 @@ permalink: /fr/a-propos/
     </div>
 
   </section>
-</div>

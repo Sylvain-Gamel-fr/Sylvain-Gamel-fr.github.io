@@ -1,0 +1,34 @@
+{% assign contact = include.contact %}
+
+<h4>
+  {% if contact.company.status %}
+    <span class="text-smallcaps">{{ contact.company.status }}</span>
+  {% endif %}
+  {{ contact.company.name }}
+</h4>
+
+
+<address>
+  {% for addrRow in contact.address.street %}
+    <div>{{ addrRow }}</div>
+  {% endfor %}
+  
+  <div>
+    {% if contact.address.zip %}
+      <span class="zip">{{ contact.address.zip }}</span>
+    {% endif %}
+    {% if contact.address.city %}
+      <span class="city">{{ contact.address.city }}</span>
+    {% endif %}
+  </div>
+  
+  {% if contact.address.country %}
+    <div class="country">{{ contact.address.country }}</div>
+  {% endif %}
+</address>
+
+<ul class="list-unstyled" >
+  {% for legal in contact.company.legal %}
+    <li>{{ legal }}</li>
+  {% endfor %}
+</ul>
