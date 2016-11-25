@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Mentions Légales"
+order: 20
+type: footer-link
 lang: fr
 permalink: fr/mentions-legales.html
 ---

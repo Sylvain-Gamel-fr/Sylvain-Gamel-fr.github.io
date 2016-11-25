@@ -1,0 +1,8 @@
+{% assign specialPages = site.pages | where: "lang", page.lang | where: "type", "footer-link" | sort: 'order' %}
+{% if specialPages %}
+  <ul>
+    {% for thePage in specialPages %}
+      <li><a href="{{ thePage.url }}">{{ thePage.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
