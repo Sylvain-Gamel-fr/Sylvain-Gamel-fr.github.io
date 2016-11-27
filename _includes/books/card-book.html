@@ -20,16 +20,16 @@
 {% endif %}
 
 <div class="book-card media mt-2 mb-2">
-  <a class="media-left" 
+  <a class="media-left " 
      href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}">
-    <img class="media-object" 
+    <img class="media-object fx-flat-popin fx-light-shrink fx-fine-border" 
          src="{{ book.cover.small | relative_url }}" 
          alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
   </a>
   <div class="media-body">
     <h4 class="media-heading">{{ title }}</h4>
     <p>
-      {{ description }}
+      {{ description | markdownify }}
     </p>
           <small class="text-xs-right">
         <a href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}" 

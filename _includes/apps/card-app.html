@@ -22,14 +22,14 @@
 <div class="app-card media mt-2 mb-2">
   <a class="media-left" 
      href="{{ appPage | prepend: "applications/" | prepend: site.baseurl }}">
-    <img class="media-object" 
+    <img class="media-object fx-flat-popin fx-light-shrink" 
          src="{{ app.icon.small | relative_url }}" 
          alt="{{ site.data.i18n[ 'app_icon_alt' ][ lang ] }}" >
   </a>
   <div class="media-body">
     <h4 class="media-heading">{{ appName }}</h4>
     <p>
-      {{ description }}
+      {{ description |markdownify }}
     </p>
           <small class="text-xs-right">
         <a href="{{ appPage | prepend: "applications/" | prepend: site.baseurl }}" 

@@ -55,6 +55,9 @@
     &:focus {
         transform: scale(1.4);
         
+        &.fx-light-shrink {
+            transform: scale(0.9);
+        }
         &.fx-light-zoom {
             transform: scale(1.1);
         }
