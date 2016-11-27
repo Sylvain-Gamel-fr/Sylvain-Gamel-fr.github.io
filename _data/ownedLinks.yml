@@ -1,24 +1,78 @@
-- service: Twitter
-  name: Mon Twitter
-  url: https://twitter.com/sgamel
-  icon: social-twitter.svg
-    
 - service: YouTube
+  visibleIn: 
+    - footer
   name: Chaine YouTube
+  group: 01_social
   url: https://youtube.com/user/sgamel
   icon: social-youtube.svg
+  description:
+    fr: Ma chaine de tutoriels sur iOS et macOS.
+  
+- service: Twitter
+  visibleIn: 
+    - footer
+  name: Mon Twitter
+  group: 01_social
+  url: https://twitter.com/sgamel
+  icon: social-twitter.svg
+  description: 
+    fr: Mon compte Twitter personnel. J'y parle de tout.
+    
+- service: LinkedIn
+  name: LinkedIn
+  group: 05_biz
+  url: https://fr.linkedin.com/in/sgamel
+  icon: social-linkedin.svg
+  description:
+    fr: Pour des contacts pro.
   
 - service: Github
   name: Personnel
+  group: 10_code
   url: https://github.com/sylvaingml
   icon: social-github.svg
+  description:
+    fr: Mon espace sur GitHub.
   
 - service: Github
   name: Automatisation
+  group: 10_code
   url: https://github.com/automatisez
   icon: social-github.svg
+  description:
+    fr: L'espace dédié aux outils d'automatisation comme Automator.
   
 - service: Facebook
   name: "Facebook"
+  visibleIn: 
+    - footer
+  group: 01_social
   url: https://www.facebook.com/SGinTech/
   icon: social-facebook.svg
+  description:
+    fr: Aimez, ou abonnez-vous à, ma page Facebook.
+        
+- service: Instagram
+  name: "Instagram"
+  group: 07_photo
+  url: https://www.instagram.com/sgamel/
+  icon: social-instagram.svg
+  description:
+    fr: Mon journal en photo.
+        
+- service: 500px
+  name: "500px"
+  group: 07_photo
+  url: https://www.500px.com/sgamel/
+  icon: social-500px.svg
+  description:
+    fr: Une sélection plus réduite de mes photographies.
+        
+- service: Flick
+  name: "Flickr"
+  group: 07_photo
+  url: https://www.flickr.com/sgamel/
+  icon: social-flickr.svg
+  description:
+    fr: Mon plus ancien espace de photos.
+        

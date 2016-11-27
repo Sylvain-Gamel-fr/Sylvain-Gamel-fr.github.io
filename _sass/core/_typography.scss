@@ -189,3 +189,14 @@ dl.timeline {
 }
 
 
+.link-card {
+    img {
+        max-height: 3em;
+    }
+    
+    .link-details {
+        @include media-breakpoint-up(sm) {
+            min-height: 7em;
+        }
+    }
+}
