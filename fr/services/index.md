@@ -6,5 +6,6 @@ subcategory: services
 lang: "fr"
 order: 3
 permalink: /fr/services/
+logoImage: "/images/picto/section-services.svg"
 ---
 

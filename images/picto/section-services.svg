@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>section-services</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M109.206565,26.8762755 C109.202202,26.9845354 109.2,27.0933497 109.2,27.2026765 L109.2,47.2331962 C109.2,51.6414562 112.780382,55.2266152 117.197008,55.2266152 L122.802992,55.2266152 C127.208952,55.2266152 130.8,51.6478396 130.8,47.2331962 L130.8,27.2026765 C130.8,27.0933556 130.797798,26.9845409 130.793436,26.8762746 C133.755684,24.0354842 135.6,20.0369883 135.6,15.6075217 C135.6,6.98772548 128.615642,3.55271368e-15 120,3.55271368e-15 C111.384358,3.55271368e-15 104.4,6.98772548 104.4,15.6075217 C104.4,20.0369888 106.244317,24.035485 109.206565,26.8762755 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.2" height="55.2266152" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="136.865959" width="240" height="26.412729" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="240" height="26.412729" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M216,133.264224 C216,80.2193239 173.019336,37.2179364 120,37.2179364 C66.980664,37.2179364 24,80.2193239 24,133.264224 L216,133.264224 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="192" height="96.0462874" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M116.400002,50.0287132 C119.922892,49.4985335 123.52937,49.2237223 127.200002,49.2237223 C166.964504,49.2237223 199.200002,81.474763 199.200002,121.258438 L177.600002,121.258438 C177.600002,85.1471645 151.041095,55.2420472 116.4,50.0287129 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="82.8000021" height="72.0347155" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-services">
+            <circle id="Oval-2" fill-opacity="0.3" fill="#F8E71C" cx="150" cy="150" r="140"></circle>
+            <g id="Group-2" transform="translate(30.000000, 68.000000)" stroke="#4A4A4A" fill="#FFFFFF">
+                <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                <use id="Rectangle-Copy-5" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                <use id="Combined-Shape" mask="url(#mask-6)" stroke-width="10" xlink:href="#path-5"></use>
+                <use id="Combined-Shape" mask="url(#mask-8)" stroke-width="6" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>
