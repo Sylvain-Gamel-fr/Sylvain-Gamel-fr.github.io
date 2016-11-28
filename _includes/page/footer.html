@@ -24,10 +24,16 @@
         <ul class="list-unstyled list-social small" >
           {% assign linkList = site.data.ownedLinks | where_exp: "item", "item.visibleIn contains 'footer'" %}
           {% for currentLink in linkList %}
-          <li class="list-item-custom">
+            {% if currentLink.name[ page.lang ] %}
+              {% assign theName = currentLink.name[ page.lang ] %}
+            {% else %}
+              {% assign theName = currentLink.name %}
+            {% endif %}
+
+            <li class="list-item-custom">
               <a href="{{ currentLink.url }}">
                 <img class="social-icon" src="{{ "/images/social/" | append: currentLink.icon | relative_url }}" alt="{{ currentLink.service }}">
-                {{ currentLink.name }}
+                {{ theName }}
               </a>
             </li>
           {% endfor %}

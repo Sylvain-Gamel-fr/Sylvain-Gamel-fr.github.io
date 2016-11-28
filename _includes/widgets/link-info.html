@@ -9,10 +9,23 @@
       </a>
     </div>
     
-    <a href="{{ include.href }}" >{{ include.name }}</a>
     
-    {% if include.details %}
-    <p class="link-details text-xs-left small mt-1 mb-0">{{ include.details }}</p>
+    {% if include.name[ page.lang ] %}
+      {% assign theName = include.name[ page.lang ] %}
+    {% else %}
+      {% assign theName = include.name %}
+    {% endif %}
+    
+    <a href="{{ include.href }}" >{{ theName }}</a>
+    
+    {% if include.description %}
+      {% if include.description[ page.lang ] %}
+        {% assign theDescription = include.description[ page.lang ] %}
+      {% else %}
+        {% assign theDescription = include.description %}
+      {% endif %}
+      
+      <p class="link-details text-xs-left small mt-1 mb-0">{{ theDescription }}</p>
     {% endif %}
   </div>
 </div>

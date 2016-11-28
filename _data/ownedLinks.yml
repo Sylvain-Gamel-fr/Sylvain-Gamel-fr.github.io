@@ -1,21 +1,27 @@
 - service: YouTube
   visibleIn: 
     - footer
-  name: Chaine YouTube
+  name: 
+    en: YouTube channel
+    fr: Chaine YouTube    
   group: 01_social
   url: https://youtube.com/user/sgamel
   icon: social-youtube.svg
   description:
+    en: My iOS and macOS tutorial channel.
     fr: Ma chaine de tutoriels sur iOS et macOS.
   
 - service: Twitter
   visibleIn: 
     - footer
-  name: Mon Twitter
+  name: 
+    fr: Mon Twitter
+    en: My Twitter
   group: 01_social
   url: https://twitter.com/sgamel
   icon: social-twitter.svg
   description: 
+    en: My personnal Twitter account. I talk and share of quite anything.
     fr: Mon compte Twitter personnel. J'y parle de tout.
     
 - service: LinkedIn
@@ -24,14 +30,18 @@
   url: https://fr.linkedin.com/in/sgamel
   icon: social-linkedin.svg
   description:
+    en: For business contacts.
     fr: Pour des contacts pro.
   
 - service: Github
-  name: Personnel
+  name: 
+    en: Personal
+    fr: Personnel
   group: 10_code
   url: https://github.com/sylvaingml
   icon: social-github.svg
   description:
+    en: My personnal space on GitHub.
     fr: Mon espace sur GitHub.
   
 - service: Github
@@ -40,6 +50,7 @@
   url: https://github.com/automatisez
   icon: social-github.svg
   description:
+    en: My space dedicated to automatization like Automator.
     fr: L'espace dédié aux outils d'automatisation comme Automator.
   
 - service: Facebook
@@ -50,6 +61,7 @@
   url: https://www.facebook.com/SGinTech/
   icon: social-facebook.svg
   description:
+    en: Like, or subscribe to, ma Facebook page.
     fr: Aimez, ou abonnez-vous à, ma page Facebook.
         
 - service: Instagram
@@ -58,7 +70,8 @@
   url: https://www.instagram.com/sgamel/
   icon: social-instagram.svg
   description:
-    fr: Mon journal en photo.
+    en: The square photographic diary.
+    fr: Mon journal en photos carrées.
         
 - service: 500px
   name: "500px"
@@ -66,6 +79,7 @@
   url: https://www.500px.com/sgamel/
   icon: social-500px.svg
   description:
+    en: A more selective set of my photographic works.
     fr: Une sélection plus réduite de mes photographies.
         
 - service: Flick
@@ -74,5 +88,6 @@
   url: https://www.flickr.com/sgamel/
   icon: social-flickr.svg
   description:
+    en: My most ancien photo gallery.
     fr: Mon plus ancien espace de photos.
         
