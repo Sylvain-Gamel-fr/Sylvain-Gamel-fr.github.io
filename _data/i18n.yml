@@ -22,7 +22,9 @@ app_getNow_title:
 youtube_link:
     en: See on YouTube...
     fr: Voir sur YouTube...
-
+page_banner_alt:
+    en: Decorative image for the page top.
+    fr: Image de décoration pour la haut de la page.
 resume_scope:
     en: Project scope
     fr: Périmètre fonctionnel

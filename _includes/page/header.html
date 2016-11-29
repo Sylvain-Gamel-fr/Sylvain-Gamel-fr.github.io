@@ -24,7 +24,7 @@
   {% if page.layout != 'post' %}
     <div class="header-visual">
       {% if bannerImg %}
-        <img class="" src="/images/heading/{{bannerImg}}" aria-hidden="true">
+        <img class="" src="/images/heading/{{bannerImg}}" aria-hidden="true" alt="{{ site.data.i18n[ 'page_banner_alt' ][ lang ] }}">
       {% endif %}
     </div>
   {% endif %}
