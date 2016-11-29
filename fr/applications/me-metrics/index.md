@@ -36,7 +36,7 @@ Créez un compteur et une tape le met à jour. Voilà le chemin le plus simple p
 {% capture automateTxt %}
 #### Automatisez !
 
-S’intègre avec vos processus automatiques en utilisant le protocole x-callback-url.
+S’intègre avec vos processus automatiques en utilisant le protocole `x-callback-url`.
 
 - obtenir la liste des compteurs ;
 - appliquer l'incrément par défaut sur un compteur ;

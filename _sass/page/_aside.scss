@@ -1,6 +1,14 @@
 @import "../variables";
 
 aside {
+    h3 {
+        // Disable the horizontal left/right decoration
+        &:before,
+        &:after {
+            content: none;
+        }
+    }
+    
     background-color: transparentize(colorNamed(whiteGrey), 0.3);
 
     padding: 0.5em;
