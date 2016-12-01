@@ -1,0 +1,91 @@
+---
+
+- 
+  title:
+    fr: Études
+    en: Studies
+  list:
+    - 
+      year: 1992
+      details:
+        fr: D.U.T. d'informatique
+        en: D.U.T. of Computer Science
+      description:
+        fr: I.U.T. de Nice Sophia-Antipolis.
+        en: I.U.T. from Nice Sophia-Antipolis
+    - 
+      year: 1993
+      details:
+        fr: Licence d'informatique
+        en: Licence of Computer Science
+      description:
+        fr: U.F.R. de Nice Sophia-Antipolis.
+        en: U.F.R. from Nice Sophia-Antipolis.
+    - 
+      year: 1994
+      details:
+        fr: Maitrise d'informatique
+        en: Master of Computer Science
+      description:
+        fr: U.F.R. de Nice Sophia-Antipolis.
+        en: U.F.R. from Nice Sophia-Antipolis.
+    - 
+      year: 1996
+      details:
+        fr: D.E.A. Informatique
+        en: D.E.A. Computer science
+      description:
+        fr: architecture et temps réels.
+        en: architecture and real time.
+- 
+  title:
+    fr: Vie active
+    en: Professional life
+  list:
+    - year: 1997
+      details: IWACO France-Mailing
+      description:
+        fr: Développement d'une activité internet. Activités de conception, de développement et administration système.
+        en: Development of an internet activity. Design, development and system administration activities.
+    - year: 1998
+      details: Lucent Technologie
+      description:
+        fr: Développement en C, puis C++ et Java de solution de messagerie unifiées.
+        en: Development in C, then C ++ and Java unified messaging solution.
+    - year: 2001
+      details: Finances Technologie, Sophia-Antipolis
+      description:
+        fr: Développement en Java de solutions de suivi de portefeuilles boursiers.
+        en: Development in Java of stock tracking business components and UI.
+    - year: 2002
+      details: SoluPhone
+      description:
+        fr: Développement en Java et Swing d'application d'envoi de SMS. 
+            Notamment un produit destinés aux établissement scolaires pour
+            le suivi d'absences.
+        en: Development in Java and Swing application sending SMS.
+            Notably a product intended for schools to monitor absences.
+    - year: 2004
+      details: TeraCom, agence de Sophia-Antipolis
+      description:
+        fr: Mise en œuvre de projets pour Texas Instruments, puis en régie chez Amadeus.
+        en: Implemented projects for Texas Instruments, then managed by Amadeus.
+    - year: 2008
+      details: TeraCom, agence de Hyères
+      description:
+        fr: Mision de M.O.A. de deux ans pour l'AGPM située à Toulon.
+            Analyse de besoins et rédaction de spécifications fonctionnelles
+            en interface entre la division contrats et la D.S.I.
+        en: Assistance to project definition and specification. 
+            Of two years for the AGPM located in Toulon.
+            Analysis of requirements and drafting of functional specifications 
+            in interface between the contracts division and the I.T. department.
+    - year: 2010
+      details: S.G. inTech
+      description:
+        fr: création de ma société. 
+            Début de missions chez Amadeus, dans un centre de compétences dédié
+            à une société Australienne.
+        en: Creation of my company.
+            Start of missions at Amadeus, in a competence center dedicated 
+            to an Australian company.

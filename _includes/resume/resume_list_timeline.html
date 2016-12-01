@@ -1,0 +1,20 @@
+<h5>{{ include.group.title[ page.lang ] }}</h5>
+<dl class="timeline">
+  {% for item in include.group.list %}
+    <dt>{{ item.year }}</dt>
+    <dd>
+      {% assign text = "_" | append: item.details | append: "_ " %}
+      {% if item.details[ page.lang ] %}
+        {% assign text = "_" | append: item.details[ page.lang ] | append: "_" %}
+        {% if item.description[ page.lang ] %}
+          {% assign text = text | append: "&nbsp;,\n\n" %}
+        {% endif %}
+      {% endif %}
+      {% if item.description[ page.lang ] %}
+        {% assign text = text | append: item.description[ page.lang ] %}
+      {% endif %}
+      
+      {{ text | markdownify }}
+    </dd>
+  {% endfor %}
+</dl>

@@ -1,148 +1,171 @@
-- id: moa
-  title: Assistance maîtrise d’ouvrage
-  description:
-    fr: Rédaction de _spécifications fonctionnelles_ pour la gestion 
-        des adhésions dans une mutuelle toulonnaise.
-    en: 
-  scope:
-    fr: 
-        - analyse de besoins pour l'adhésion à des contrats d'assurance&nbsp;;
-        - définition du contenu et de l'enchainement des écrans&nbsp;;
-        - conception de l'ergonomie&nbsp;;
-        - prise en charge de la validation auprès des utilisateurs.
-  technologies:
-  
-  
-- id: sms
+- 
+  id: moa
   title: 
-    fr: Applications SMS
-    en: SMS Software
-  description:
-    fr: Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination 
-        des établissements scolaires pour la notification des absences.
+    en: "Project management assistance"
+    fr: "Assistance maîtrise d’ouvrage"
+  description: 
+    en: "Definition of the _functional specifications_ for a membership management system in an insurance company located in Toulon."
+    fr: "Rédaction de _spécifications fonctionnelles_ pour la gestion des adhésions dans une mutuelle toulonnaise."
+  scope: 
     en: 
-  scope:
+      - "Needs analysis for insurance subcription contracts ;"
+      - "definition of the content and sequence of screens ;"
+      - "design of ergonomics  ;"
+      - "validation support for users."
     fr: 
-        - Refonte de l'architecture de l'application client
-        - Redéfiniton de l'ergonomie des interfaces
-  technologies:
-    fr: 
-        - Java (client)
-        - "Java/Swing: Interfaces utilisateur"
-    en: 
-
-  
-- id: testingTools
+      - "analyse de besoins pour l'adhésion à des contrats d'assurance ;"
+      - "définition du contenu et de l'enchainement des écrans ;"
+      - "conception de l'ergonomie ;"
+      - "prise en charge de la validation auprès des utilisateurs."
+  technologies: ~
+- 
+  id: sms
   title: 
-    fr: Outils de validation
+    en: "SMS Software"
+    fr: "Applications SMS"
+  description: 
+    en: "Redesign of the architecture and the user interface of a sending SMS tool. This was used by schools for the notification of absences to parents."
+    fr: "Refonte de l’architecture et de l’interface d’un outil d’envoi de SMS à destination des établissements scolaires pour la notification des absences."
+  scope: 
+    en: 
+      - "Redesign of the client application architecture"
+      - "Redefining interface ergonomics"
+    fr: 
+      - "Refonte de l'architecture de l'application client"
+      - "Redéfiniton de l'ergonomie des interfaces"
+  technologies: 
+    en: 
+      - "Java (client)"
+      - "Java/Swing: User interfaces"
+    fr: 
+      - "Java (client)"
+      - "Java/Swing: Interfaces utilisateur"
+- 
+  id: testingTools
+  title: 
     en: Test and Validation tools
-  description:
-    fr: Pilotage et implémentation d’une suite d’outils de génération de code 
-        pour des tests de plateformes embarquées. 
+    fr: Outils de validation
+  description: 
+    en: |
+        Control and implementation of a suite of code generation tools  for the test and validation of embedded platforms.
         
+        The simulated modules can interact with elements on simulator or _SoC_.
+    fr: |
+        Pilotage et implémentation d’une suite d’outils de génération de code  pour des tests de plateformes embarquées. 
         
-        Les modules simulés pouvant interagir avec des éléments sur simulateur
-        ou _SoC_.
+        Les modules simulés pouvant interagir avec des éléments sur simulateur ou _SoC_.
+  scope: 
     en:
-  scope:
-    fr:
-        - analyse de fichiers d'interfaces en C, Excel, Word
-        - génération de modules simulants les interfaces analysées
-        - génération d'interfaces pour le langage TTCN3 pour piloter ses simulateurs
-  technologies:
-    fr:
-        - Analyse syntaxique et génération en Perl
-        - Simulateurs et communications implémentées en C++ et Java
-    en:
-  
-  
-- id: 1A
+      - "analysis of interfaces files in C, Excel, Word"
+      - "generation of modules simulating the analyzed interfaces"
+      - "generation of interfaces for the TTCN3 language to control its simulators"
+    fr: 
+      - "analyse de fichiers d'interfaces en C, Excel, Word"
+      - "génération de modules simulants les interfaces analysées"
+      - "génération d'interfaces pour le langage TTCN3 pour piloter ses simulateurs"
+  technologies: 
+    en: 
+      - "Syntax analysis and parsing for C headers implemented in Perl"
+      - "C++ and Java simulators et communication layer"
+    fr: 
+      - "Analyse syntaxique et génération en Perl"
+      - "Simulateurs et communications implémentées en C++ et Java"
+- 
+  id: 1A
   title: 
-    fr: Réservation aérienne
-    en: Online Air Booking
-  description:
-    fr: "##### Serveur
+    en: "Online Air Booking"
+    fr: "Réservation aérienne"
+  description: 
+    en: |
+        ##### Server
         
+        Implementation of components in the booking engine for  the site of a large European company.
         
-        Implémentation de composants dans le moteur de réservation pour 
-        le site des abonnés d’une grande compagnie européenne.
+        ##### Administration tools
         
+        Design and development of a rule engine and a JSP tags library  for conditionally inserting content into pages.
+        
+        ##### Client web application
+        
+        Updated and created pages for the reservations flow for a large  North American company.
+        Design and implementation of HTML pages from graphic models for an  Australian airline.
+        
+        ##### Mobile web application
+        
+        Realization of the models and mobile site of booking of flights  for an Australian airline.
+    fr: |
+        ##### Serveur
+        
+        Implémentation de composants dans le moteur de réservation pour  le site d’une grande compagnie européenne.
         
         ##### Outils d'administration
         
-        
-        Conception et réalisation d’un moteur de règles et d’une 
-        bibliothèque de tags JSP pour insérer du contenu de façon 
-        conditionnelle dans les pages.
-        
+        Conception et réalisation d’un moteur de règles et d’une  bibliothèque de tags JSP pour insérer du contenu de façon  conditionnelle dans les pages.
         
         ##### Application web clientes
         
+        Mise à jour et création de pages pour le flot de réservations  pour une grande compagnie nord-américaine.
+        Conception et implémentation de pages HTML à partir de maquettes  graphiques pour une compagnie aérienne australienne.
         
-        Mise à jour et création de pages pour le flot de réservations 
-        pour une grande compagnie nord-américaine.
-        
-        Conception et implémentation de pages HTML à partir de maquettes 
-        graphiques pour une compagnie aérienne australienne.
-
-
         ##### Application web mobile
         
-        
-        Réalisation des maquettes et du site mobile de réservation de 
-        vols pour une compagnie aérienne australienne."
-    en:
-  technologies:
-      - Java/J2EE
-      - JSP
-      - HTML5
-      - LessCss, Sass
-      - JavaScript, TypeScript
-  
-  
-- id: finance
+        Réalisation des maquettes et du site mobile de réservation de  vols pour une compagnie aérienne australienne.
+  technologies: 
+    - Java/J2EE
+    - JSP
+    - HTML5
+    - "LessCss, Sass"
+    - "JavaScript, TypeScript"
+- 
+  id: finance
   title: 
-    fr: Finance
     en: Finance
-  description:
-    fr: Socle applicatif Java pour construire des applications de 
-        gestion et suivi boursier.
-    en:
-  scope:
+    fr: Finance
+  description: 
+    en: "Java application base to build management applications and stock tracking."
+    fr: "Socle applicatif Java pour construire des applications de gestion et suivi boursier."
+  scope: 
+    en: 
+      - "Built-in Java application in a browser ;"
+      - "Design and implementation of reusable business components and UIs."
     fr: 
-        - Application Java intégrée dans un navigateur&nbsp;
-        - Construction de composants métier et UI réutilisables.
-  technologies:
+      - "Application Java intégrée dans un navigateur "
+      - "Construction de composants métier et UI réutilisables."
+  technologies: 
+    en: 
+      - Java
+      - "Automated deployement via internet browser."
     fr: 
-        - Java
-        - Deploiement automatique via navigateur Internet.
-    en:
-
-  
-- id: directory
+      - Java
+      - "Deploiement automatique via navigateur Internet."
+- 
+  id: directory
   title: 
-    fr: Sites d’annuaires
     en: Directories
-  description:
-    fr: Développement d'une activité internet pour une société vendant 
-        du fichier d'adresses sur CDROM.
-        
-        
-        Création d'une solution de vente de site de référencement 
-        pour hotels.
-    en:
-  scope:
+    fr: "Sites d’annuaires"
+  description: 
+    en: "Development of an internet activity for a company selling a business _address book_ file and application on CDROM. \\n\\n Creation of a website sales solution for hotels.\n"
+    fr: |
+        Développement d'une activité internet pour une société vendant  un _fichier d'adresses_ professionnel sur CDROM.
+        Création d'une solution de vente de site de référencement pour hotels.
+  scope: 
+    en: 
+      - "address file capturing tools on telematics flow;"
+      - "system administration;"
+      - "DBMS design ;"
+      - "design and development of internet applications;"
+      - "Personalized mini-sites for hotels;"
+      - "Full realization in PHP on a PostgreSQL database."
     fr: 
-        - outils de capture de fichier d'adresse sur flux télématique&nbsp;
-        - administration système&nbsp;
-        - conception SGBD&nbsp;
-        - conception et développement des applications internet&nbsp;
-          <li>Mini-sites personnalisés pour les hôtels.</li>
-          <li>Réalisation complète en PHP sur une base PostgreSQL.
-  technologies:
+      - "outils de capture de fichier d'adresse sur flux télématique ;"
+      - "administration système ;"
+      - "conception SGBD ;"
+      - "conception et développement des applications internet ;"
+      - "Mini-sites personnalisés pour les hôtels ;"
+      - "Réalisation complète en PHP sur une base PostgreSQL."
+  technologies: 
     - Linux
     - Apache
-    - SGBD PostgreSQL
+    - "SGBD PostgreSQL"
     - PHP/FI
     - Perl
-  
