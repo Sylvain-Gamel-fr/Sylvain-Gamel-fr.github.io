@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>post-default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="150" height="200" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="-1.42108547e-14" width="150" height="200" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="200" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Post-category-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="post-default">
+            <g id="Group-4" transform="translate(132.163171, 137.502006) rotate(-15.000000) translate(-132.163171, -137.502006) translate(57.163171, 37.502006)">
+                <use id="Rectangle" stroke="#4A4A4A" mask="url(#mask-2)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M19.3520922,21.25 L130.688171,21.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,180 L130.688171,180" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,93.75 L130.688171,93.75" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,50 L130.688171,50" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,65 L130.688171,65" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,36.25 L130.688171,36.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,78.75 L130.688171,78.75" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,107.5 L130.688171,107.5" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,136.25 L130.688171,136.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,165 L130.688171,165" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,122.5 L130.688171,122.5" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,151.25 L130.688171,151.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-4" transform="translate(167.836829, 162.497994) rotate(-360.000000) translate(-167.836829, -162.497994) translate(92.836829, 62.497994)">
+                <use id="Rectangle" stroke="#4A4A4A" mask="url(#mask-4)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <path d="M19.3520922,21.25 L130.688171,21.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,180 L106.176164,180" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,93.75 L130.688171,93.75" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,50 L130.688171,50" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,65 L130.688171,65" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,36.25 L130.688171,36.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,78.75 L130.688171,78.75" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,107.5 L130.688171,107.5" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,136.25 L130.688171,136.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,165 L130.688171,165" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,122.5 L130.688171,122.5" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M19.3520922,151.25 L130.688171,151.25" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <text id="note" font-family="HelveticaNeue, Helvetica Neue" font-size="2" font-weight="normal" fill="#9B9B9B">
+                <tspan x="201.498" y="243">design by Sylvain Gamel</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

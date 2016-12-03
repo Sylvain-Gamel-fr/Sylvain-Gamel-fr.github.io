@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>post-think</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Post-category-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="post-think">
+            <g id="Group-2" transform="translate(33.000000, 9.000000)" stroke-opacity="0.5" stroke="#4A4A4A" stroke-width="5">
+                <path d="M117.5,32.5 L117.5,0.437560916" id="Line"></path>
+                <g id="Group" transform="translate(0.000000, 118.000000)">
+                    <path d="M200,1 L233.062439,1" id="Line"></path>
+                    <path d="M0,1 L31.0624391,1" id="Line"></path>
+                </g>
+                <g id="Group" transform="translate(117.000000, 119.000000) rotate(-30.000000) translate(-117.000000, -119.000000) translate(0.000000, 118.000000)">
+                    <path d="M200,1 L233.062439,1" id="Line"></path>
+                    <path d="M0,1 L31.0624391,1" id="Line"></path>
+                </g>
+                <g id="Group" transform="translate(117.000000, 119.000000) rotate(-330.000000) translate(-117.000000, -119.000000) translate(0.000000, 118.000000)">
+                    <path d="M200,1 L233.062439,1" id="Line"></path>
+                    <path d="M0,1 L31.0624391,1" id="Line"></path>
+                </g>
+                <g id="Group" transform="translate(117.000000, 119.000000) rotate(-60.000000) translate(-117.000000, -119.000000) translate(0.000000, 118.000000)">
+                    <path d="M200,1 L233.062439,1" id="Line"></path>
+                    <path d="M0,1 L31.0624391,1" id="Line"></path>
+                </g>
+                <g id="Group" transform="translate(117.000000, 119.000000) rotate(-120.000000) translate(-117.000000, -119.000000) translate(0.000000, 118.000000)">
+                    <path d="M200,1 L233.062439,1" id="Line"></path>
+                    <path d="M0,1 L31.0624391,1" id="Line"></path>
+                </g>
+            </g>
+            <path d="M165,269 C165,277.284271 158.284271,284 150,284 C141.715729,284 135,277.284271 135,269 L165,269 Z" id="Combined-Shape" stroke="#4A4A4A" stroke-width="5"></path>
+            <path d="M179.423119,197.008505 C206.219416,185.56869 225,158.977565 225,128 C225,86.5786438 191.421356,53 150,53 C108.578644,53 75,86.5786438 75,128 C75,158.977254 93.780206,185.568156 120.576073,197.00816 C120.204441,197.931173 120,198.939563 120,199.995785 L120,254.004215 C120,258.420342 123.581073,262 127.99855,262 L172.00145,262 C176.426411,262 180,258.420165 180,254.004215 L180,199.995785 C180,198.93968 179.795193,197.931413 179.423119,197.008505 L179.423119,197.008505 Z" id="Combined-Shape" stroke="#4A4A4A" stroke-width="5"></path>
+            <polyline id="Rectangle" stroke="#4A4A4A" stroke-width="5" points="132 199.349593 132 157.349593 140.652285 150 150.513543 157.349593 159.671929 150 168 157.349593 168 199.349593"></polyline>
+            <text id="note" transform="translate(132.000000, 179.000000) rotate(-90.000000) translate(-132.000000, -179.000000) " font-family="HelveticaNeue, Helvetica Neue" font-size="3" font-weight="normal" fill="#9B9B9B">
+                <tspan x="115.497" y="180">design by Sylvain Gamel</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

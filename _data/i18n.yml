@@ -38,3 +38,34 @@ expand_all:
 collapse_all:
     en: Collapse all
     fr: Tout plier
+    
+postIconLabels:
+    post-default.svg: 
+        en: Generic post
+        fr: Billet d'actualité
+    post-book.svg: 
+        en: Book
+        fr: Livre
+    post-ios.svg: 
+        en: iOS, iPhone and iPad
+        fr: iOS, iPhone et iPad
+    post-macOS.svg: 
+        en: macOS
+        fr: macOS
+    post-think.svg: 
+        en: Thinking
+        fr: Réflexions
+    post-youtube.svg: 
+        en: YouTube Video
+        fr: Vidéo YouTube
+            
+paginator:
+    prev:
+        en: Previous
+        fr: Précédente
+    next:
+        en: Next
+        fr: Suivante
+    current:
+        en: Page $1 of $2
+        fr: Page $1 sur $2

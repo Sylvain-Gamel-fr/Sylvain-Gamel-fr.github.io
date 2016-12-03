@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>post-iOS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="4" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Post-category-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="post-iOS">
+            <g id="tablet" transform="translate(168.351637, 149.825660) rotate(-345.000000) translate(-168.351637, -149.825660) translate(91.351637, 46.825660)">
+                <rect id="Rectangle" fill="#4A4A4A" x="1.42108547e-14" y="-3.55271368e-15" width="153.930731" height="205.663439" rx="8"></rect>
+                <rect id="Rectangle-Copy-4" fill="#4A4A4A" x="1.42108547e-14" y="-3.55271368e-15" width="153.930731" height="205.663439" rx="8"></rect>
+                <rect id="Rectangle-Copy" fill="#FFFFFF" x="6.41378047" y="6.42698248" width="141.10317" height="173.528527" rx="8"></rect>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#4A4A4A" cx="77.6067436" cy="193.452173" rx="9.6206707" ry="9.64047373"></ellipse>
+            </g>
+            <g id="mobile" filter="url(#filter-1)" transform="translate(84.459670, 115.461518) rotate(-15.000000) translate(-84.459670, -115.461518) translate(44.959670, 52.461518)">
+                <rect id="Rectangle-Copy-3" fill="#4A4A4A" x="2.84217094e-14" y="0" width="78.2481217" height="125.968857" rx="8"></rect>
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="3.91240608" y="3.93652677" width="70.4233095" height="106.286223" rx="8"></rect>
+                <ellipse id="Oval-Copy" stroke="#FFFFFF" stroke-width="2" fill="#4A4A4A" cx="39.5153014" cy="118.489456" rx="5.86860913" ry="5.90479016"></ellipse>
+            </g>
+            <text id="note" transform="translate(194.747706, 256.848212) rotate(-345.000000) translate(-194.747706, -256.848212) " font-family="HelveticaNeue, Helvetica Neue" font-size="2" font-weight="normal" fill="#9B9B9B">
+                <tspan x="179.747706" y="257.848212">design by Sylvain Gamel, France</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>post-macOS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="260" height="175.948216" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="264" height="179.948216">
+            <rect x="-2" y="-2" width="264" height="179.948216" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Post-category-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="post-macOS">
+            <g id="desktop" transform="translate(20.000000, 47.000000)">
+                <rect id="vert" fill="#4A4A4A" x="91.7647059" y="175.948216" width="76.4705882" height="22.9497673"></rect>
+                <path d="M198.823529,204.319552 C198.823529,200.488127 195.71462,197.367999 191.879586,197.367999 L68.1204136,197.367999 C64.2935767,197.367999 61.1764706,200.480315 61.1764706,204.319552 L198.823529,204.319552 Z" id="bottom" fill="#4A4A4A"></path>
+                <g id="frame">
+                    <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+                <rect id="screen" fill="#FFFFFF" x="7.64705882" y="7.64992243" width="244.705882" height="137.698604" rx="8"></rect>
+            </g>
+            <text id="note" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="2" font-weight="300" fill="#9B9B9B">
+                <tspan x="186" y="249">design by Sylvain Gamel, France</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

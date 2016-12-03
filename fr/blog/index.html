@@ -1,0 +1,66 @@
+---
+layout: page_section
+title: Blog
+topNavigation: true
+subcategory: blog
+lang: "fr"
+order: 10
+logoImage: "/images/picto/section-blog.svg"
+---
+
+{% assign lang = page.lang %}
+{% assign postList = site.posts | sort: "date" | reverse %}
+
+
+<ul class="list-unstyled">
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <li class="mb-2">
+      <div class="media">
+        {% if post.logo %}
+          {% assign iconFile = post.logo %}
+        {% else %}
+          {% assign iconFile = "post-default.svg" %}
+        {% endif %}
+
+        {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
+
+        <a class="media-left" href="{{ post.url }}">
+          <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="64px" alt="{{ iconLabel }}">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <div class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" 
+      class="previous">
+      {{ site.data.i18n.paginator.prev[ page.lang ] }}
+    </a>
+  {% else %}
+    <span class="previous">
+      {{ site.data.i18n.paginator.prev[ page.lang ] }}
+    </span>
+  {% endif %}
+  <span class="page_number ">
+    {{ site.data.i18n.paginator.current[ page.lang ] | replace: '$1', paginator.page | replace: '$2', paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">
+        {{ site.data.i18n.paginator.next[ page.lang ] }}
+    </a>
+  {% else %}
+    <span class="next ">{{ site.data.i18n.paginator.next[ page.lang ] }}</span>
+  {% endif %}
+</div>
+
+
+

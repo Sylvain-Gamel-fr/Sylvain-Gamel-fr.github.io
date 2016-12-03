@@ -24,6 +24,9 @@ url: "http://SylvainGamel.fr" # the base hostname & protocol for your site
 twitter_username: sgamel
 github_username:  sylvaingml
 
+paginate: 10
+paginate_path: "/fr/blog/page:num/"
+
 # Build settings
 markdown: kramdown
 #theme: sgit-sober

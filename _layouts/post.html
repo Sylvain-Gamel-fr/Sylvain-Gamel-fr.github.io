@@ -1,22 +1,44 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    {% include post_header.html title=page.title date=page.date author=page.author logo=page.logo %}
 
-    <div itemprop="articleBody" class="row">
-        <div class="col-xs-12 col-md-9">
-        {{ content }}
-
-        {% if page.ibooks_intro %}
-            {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="main">
+    <header class="media mb-3">
+        {% if page.logo %}
+          {% assign iconFile = page.logo %}
+        {% else %}
+          {% assign iconFile = "default-post.svg" %}
         {% endif %}
 
+        {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
+        
+        {% if page.logo %}
+        <div class="media-left" >
+            <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="92px" alt="{{ iconLabel }}">
         </div>
-        <div class="col-xs-12 col-md-3">
-            {% include google-search.html %}
-            
-            {% include attachments.html title="Téléchargements" %}
+        {% endif %}
+        
+        <div class="media-body">
+            <h2 class="media-heading text-xs-left" >{{ page.title }}</h2>
+            {% if page.subtitle %}
+              <div class="text-muted">{{ page.subtitle }}</div>
+            {% endif %}
+            <div><small class="">{{ page.date | date: "%Y-%m-%d" }}</small></div>
         </div>
+    </header>
+    
+    <div class="container" itemprop="articleBody" >
+      {% if page.youtube_id %}
+          {% include widgets/youtube.html videoId=page.youtube_id %}
+          <hr class="hidden-md-up mt-3">
+      {% endif %}
+
+      <div class="row mt-3">
+        <div class="col-xs-12 col-md-8 col-lg-9">
+        {{ content }}
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-3">
+        </div>
+      </div>
     </div>
 </article>

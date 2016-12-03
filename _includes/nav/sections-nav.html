@@ -29,14 +29,19 @@
         {%  assign cssClass = 'active' %}
       {% endif %}
       
-      {% if current.order != -1 and current.title and current.lang == page.lang and true == current.topNavigation %}
+      {% assign blogToIgnore = false %}
+      {% if current.url contains '/blog/page' %}
+        {% assign blogToIgnore = true %}
+      {% endif %}
+      
+      {% if current.order != -1 and current.title and current.lang == page.lang and true == current.topNavigation and false == blogToIgnore %}
       <li class="nav-item">
         <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
           {{ current.title }}  
           {% if sectionActive %}
             <span class="sr-only">(actuelle)</span>
           {% endif %}
-        </a>
+        </a> 
       </li>
       {% endif %}
     {% endif %}

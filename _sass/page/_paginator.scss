@@ -1,0 +1,24 @@
+.pagination {
+    display: block;
+    
+    text-align: center;
+    
+    margin-top: 2em;
+    border-top: 1px solid colorNamed(lightGrey);
+    
+    .prev,
+    .next,
+    .page_number {
+        display: inline-block;
+        width: 30%;
+        padding: 0.5em;
+    }
+    
+    .prev {
+        text-align: right;
+    }
+
+    .next {
+        text-align: left;
+    }
+}

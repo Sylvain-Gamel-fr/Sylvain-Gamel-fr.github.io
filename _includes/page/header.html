@@ -21,22 +21,20 @@
 
 
 <header class="page-heading" >
-  {% if page.layout != 'post' %}
-    <div class="header-visual">
-      {% if bannerImg %}
-        <img class="" src="/images/heading/{{bannerImg}}" aria-hidden="true" alt="{{ site.data.i18n[ 'page_banner_alt' ][ lang ] }}">
-      {% endif %}
-    </div>
-  {% endif %}
+  <div class="header-visual">
+    {% if bannerImg %}
+      <img class="" src="/images/heading/{{bannerImg}}" aria-hidden="true" alt="{{ site.data.i18n[ 'page_banner_alt' ][ lang ] }}">
+    {% endif %}
+  </div>
 
   <div class="title">
     <div class="container">
       {% if title %}
         <div class="row">
-          <div class="col-xs-12 col-sm-6 push-sm-6">
+          <div class="col-xs-12 col-sm-4 push-sm-8">
             <div class="h1 text-xs-right site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
           </div>
-          <div class="col-xs-12 col-sm-6 pull-sm-6">
+          <div class="col-xs-12 col-sm-8 pull-sm-4">
             <h1>{{ title }}</h1>
             {% if page.slogan %}
               <small>{{ page.slogan }}</small>
