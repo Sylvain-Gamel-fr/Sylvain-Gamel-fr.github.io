@@ -1,6 +1,7 @@
 nav_see_more:
     en: See more...
     fr: En savoir plus...
+
 app_icon_alt:
     en: application's icon
     fr: icône de l'application
@@ -10,21 +11,35 @@ app_screenshot_alt:
 app_demoVideo_title:
     en: Demo Videos
     fr: Vidéos de démonstrations
+app_getNow_title:
+    en: Get it now
+    fr: Téléchargez maintenant
+
 book_cover_alt:
     en: book font cover
     fr: couverture du livre
 book_buyNow_title:
     en: Buy it now
     fr: Achetez le maintenant
-app_getNow_title:
-    en: Get it now
-    fr: Téléchargez maintenant
+    
+download_now:
+    en: "Download here:"
+    fr: "Téléchargez ici:"
+music_label:
+    en: "Music:"
+    fr: "Musique&nbsp;:"
+music_info:
+    en: "_$1_, by $2"
+    fr: "«&nbsp;_$1_&nbsp;», de $2"
+    
 youtube_link:
     en: See on YouTube...
     fr: Voir sur YouTube...
+
 page_banner_alt:
     en: Decorative image for the page top.
     fr: Image de décoration pour la haut de la page.
+
 resume_scope:
     en: Project scope
     fr: Périmètre fonctionnel

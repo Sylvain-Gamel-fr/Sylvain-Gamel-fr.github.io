@@ -16,3 +16,9 @@ permalink: en/legal.html
 
 {% assign hosting = site.data.contact-hosting | where: "role", "hosting" | first %}
 {% include resume/contact-company.html contact=hosting %}
+
+
+### Photography Credits
+
+{% include widgets/credit_photo_list.html %}
+

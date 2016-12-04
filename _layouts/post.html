@@ -38,6 +38,19 @@ layout: default
         {{ content }}
         </div>
         <div class="col-xs-12 col-md-4 col-lg-3">
+          <aside>
+            {% if page.downloads %}
+            <h3 class="h4">{{ site.data.i18n.download_now[ page.lang ] }}</h3>
+              {% for item in page.downloads %}
+                {% include widgets/download_link.html name=item.name url=item.url tip=item.tip %}
+              {% endfor %}
+            {% endif %}
+            
+            {% if page.music %}
+              <h3 class="h4">{{ site.data.i18n.music_label[ page.lang ] }}</h3>
+              {% include widgets/music_info.html track=page.music.track artist=page.music.artist %}
+            {% endif %}
+          </aside>
         </div>
       </div>
     </div>

@@ -1,0 +1,5 @@
+<div class="row image-credit-list">
+{% for image in site.data.credits_photos %}
+  {% include widgets/credit_photo.html image=image %}
+{% endfor %}
+</div>

@@ -1,0 +1,6 @@
+<small>
+  {{ site.data.i18n.music_info[page.lang] 
+    | replace: "$1", include.track 
+    | replace: "$2", include.artist 
+    | markdownify }}
+</small>

@@ -35,10 +35,10 @@ service et ne plus pouvoir en changer.
 
 > Le numérique est partout.
 >
-> Ne devenez pas des illétrés du XXI<sup>ème</sup> siècle
+> Ne devenez pas des illettrés du XXI<sup>ème</sup> siècle
 
-Quelque soit votre niveau, débutant ou confirmé, vous devez acquérir les
-connaissances de bases.
+Quel que soit votre niveau, débutant ou confirmé, vous devez acquérir les
+connaissances de base.
 
 Que ce soit pour maitriser un outil ou apprendre les bases du code,
 je peux vous aider à aborder le sujet tranquillement.

@@ -1,0 +1,14 @@
+{% assign image = include.image %}
+
+<div class="col-xs-12 col-lg-4 mb-2">
+  <div class="row">
+    <div class="col-xs-5">
+        <img class="img-fluid" src="{{ image.imgURL }}" alt="{{ image.title }}">
+    </div>
+    <div class="col-xs-7">
+        <h4 class="mt-0 mb-1 text-xs-left">{{ image.title }}</h4>
+        <p class="mb-0 mb-1  text-xs-left">{{ image.author }}</p>
+        <a href="{{ image.url }}" class="btn btn-sm btn-outline-info">{{ site.data.i18n.nav_see_more[ page.lang ] }}</a>
+    </div>
+  </div>
+</div>

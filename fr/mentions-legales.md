@@ -16,3 +16,8 @@ permalink: fr/mentions-legales.html
 
 {% assign hosting = site.data.contact-hosting | where: "role", "hosting" | first %}
 {% include resume/contact-company.html contact=hosting %}
+
+
+### Crédits photographiques
+
+{% include widgets/credit_photo_list.html %}
