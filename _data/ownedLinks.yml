@@ -1,22 +1,18 @@
 - service: YouTube
   visibleIn: 
     - footer
-  name: 
-    en: YouTube channel
-    fr: Chaine YouTube    
+  name: "youtube.SylvainGamel.fr"
   group: 01_social
-  url: https://youtube.com/user/sgamel
+  url: https://youtube.SylvainGamel.fr/
   icon: social-youtube.svg
   description:
-    en: My iOS and macOS tutorial channel.
-    fr: Ma chaine de tutoriels sur iOS et macOS.
+    en: My iOS and macOS tutorial channel on YoutTube.
+    fr: Ma chaine YouTube de tutoriels sur iOS et macOS.
   
 - service: Twitter
   visibleIn: 
     - footer
-  name: 
-    fr: Mon Twitter
-    en: My Twitter
+  name: "@sgamel"
   group: 01_social
   url: https://twitter.com/sgamel
   icon: social-twitter.svg
@@ -54,7 +50,7 @@
     fr: L'espace dédié aux outils d'automatisation comme Automator.
   
 - service: Facebook
-  name: "Facebook"
+  name: "Page Facebook"
   visibleIn: 
     - footer
   group: 01_social

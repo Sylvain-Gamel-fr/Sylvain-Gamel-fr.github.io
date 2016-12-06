@@ -3,9 +3,16 @@
 {% assign description = include.alt %}
 {% assign fxClasses = include.fxClasses %}
 
+{% if description %}
+  {% assign ariaAttr = "" %}
+{% else %}
+  {% assign ariaAttr = "aria-hidden='true' role='presentation'" %}
+{% endif %}
+
 <div class="section-title container-fluid">
   <h2 class="">
     <img src="{{ source | relative_url }}" alt="{{ description }}"
+         {{ ariaAttr }}
          class="{{ fxClasses }}">
     {{ title }}
   </h2>
