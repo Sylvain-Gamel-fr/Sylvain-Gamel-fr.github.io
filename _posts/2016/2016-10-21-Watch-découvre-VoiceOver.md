@@ -5,7 +5,7 @@ title:  "Apple Watch, VoiceOver est une pépite à découvrir"
 subtitle: Apple Watch, accessibilité, VoiceOver
 lang: fr
 date: 2016-10-21 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: Apple Watch, tutoriel, didacticiel, tuto, Apple, astuce, accessibilité, parole, kit mains libres, découverte
 youtube_id: VE9JL2Ej0lI
 ---

@@ -91,9 +91,20 @@ hr {
     }
 }
 
+.text-muted {
+    // BS also use important to force color, so we also need to do the same
+    color: colorNamed(lightText) !important;
+}
+
 
 .text-smallcaps {
     font-variant: small-caps;
+}
+
+
+img.img-as-inline-icon {
+    height: 1em;
+    width: auto;
 }
 
 ul:not(.list-unstyled) {

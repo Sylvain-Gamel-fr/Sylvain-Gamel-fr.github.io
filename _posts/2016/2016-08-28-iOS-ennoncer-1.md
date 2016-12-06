@@ -5,7 +5,7 @@ title:  "iPhone, il sait donner de la voix, faites le passer à table&nbsp;!"
 subtitle: iOS, Synthèse vocale
 lang: fr
 date: 2016-09-08 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, Voice Over, synthèse vocale
 youtube_id: fHbvpJUnHQs
 ---

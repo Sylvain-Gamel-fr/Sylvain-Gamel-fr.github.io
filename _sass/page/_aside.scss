@@ -9,11 +9,6 @@ aside {
         }
     }
     
-    .text-muted {
-        // BS also use important to force color, so we also need to do the same
-        color: colorNamed(lightText) !important;
-    }
-    
     background-color: transparentize(colorNamed(snowGrey), 0.3);
 
     padding: 0.5em;
@@ -23,6 +18,15 @@ aside {
     
     // A small nice effect for Safari
     -webkit-backdrop-filter: blur(10px);
+    
+    
+    .card.card-download {
+        background-image: url(/images/icons/icon-download.svg);
+        background-repeat: no-repeat;
+        background-size: 3em auto;
+        background-position-x: 100%;
+        background-position-y: 50%;
+    }
     
     
     dl {

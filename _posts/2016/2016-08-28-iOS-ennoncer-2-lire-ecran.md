@@ -5,7 +5,7 @@ title:  "iPhone, oui, il peut vous lire votre journal quotidien&nbsp;!"
 subtitle: iOS, Synthèse vocale
 lang: fr
 date:   2016-09-13 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, Voice Over, synthèse vocale, accessibilité
 youtube_id: 7ZEv0vCKLw8
 ---

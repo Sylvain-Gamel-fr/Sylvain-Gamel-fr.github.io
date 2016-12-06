@@ -5,7 +5,7 @@ title:  "iPhone, retrouvez votre bouton d’accueil d’avant iOS 10"
 subtitle: iOS, déverrouillage et Touch ID
 lang: fr
 date: 2016-09-14 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, iOS 10, iOS10, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, accueil, bouton, déverrouillage, touch-id, touchid, touch id
 youtube_id: AN8Wh-xlRnQ
 ---

@@ -5,7 +5,7 @@ title:  "Plans, Comment aider Apple à se remettre au travail&nbsp;?"
 subtitle: iOS, Plans
 lang: fr
 date:   2016-08-18 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, Plan, cartes, erreur, correction
 youtube_id: 6zpxCy9x3wY
 ---

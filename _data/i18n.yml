@@ -28,6 +28,10 @@ book_buyNow_title:
 download_now:
     en: "Download here:"
     fr: "Téléchargez ici:"
+download_iconAlt:
+    en: "Get file from the web"
+    fr: "Téléchargez le fichier à partir d'internet"
+    
 music_label:
     en: "Music:"
     fr: "Musique&nbsp;:"
@@ -43,6 +47,18 @@ page_banner_alt:
     en: Decorative image for the page top.
     fr: Image de décoration pour la haut de la page.
 
+post:
+    inline_video:
+        en: Integrated video 
+        fr: Vidéo include
+    aside:
+        subscribe_heading:
+            en: Subscribe
+            fr: Abonnez-vous
+        subscribe_text:
+            en: Never miss a video, [go and subscribe](http://youtube.SylvainGamel.fr/) to my channel.
+            fr: Ne ratez aucune vidéo et [abonnez-vous](http://youtube.SylvainGamel.fr/) à ma chaine.
+    
 resume_scope:
     en: Project scope
     fr: Périmètre fonctionnel

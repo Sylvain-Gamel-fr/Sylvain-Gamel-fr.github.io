@@ -5,9 +5,12 @@ title:  "iPhone, chérie, j'ai agrandi les pixels&nbsp;!"
 subtitle: iOS, accessibilité, vision
 lang: fr
 date: 2016-09-22 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, accessibilité, accessibility, Zoom, vision, lisibilité
 youtube_id: uvL2UtE-7Mw
+music:
+  track:  "Zoom"
+  artist: "Vibe Tracks"
 ---
 
 De nombreuses options permettent à iOS d'offrir une excellent expérience
@@ -27,6 +30,3 @@ détails d’une interface graphique.
 Je vais te montrer rapidement comment fonctionne cette option et 
 comment la personnaliser.
 
-
------
-Musique&nbsp;: «&nbsp;_Zoom_&nbsp;», de Vibe Tracks

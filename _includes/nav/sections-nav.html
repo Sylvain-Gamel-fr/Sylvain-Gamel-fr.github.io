@@ -24,7 +24,7 @@
         {%  assign cssClass = 'active' %}
       {% endif %}
 
-      {% if page.permalink and page.permalink == current.permalink %}
+      {% if current.permalink and page.permalink and page.permalink == current.permalink %}
         {%  assign sectionActive = true %}
         {%  assign cssClass = 'active' %}
       {% endif %}

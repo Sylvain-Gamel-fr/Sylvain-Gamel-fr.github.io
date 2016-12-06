@@ -5,9 +5,12 @@ title:  "iPhone, des fonctions spéciales sur un triple clic"
 subtitle: iOS, bouton principal, accessibilité
 lang: fr
 date:   2016-09-19 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, accueil, bouton, accessibilité, accessibility, Voice Over, Zoom, menu, raccourcis
 youtube_id: 1PsesSYFLF4
+music:
+  track:  "Reasons to Smile"
+  artist: "Topher Mohr and Alex Elena"
 ---
 
 Depuis toujours, l'iPhone propose des outils dédiés à l'accessibilité. 
@@ -20,7 +23,3 @@ d'y accéder.
 
 Je vais vous montrer dans cette vidéo comment configurer et utiliser 
 le menu de ces outils.
-
-
------
-Musique: _Reasons to Smile_ ; Topher Mohr and Alex Elena

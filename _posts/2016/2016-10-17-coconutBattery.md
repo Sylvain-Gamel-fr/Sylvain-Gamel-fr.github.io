@@ -5,7 +5,7 @@ title:  coconutBattery, le carnet de vol de vos batteries
 subtitle: Application, coconutBattery
 lang: fr
 date: 2016-10-17 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags:   iOS, tutoriel, didacticiel, tuto, Mac, iPhone, iPad, Apple, astuce, batterie, suivi, matériel, énergie
 youtube_id: o4YZCaPM_Go
 downloads:

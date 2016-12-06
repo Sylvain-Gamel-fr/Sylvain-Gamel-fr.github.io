@@ -5,9 +5,12 @@ title: "iPhone, évite d’être à court de batteries"
 subtitle: iOS, autonomie, batterie
 lang: fr
 date: 2016-10-05 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, Apple, astuce, batterie, autonomie, économie énergie
 youtube_id: ypovRc-tXG4
+music:
+  track:  "Drop It"
+  artist: "Silent Partner"
 ---
 
 Parce qu’on a tous eu un jour un iPhone en rade de batterie, 
@@ -36,6 +39,3 @@ sortirions de la limite des 5 minutes.
 
 Donc, bonne vidéo.
 
-
------
-Musique : «&nbsp;_Drop It_&nbsp;», de Silent Partner

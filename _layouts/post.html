@@ -29,14 +29,16 @@ layout: default
     
     <div class="container" itemprop="articleBody" >
       {% if page.youtube_id %}
-          {% include widgets/youtube.html videoId=page.youtube_id %}
-          <hr class="hidden-md-up mt-3">
+        {% assign videoTitle = site.data.i18n.post.inline_video[ page.lang ] %}
+        {% include widgets/youtube.html videoId=page.youtube_id title=videoTitle%}
+        <hr class="hidden-md-up mt-3">
       {% endif %}
 
       <div class="row mt-3">
         <div class="col-xs-12 col-md-8 col-lg-9">
         {{ content }}
         </div>
+        
         <div class="col-xs-12 col-md-4 col-lg-3">
           <aside>
             {% if page.downloads %}
@@ -44,6 +46,24 @@ layout: default
               {% for item in page.downloads %}
                 {% include widgets/download_link.html name=item.name url=item.url tip=item.tip %}
               {% endfor %}
+            {% endif %}
+            
+            {% if page.youtube_id %}
+              {% assign ytLink = site.data.ownedLinks | where_exp: "item", "item.service == 'YouTube'" | first %}
+
+              {% if ytLink.name[ page.lang ] %}
+                {% assign theName = ytLink.name[ page.lang ] %}
+              {% else %}
+                {% assign theName = ytLink.name %}
+              {% endif %}
+              
+              <h3 class="h4">
+                <img class="social-icon img-as-inline-icon" 
+                     src="{{ "/images/social/" | append: ytLink.icon | relative_url }}" 
+                     alt="{{ site.data.i18n.download_iconAlt[ page.lang ] }}">
+                {{ site.data.i18n.post.aside.subscribe_heading[ page.lang ] }}
+              </h3>
+              {{ site.data.i18n.post.aside.subscribe_text[ page.lang ] | markdownify }}
             {% endif %}
             
             {% if page.music %}

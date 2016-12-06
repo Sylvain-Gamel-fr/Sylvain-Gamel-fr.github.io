@@ -5,9 +5,12 @@ title:  "iPhone, juste quelques mots de plus"
 subtitle: iOS, texte, dictionnaire
 lang: fr
 date: 2016-10-31 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, astuce, texte, correction, dictionnaire, correcteur
 youtube_id: Lzr_t6JH1Bc
+music:
+  track:  "Golden Days"
+  artist: "Topher Mohr and Alex Elena"
 ---
 
 Combien de fois avez-vous un doute sur l’orthographe d’un mot&nbsp;?
@@ -24,7 +27,3 @@ Il existe bel et bien une solution plus simple et elle fonctionne
 Cette solution c’est le **dictionnaire intégré**, et je vous montre comment 
 on s’en sert dans cette vidéo.
 
-
-
------
-Musique&nbsp;: «&nbsp;_Golden Days_&nbsp;», de Topher Mohr and Alex Elena

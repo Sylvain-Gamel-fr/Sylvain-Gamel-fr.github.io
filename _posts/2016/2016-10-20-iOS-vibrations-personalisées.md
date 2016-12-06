@@ -5,13 +5,14 @@ title:  "iOS, un iPhone qui ne vibre que pour vos yeux"
 subtitle: iOS, réglages, vibreur
 lang: fr
 date: 2016-10-20 12:00:00 +0200
-categories: youtube
+categories: blog youtube
 tags: iOS, tutoriel, didacticiel, tuto, iPhone, Apple, astuce, vibreur, alerte, notification, téléphone, silence
 youtube_id: QK4sMt4Pcpk
+music:
+  track:  "Come to the Woods"
+  artist: "Silent Partner"
 ---
 
-
-# 
 
 Que votre iPhone utilise un vibreur ou un moteur taptique, vous ne savez peut-être
 pas qu’il est possible de personnaliser ces vibrations.
@@ -26,15 +27,3 @@ Dans cette vidéo, tu vas voir comment créer une vibration super personnelle.
 
 Je te montre aussi comment l’associer à l’appel ou aux messages d’un contact.
 
-Si cette vidéo t’a plu, n’oublie pas de me le faire savoir dans les commentaires, partage là et clique sur le pouce levé en l’air. Les encouragements font toujours plaisir !
-
-Ce serait quand même dommage de rater une vidéo, alors abonne-toi à ma chaine tant que tu es ici. 
-
-Restons en contact :
-
-— Twitter : [@sgamel](https://twitter.com/sgamel)
-— [http://SylvainGamel.fr/](http://SylvainGamel.fr/)
-
-
------
-Musique : «&nbsp;_Come to the Woods_&nbsp;», de Silent Partner
