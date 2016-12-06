@@ -31,11 +31,8 @@
     <p>
       {{ description | markdownify }}
     </p>
-          <small class="text-xs-right">
-        <a href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}" 
-           class="">{{ site.data.i18n[ 'nav_see_more' ][ lang ] }}</a>
-      </small>
-
+    <a href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}" 
+       class="small text-xs-right">{{ site.data.i18n[ 'nav_see_more' ][ lang ] }}</a>
   </div>
 </div>
 

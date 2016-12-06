@@ -9,7 +9,12 @@ aside {
         }
     }
     
-    background-color: transparentize(colorNamed(whiteGrey), 0.3);
+    .text-muted {
+        // BS also use important to force color, so we also need to do the same
+        color: colorNamed(lightText) !important;
+    }
+    
+    background-color: transparentize(colorNamed(snowGrey), 0.3);
 
     padding: 0.5em;
 

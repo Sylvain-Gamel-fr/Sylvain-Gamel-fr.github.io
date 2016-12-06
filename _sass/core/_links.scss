@@ -1,0 +1,18 @@
+@import "../mixins";
+
+
+/**
+ * Links
+ */
+a {
+    @include link-colors(blueMedium, blueDark, blueDarker);
+    text-decoration: underline;
+
+    &:visited {
+        //color: colorNamed(blueDark);
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

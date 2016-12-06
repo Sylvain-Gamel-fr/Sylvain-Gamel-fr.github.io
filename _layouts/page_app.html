@@ -39,7 +39,8 @@ layout: default
   {% endif %}
   
   {% if introVideo %}
-    {% include widgets/youtube.html videoId=introVideo %}
+    {% assign videoTitle = site.data.i18n.app_video_title[ page.lang ] | replace: '$1', appName %}
+    {% include widgets/youtube.html videoId=introVideo title=videoTitle %}
   {% endif %}
   
   <div class="row">

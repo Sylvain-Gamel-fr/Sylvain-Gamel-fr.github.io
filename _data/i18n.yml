@@ -8,6 +8,9 @@ app_icon_alt:
 app_screenshot_alt:
     en: application screenshot
     fr: copie d'écran de l'application
+app_video_title:
+    en: Demo video of $1
+    fr: Vidéo de démonstrations de $1
 app_demoVideo_title:
     en: Demo Videos
     fr: Vidéos de démonstrations

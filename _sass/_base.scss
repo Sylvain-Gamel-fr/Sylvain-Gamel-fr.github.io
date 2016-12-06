@@ -87,22 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/**
- * Links
- */
-a {
-    color: colorNamed(blueMedium);
-    text-decoration: none;
-
-    &:visited {
-        color: colorNamed(blueDark);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
 
 
 

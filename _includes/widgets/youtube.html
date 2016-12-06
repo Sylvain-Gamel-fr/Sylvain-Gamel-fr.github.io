@@ -3,6 +3,7 @@
 Include:
 
 - videoId: if of video on YouTube
+- title: for iframe wcag
 - fill: boolean to set to true to remove margins on top and bottom
 -->
 
@@ -14,6 +15,9 @@ Include:
 
 <div class="{{marginClasses}}">
   <div class="embed-responsive embed-responsive-16by9 fx-video-popin" >
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ include.videoId }}?rel=0" allowfullscreen></iframe>
+      <iframe class="embed-responsive-item" 
+              src="https://www.youtube.com/embed/{{ include.videoId }}?rel=0" 
+              allowfullscreen
+              title="{{ include.title }}"></iframe>
   </div>
 </div>
