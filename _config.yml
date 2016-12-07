@@ -31,7 +31,7 @@ paginate_path: "/fr/blog/page:num/"
 markdown: kramdown
 #theme: sgit-sober
 
-exclude: [ "node_modules", "design" ]
+exclude: [ "node_modules", "design", "gulpfile.js", "Gemfile*", "package.json", "nbproject" ]
 
 production: true
 

@@ -41,7 +41,9 @@ Je peux également écrire vos application mobiles ou web sur demande.
     src="/images/picto/section-training.svg" %}
 
 Vous êtes un particulier, ou une entreprise, et vous souhaitez vous former, 
-ou former votre personnel, à l’utilisation des nouvelles technologies ? 
+ou former votre personnel, à l’utilisation des nouvelles technologies ?
+
+> L'absence de connaissances de l'outil numérique est un nouvel illétrisme.
 
 Contactez moi pour définir votre plan de formation.
 

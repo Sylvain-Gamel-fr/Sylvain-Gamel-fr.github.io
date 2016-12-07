@@ -42,6 +42,8 @@ I can also write your mobile or web applications on demand.
 You are an individual, or a company, and you want to train, 
 or train your staff, in the use of new technologies?
 
+> Lack of digital competency is already a new illiteracy.
+
 Contact me to define your training plan.
 
 
