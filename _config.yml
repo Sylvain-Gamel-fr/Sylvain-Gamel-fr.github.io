@@ -35,6 +35,8 @@ exclude: [ "node_modules", "design" ]
 
 production: true
 
+google_analytics_id: UA-88645488-1
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
