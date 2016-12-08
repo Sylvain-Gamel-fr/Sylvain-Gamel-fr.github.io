@@ -19,10 +19,16 @@ body {
     }
     
     // But remove padding on page header/footer
+    header,
     .navigation,
     footer {
         margin-left:  space(-2);
         margin-right: space(-2);
+
+        @include media-breakpoint-up(sm) {
+            margin-left:  0;
+            margin-right: 0;
+        }
     }
 }
 
