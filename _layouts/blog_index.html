@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+
+<article>
+  <header>
+    {% include page/section-title.html 
+        title=page.title
+        src=page.logoImage %}
+  </header>
+
+  <main>
+{% assign lang = page.lang %}
+{% assign postList = site.posts | sort: "date" | reverse %}
+
+
+<ul class="list-unstyled">
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <li class="mb-2">
+      <div class="media">
+        {% if post.logo %}
+          {% assign iconFile = post.logo %}
+        {% else %}
+          {% assign iconFile = "post-default.svg" %}
+        {% endif %}
+
+        {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
+
+        <a class="media-left" href="{{ post.url }}">
+          <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="64px" alt="{{ iconLabel }}">
+        </a>
+        <div class="media-body">
+          <h3 class="h4 media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <div class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
+          
+          {{ post.excerpt | markdownify }}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+
+    
+  </main>
+  
+  <nav class="pagination" >
+    <!-- Pagination links -->
+    <span class="prev">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" 
+          class="previous">
+          {{ site.data.i18n.paginator.prev[ page.lang ] }}
+        </a>
+      {% else %}
+          {{ site.data.i18n.paginator.prev[ page.lang ] }}
+      {% endif %}
+    </span>
+    <span class="page_number ">
+      {{ site.data.i18n.paginator.current[ page.lang ] | replace: '$1', paginator.page | replace: '$2', paginator.total_pages }}
+    </span>
+    <span class="next ">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">
+            {{ site.data.i18n.paginator.next[ page.lang ] }}
+        </a>
+      {% else %}
+        {{ site.data.i18n.paginator.next[ page.lang ] }}
+      {% endif %}
+    </span>
+  </nav>
+  
+  {{ content }}
+  
+</article>
+

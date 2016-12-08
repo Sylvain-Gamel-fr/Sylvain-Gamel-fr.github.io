@@ -10,8 +10,6 @@ tags: iOS, iOS 10, iOS10, tutoriel, didacticiel, tuto, iPhone, iPad, Apple, accu
 youtube_id: AN8Wh-xlRnQ
 ---
 
-# iPhone — Retrouvez votre bouton d’accueil d’avant iOS 10
-
 La version 10 du système des iPhone et iPad apporte de 
 grandes nouveautés intéressantes.
 
