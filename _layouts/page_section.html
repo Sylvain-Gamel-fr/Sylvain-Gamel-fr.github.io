@@ -10,17 +10,11 @@ layout: default
         src=page.logoImage %}
   </header>
     
-  <div class="row">
-      <div class="col-xs-12 col-sm-8 m-t-1">
-          <div>
-              {{ content }}
-          </div>
-
-          {% if page.ibooks_intro %}
-              {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
-          {% endif %}
-      </div>
-  </div>
+  {{ content }}
+  
+  {% if page.ibooks_intro %}
+      {% include iBooks-link.html message=page.ibooks_intro link=site.ibooks_link label=site.ibooks_link_alt %}
+  {% endif %}
 </article>
 
 {% assign pageCategory = page.category %}
@@ -50,7 +44,7 @@ layout: default
 
                       {% if post.logo %}
                           <div class="media-right text-xs-right" >
-                              <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
+                              <img class="media-object" src="/img/icon-posts/{{post.logo}}" width="92" alt="Logo">
                           </div>
                       {% endif %}
 
