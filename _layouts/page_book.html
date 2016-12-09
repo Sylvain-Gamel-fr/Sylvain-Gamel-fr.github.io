@@ -39,13 +39,13 @@ layout: naked
   <section class="container pt-0">
     <article class="">
       <header class="container-fluid pl-0 pr-0">
-        <h2 class="text-xs-left w-100 book-title">
-          <img src="{{ book.cover.medium  }}" 
-               alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}"
-               class="fx-book-cover float-xs-right ml-2">
-          {{ bookTitle }}<br>
-          <em class="text-muted small">{{ bookSubTitle }}</em>
+        <h2 class="text-xs-left w-100 mb-1 book-title">
+          {{ bookTitle }}
         </h2>
+        <img src="{{ book.cover.medium  }}" 
+             alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] | replace: "$1", bookTitle }}"
+             class="fx-book-cover float-xs-right ml-2">
+        <em class="text-muted small">{{ bookSubTitle }}</em>
         
         {% if page.summary %}
           <p>
@@ -62,9 +62,10 @@ layout: naked
             {% assign introVideo = book.youtube.intro[ lang ] %}
           {% endif %}
         {% endif %}
-
+        
         {% if introVideo %}
-          {% include widgets/youtube.html videoId=introVideo %}
+          {% assign playerFrameTitle = site.data.i18n[ 'youtube_frame' ][ lang ] %}
+          {% include widgets/youtube.html videoId=introVideo title=playerFrameTitle %}
         {% endif %}
       </div>
       

@@ -1,6 +1,6 @@
 {% assign lang=include.lang %}
 
-<ul class="list-unstyled nav navbar-nav">
+<ul class="list-unstyled nav navbar-nav" role="nav">
   {% assign allSections = site.pages | sort: "order" %}
   {% for current in allSections %}
 
@@ -39,7 +39,7 @@
         <a class="nav-link {{ cssClass }}" href="{{ current.url | prepend: site.baseurl }}">
           {{ current.title }}  
           {% if sectionActive %}
-            <span class="sr-only">(actuelle)</span>
+          <span class="sr-only">{{site.data.i18n.navigation.current[ lang ]}}</span>
           {% endif %}
         </a> 
       </li>

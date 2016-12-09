@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="main">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="media mb-3">
         {% if page.logo %}
           {% assign iconFile = page.logo %}
@@ -19,11 +19,11 @@ layout: default
         {% endif %}
         
         <div class="media-body">
-            <h2 class="media-heading text-xs-left" >{{ page.title }}</h2>
+            <h2 class="media-heading text-xs-left mb-1" >{{ page.title }}</h2>
             {% if page.subtitle %}
-              <div class="text-muted">{{ page.subtitle }}</div>
+              <p class="text-muted mt-0 mb-1">{{ page.subtitle }}</p>
             {% endif %}
-            <div><small class="">{{ page.date | date: "%Y-%m-%d" }}</small></div>
+            <p class="small mt-0 mb-1">{{ page.date | date: "%Y-%m-%d" }}</p>
         </div>
     </header>
     
@@ -42,7 +42,7 @@ layout: default
         <div class="col-xs-12 col-md-4 col-lg-3">
           <aside>
             {% if page.downloads %}
-            <h3 class="h4">{{ site.data.i18n.download_now[ page.lang ] }}</h3>
+              <h3 class="h4">{{ site.data.i18n.download_now[ page.lang ] }}</h3>
               {% for item in page.downloads %}
                 {% include widgets/download_link.html name=item.name url=item.url tip=item.tip %}
               {% endfor %}
@@ -60,7 +60,7 @@ layout: default
               <h3 class="h4">
                 <img class="social-icon img-as-inline-icon" 
                      src="{{ "/images/social/" | append: ytLink.icon | relative_url }}" 
-                     alt="{{ site.data.i18n.download_iconAlt[ page.lang ] }}">
+                     alt="{{ theName }}">
                 {{ site.data.i18n.post.aside.subscribe_heading[ page.lang ] }}
               </h3>
               {{ site.data.i18n.post.aside.subscribe_text[ page.lang ] | markdownify }}

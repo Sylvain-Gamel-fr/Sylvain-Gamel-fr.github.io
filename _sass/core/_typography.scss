@@ -80,6 +80,13 @@ hr {
     }
 }
 
+// Make sure that this is in display block to be applied
+// good margin and paddings.
+//
+.sr-only {
+    display: block;
+}
+
 .text-muted {
     // BS also use important to force color, so we also need to do the same
     color: colorNamed(lightText) !important;

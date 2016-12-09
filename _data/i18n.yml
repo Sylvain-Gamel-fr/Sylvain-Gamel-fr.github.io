@@ -39,6 +39,14 @@ music_info:
     en: "_$1_, by $2"
     fr: "«&nbsp;_$1_&nbsp;», de $2"
     
+navigation:
+    current:
+        en: "[current item]"
+        fr: "(élément actif)"
+    
+youtube_frame:
+    en: Video player
+    fr: Lecteur de vidéo
 youtube_link:
     en: See on YouTube...
     fr: Voir sur YouTube...

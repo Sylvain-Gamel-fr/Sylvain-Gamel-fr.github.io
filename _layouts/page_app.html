@@ -27,6 +27,7 @@ layout: default
 
 <article>
   <header>
+    {% assign iconAlt = site.data.i18n.app_icon_alt[ lang ] | replace: '$1', appName %}
     {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
   </header>
   
