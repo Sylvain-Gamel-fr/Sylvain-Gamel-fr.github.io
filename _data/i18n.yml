@@ -3,8 +3,8 @@ nav_see_more:
     fr: En savoir plus...
 
 app_icon_alt:
-    en: application's icon
-    fr: icône de l'application
+    en: $1 application's icon
+    fr: icône de l'application $1
 app_screenshot_alt:
     en: application screenshot
     fr: copie d'écran de l'application
