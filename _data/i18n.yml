@@ -19,8 +19,8 @@ app_getNow_title:
     fr: Téléchargez maintenant
 
 book_cover_alt:
-    en: book font cover
-    fr: couverture du livre
+    en: Cover of book $1
+    fr: Couverture du livre $1
 book_buyNow_title:
     en: Buy it now
     fr: Achetez le maintenant

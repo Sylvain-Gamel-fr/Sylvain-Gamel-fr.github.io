@@ -24,7 +24,7 @@
      href="{{ bookPage | prepend: "books/" | prepend: site.baseurl }}">
     <img class="media-object fx-flat-popin fx-light-shrink fx-fine-border" 
          src="{{ book.cover.small | relative_url }}" 
-         alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
+         alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] | replace: '$1', title }}" >
   </a>
   <div class="media-body">
     <h3 class="h4 media-heading">{{ title }}</h3>
