@@ -7,7 +7,7 @@
       {% if item.details[ page.lang ] %}
         {% assign text = "_" | append: item.details[ page.lang ] | append: "_" %}
         {% if item.description[ page.lang ] %}
-          {% assign text = text | append: "&nbsp;,\n\n" %}
+          {% assign text = text | append: "&nbsp;,<br />" %}
         {% endif %}
       {% endif %}
       {% if item.description[ page.lang ] %}
