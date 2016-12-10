@@ -25,7 +25,6 @@ layout: default
   {% assign slogan = app.slogan %}
 {% endif %}
 
-<article>
   <header>
     {% assign iconAlt = site.data.i18n.app_icon_alt[ lang ] | replace: '$1', appName %}
     {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
@@ -47,7 +46,9 @@ layout: default
   <div class="row">
 
     <div class="col-xs-12 col-sm-9 mt-2">
+      <article>
       {{ content }}
+      </article>
     </div>
 
     <div class="col-xs-12 col-sm-3 mt-2">
@@ -90,7 +91,6 @@ layout: default
       </aside>
     </div>
   </div>
-</article>
 
 
 {% assign pageCategory = page.category %}
