@@ -1,10 +1,13 @@
 {% assign lang=include.lang %}
 {% assign appId=include.appId %}
 {% assign imgSrc=include.src %}
+{% assign imgAlt=include.imgAlt %}
 {% assign description=include.description %}
 {% assign imgAlign=include.align %}
 
-{% assign imgAlt = site.data.i18n[ 'app_screenshot_alt' ][ lang ] %}
+{% unless imgAlt %}
+  {% assign imgAlt = site.data.i18n[ 'app_screenshot_alt' ][ lang ] %}
+{% endunless %}
 
 {% if description %}
   {% assign imgColSpec = "col-xs-12 col-sm-6 col-md-4" %}
@@ -16,7 +19,7 @@
   {% if "right" != imgAlign %}
     <div class="{{ imgColSpec }} text-xs-center text-sm-left">
       <img src="{{ imgSrc | prepend: "/" | prepend: appId | prepend: "/images/screenshots/" | relative_url }}" 
-           alt="{{ imgAlt }}" 
+           alt="{{ imgAlt | normalize_whitespace }}" 
            class="img-fluid mb-1" >
     </div>
   {% endif %}
@@ -31,7 +34,7 @@
   {% if "right" == imgAlign %}
     <div class="{{ imgColSpec }} text-xs-center text-sm-left">
       <img src="{{ imgSrc | prepend: "/" | prepend: appId | prepend: "/images/screenshots/" | relative_url }}" 
-           alt="{{ imgAlt }}" 
+           alt="{{ imgAlt | normalize_whitespace }}" 
            class="img-fluid mb-1" >
     </div>
   {% endif %}

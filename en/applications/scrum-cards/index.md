@@ -29,10 +29,14 @@ Your cards are displayed before your eyes on the green carpet of the game.
 All you have to do is choose the note you give to the story.
 
 {% endcapture %}
+{% capture historyScreenshot %}
+The history screen shows the list of previous operations.
+Navigation between panels uses a tab bar at the base of the screen.
+{% endcapture %}
 {% include widgets/app-screenshot.html 
         lang=lang 
         appId=page.id 
-        src="SCRUMCards_1_pokergamel.png"
+        src="SCRUMCards_1_pokergamel.png" imgAlt=historyScreenshot
         description=pokerGamelTxt %}
 
 ### Donnez une estimation
@@ -44,10 +48,14 @@ If you need to give a time estimate for your tasks, everything is planned!
 Some finger tapping will suffice to share your opinion with your entire team.
 
 {% endcapture %}
+{% capture iPadScreenshot %}
+The size of the iPad screen allows to display at the same time the calculator, 
+the history as well as the list to quickly pick the last used rates.
+{% endcapture %}
 {% include widgets/app-screenshot.html 
         lang=lang 
         appId=page.id 
-        src="SCRUMCards_2_estimate.png"
+        src="SCRUMCards_2_estimate.png" imgAlt=iPadScreenshot
         description=estimateTxt %}
 
 

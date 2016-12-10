@@ -43,10 +43,14 @@ Une tape vous suffit pour reprendre montant hors-taxe et taux de TVA dans
 l'onglet de calcul.
 
 {% endcapture %}
+{% capture historyScreenshot %}
+L'écran de l'historique présente la liste des opération précédentes.
+La navigation entre panneaux utilise une barre d'onglets en base de l'écran.
+{% endcapture %}
 {% include widgets/app-screenshot.html 
         lang=lang 
         appId=page.id 
-        src="history-iphone.png"
+        src="history-iphone.png" imgAlt=historyScreenshot
         description=historyDescription %}
 
 
@@ -55,8 +59,12 @@ l'onglet de calcul.
 Sur iPad, profitez d'un clavier numérique pour une saisie encore plus facile.
 
 {% endcapture %}
+{% capture iPadScreenshot %}
+La taille de l'écran d'iPad permet d'afficher en même temps la calculette,
+l'historique ainsi que la liste des derniers taux utilisés.
+{% endcapture %}
 {% include widgets/app-screenshot.html 
         lang=lang 
         appId=page.id 
-        src="main-ipad.png"
+        src="main-ipad.png" imgAlt=iPadScreenshot
         description=iPadDescription %}
