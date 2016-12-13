@@ -4,17 +4,28 @@
     
     
     img {
-        width: 1.5em;
+        width: 2em;
         height: auto;
         
         display: block;
         margin: 0 auto 0 auto;
         
-        @include media-breakpoint-up(md) {
-            width: 2.5em;
+        @include media-breakpoint-up(sm) {
+            width: 3em;
         }
         @include media-breakpoint-up(lg) {
             width: 4em;
+        }
+    }
+    
+    h2 {
+        font-size: 2.0em;
+        
+        @include media-breakpoint-up(sm) {
+            font-size: 2.25em;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: 2.5em;
         }
     }
 }
