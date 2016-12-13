@@ -211,3 +211,22 @@ dl.timeline {
         }
     }
 }
+
+
+.opening-book {
+    border: 1px solid #bbb; 
+    
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        margin: 2em auto;
+        
+        img {
+            width: 100%;
+        }
+    }
+    
+    @include media-breakpoint-up(sm) {
+        float: right;
+        margin-left: 2em;
+    }
+}

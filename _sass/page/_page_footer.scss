@@ -23,6 +23,12 @@ footer.page-footer {
        position: relative; 
     }
     
+    .list-social {
+        @include media-breakpoint-up(md) {
+            margin-left: 3em;
+        }
+    }
+    
     img.social-icon {
         height: 1em;
         width: auto;
