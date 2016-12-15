@@ -25,7 +25,8 @@ layout: default
   {% assign slogan = app.slogan %}
 {% endif %}
 
-  <header>
+<article role="main" >
+  <header id="art-head">
     {% assign iconAlt = site.data.i18n.app_icon_alt[ lang ] | replace: '$1', appName %}
     {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
   </header>
@@ -40,7 +41,7 @@ layout: default
   
   {% if introVideo %}
     {% assign videoTitle = site.data.i18n.app_video_title[ page.lang ] | replace: '$1', appName %}
-    {% include widgets/youtube.html videoId=introVideo title=videoTitle %}
+    {% include widgets/youtube.html videoId=introVideo title=videoTitle role="group" %}
   {% endif %}
   
   <div class="row">
@@ -89,7 +90,7 @@ layout: default
       </aside>
     </div>
   </div>
-
+</article>
 
 {% assign pageCategory = page.category %}
 {% assign listOfPosts = site.categories[pageCategory]  %}

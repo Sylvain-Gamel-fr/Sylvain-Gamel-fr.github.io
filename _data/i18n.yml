@@ -59,6 +59,9 @@ post:
     inline_video:
         en: Integrated video 
         fr: Vidéo include
+    published_on:
+        en: Published on
+        fr: Publié le
     aside:
         subscribe_heading:
             en: Subscribe

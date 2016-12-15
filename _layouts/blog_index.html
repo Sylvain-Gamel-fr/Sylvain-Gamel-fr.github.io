@@ -4,50 +4,48 @@ layout: naked
 
 {% include page/header.html %}
 
-<section class="pt-0 container">
-  <div class="wrapper row" >
-
-  <main>
-  <header>
-    {% include page/section-title.html 
-        title=page.title
-        src=page.logoImage %}
-  </header>
-
 {% assign lang = page.lang %}
 {% assign postList = site.posts | sort: "date" | reverse %}
 
+<section class="pt-0 container">
+  <article role="main">
+    <header>
+      {% include page/section-title.html 
+          title=page.title
+          src=page.logoImage %}
+    </header>
 
-<ul class="list-unstyled">
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
-    <li class="mb-2">
-      <div class="media">
-        {% if post.logo %}
-          {% assign iconFile = post.logo %}
-        {% else %}
-          {% assign iconFile = "post-default.svg" %}
-        {% endif %}
+    <ul class="list-unstyled">
+      <!-- This loops through the paginated posts -->
+      {% for post in paginator.posts %}
+        <li class="mb-2">
+          <div class="media">
+            {% if post.logo %}
+              {% assign iconFile = post.logo %}
+            {% else %}
+              {% assign iconFile = "post-default.svg" %}
+            {% endif %}
 
-        {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
+            {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
 
-        <a class="media-left" href="{{ post.url }}">
-          <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="64px" alt="{{ iconLabel }}">
-        </a>
-        <div class="media-body">
-          <h3 class="h4 media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <div class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
-          
-          {{ post.excerpt | markdownify }}
-        </div>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+            <a class="media-left" href="{{ post.url }}">
+              <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="64px" alt="{{ iconLabel }}">
+            </a>
+            <div class="media-body">
+              <h3 class="h4 media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <div class="small" aria-atomic="true" >
+                <span class="sr-only">{{ site.data.i18n.post.published_on[ page.lang ] }}</span>
+                {{ post.date | date: "%Y-%m-%d" }}
+              </div>
 
+              {{ post.excerpt | markdownify }}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
 
-    
-  </main>
+  </article>
   
   <nav class="pagination" >
     <!-- Pagination links -->
@@ -76,8 +74,6 @@ layout: naked
   </nav>
   
   {{ content }}
-  
-  </div>
 </section>
 
 {% include page/footer.html %}
