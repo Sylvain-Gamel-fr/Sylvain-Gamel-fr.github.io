@@ -33,6 +33,7 @@
   name: CodePen
   group: 10_code
   url: http://codepen.io/sylvaingml/
+  icon: social-codepen.svg
   description:
     en: Some web coding examples.
     fr: Quelques exemples pour le développement web.
