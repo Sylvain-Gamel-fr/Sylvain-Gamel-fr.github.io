@@ -29,6 +29,14 @@
     en: For business contacts.
     fr: Pour des contacts pro.
   
+- service: CodePen
+  name: CodePen
+  group: 10_code
+  url: http://codepen.io/sylvaingml/
+  description:
+    en: Some web coding examples.
+    fr: Quelques exemples pour le développement web.
+    
 - service: Github
   name: 
     en: Personal
