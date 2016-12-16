@@ -15,6 +15,8 @@ layout: naked
           src=page.logoImage %}
     </header>
 
+    {{ content }}
+    
     <ul class="list-unstyled">
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
@@ -72,8 +74,6 @@ layout: naked
       {% endif %}
     </span>
   </nav>
-  
-  {{ content }}
 </section>
 
 {% include page/footer.html %}
