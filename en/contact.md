@@ -21,4 +21,3 @@ permalink: en/contact.html
             description=currentLink.description %}
 {% endfor %}
 </div>
-

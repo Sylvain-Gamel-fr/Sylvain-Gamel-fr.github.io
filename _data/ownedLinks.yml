@@ -96,3 +96,12 @@
     en: My most ancien photo gallery.
     fr: Mon plus ancien espace de photos.
         
+- service: DeviantArt
+  name: "DeviantArt"
+  group: 08_art
+  url: http://sgamel.deviantart.com
+  icon: social-deviantart.svg
+  description:
+    en: Old and recent drawings or digital arts.
+    fr: Une archive d'anciens dessins et de travaux numériques.
+        

@@ -14,19 +14,11 @@ permalink: fr/contact.html
 {% for currentLink in linkList %}
     {% assign theImage = "/images/social/" | append: currentLink.icon | relative_url %}
     
-    {% assign description = currentLink.description %}
-    
-    {% if currentLink.description[ page.lang ] %}
-        {% assign description = currentLink.description[ page.lang ] %}
-    {% else %}
-        {% assign description = currentLink.description %}
-    {% endif %}
-
     {% include widgets/link-info.html href=currentLink.url 
             name=currentLink.name 
             image=theImage 
             imageAlt=currentLink.service 
-            details=description %}
+            description=currentLink.description %}
 {% endfor %}
 </div>
 

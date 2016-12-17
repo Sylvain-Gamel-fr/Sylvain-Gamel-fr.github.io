@@ -16,7 +16,14 @@
       {% assign theName = include.name %}
     {% endif %}
     
-    <a href="{{ include.href }}" >{{ theName }}</a>
+    
+    {% if theName.size > 12 %}
+    	{% assign nameClass="small-md-up" %}
+    {% else %}
+	    {% assign nameClass="" %}
+    {% endif %}
+    
+    <a href="{{ include.href }}" class="{{ nameClass }}">{{ theName }}</a>
     
     {% if include.description %}
       {% if include.description[ page.lang ] %}

@@ -101,6 +101,18 @@ hr {
     font-variant: small-caps;
 }
 
+.small-md-up {
+  @include media-breakpoint-up(md) {
+	font-size: $small-font-size;
+  }
+}
+
+.small-lg-up {
+  @include media-breakpoint-up(lg) {
+	font-size: $small-font-size;
+  }
+}
+
 
 img.img-as-inline-icon {
     height: 1em;
