@@ -1,3 +1,7 @@
+top_nav:
+    en: Site sections
+    fr: Sections du site
+    
 nav_see_more:
     en: See more...
     fr: En savoir plus...
@@ -105,6 +109,9 @@ postIconLabels:
         fr: Vidéo YouTube
             
 paginator:
+    label:
+        en: Page browser
+        fr: Feuilleter les pages
     prev:
         en: Previous
         fr: Précédente

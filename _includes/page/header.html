@@ -54,7 +54,8 @@
 
 <div class="navigation">
   <div class="container">
-    <nav class="navbar">
+    {% assign navLabel = site.data.i18n.top_nav[ lang ] %}
+    <nav class="navbar" aria-label="{{ navLabel }}">
       <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
               data-target="#rootNavigation">&#9776;</button>
       <div id="rootNavigation" 

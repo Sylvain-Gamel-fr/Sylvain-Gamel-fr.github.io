@@ -49,7 +49,8 @@ layout: naked
 
   </article>
   
-  <nav class="pagination" >
+  {% assign navLabel = site.data.i18n.paginator.label[ lang ] %}
+  <nav class="pagination" aria-label="{{ navLabel }}" >
     <!-- Pagination links -->
     <span class="prev">
       {% if paginator.previous_page %}
