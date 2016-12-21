@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_single
 title: "Accueil"
 topNavigation: true
 lang: fr

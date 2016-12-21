@@ -55,9 +55,11 @@
 <div class="navigation">
   <div class="container">
     {% assign navLabel = site.data.i18n.top_nav[ lang ] %}
+    {% assign navMenuLabel = site.data.i18n.nav_menu_label[ lang ] %}
+    
     <nav class="navbar" aria-label="{{ navLabel }}">
       <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
-              data-target="#rootNavigation">&#9776;</button>
+              data-target="#rootNavigation">&#9776; {{ navMenuLabel }}</button>
       <div id="rootNavigation" 
            class="collapse navbar-toggleable-xs" >
         {% include nav/sections-nav.html lang=lang %}

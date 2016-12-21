@@ -31,26 +31,28 @@ layout: default
     {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
   </header>
   
-  {% if app.youtube and app.youtube.intro  %}
-    {% assign introVideo = app.youtube.intro %}
-    
-    {% if app.youtube.intro[ lang ] %}
-      {% assign introVideo = app.youtube.intro[ lang ] %}
+  <div class="mt-3 mb-2">
+    {% if app.youtube and app.youtube.intro  %}
+      {% assign introVideo = app.youtube.intro %}
+
+      {% if app.youtube.intro[ lang ] %}
+        {% assign introVideo = app.youtube.intro[ lang ] %}
+      {% endif %}
     {% endif %}
-  {% endif %}
-  
-  {% if introVideo %}
-    {% assign videoTitle = site.data.i18n.app_video_title[ page.lang ] | replace: '$1', appName %}
-    {% include widgets/youtube.html videoId=introVideo title=videoTitle role="group" %}
-  {% endif %}
+
+    {% if introVideo %}
+      {% assign videoTitle = site.data.i18n.app_video_title[ page.lang ] | replace: '$1', appName %}
+      {% include widgets/youtube.html videoId=introVideo title=videoTitle role="group" %}
+    {% endif %}
+  </div>
   
   <div class="row">
 
-    <div class="col-xs-12 col-sm-9 mt-2">
+    <div class="col-xs-12 col-md-9 mt-2">
       {{ content }}
     </div>
 
-    <div class="col-xs-12 col-sm-3 mt-2">
+    <div class="col-xs-12 col-md-3 mt-2">
       <aside>
         {% if slogan %}
           <p class="text-muted">{{ slogan }}</p>

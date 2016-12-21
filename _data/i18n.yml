@@ -2,6 +2,9 @@ top_nav:
     en: Site sections
     fr: Sections du site
     
+nav_menu_label:
+    en: Site navigation menu
+    fr: Menu de navigation
 nav_see_more:
     en: See more...
     fr: En savoir plus...
