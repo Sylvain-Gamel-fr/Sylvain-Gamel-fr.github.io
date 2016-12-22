@@ -28,68 +28,60 @@
   {% assign description = book.shortDescription %}
 {% endif %}
 
-
-<div class="row mb-3">
-  <div class="col-xs-12 col-sm-4 col-md-3 text-xs-center text-md-right">
-    {% if pageURL %}
-      <a href="{{ pageURL }}" class="mb-1" >
+<div class="book-summary-info">
+  <div class="heading" >
+      {% if pageURL %}
+        <a href="{{ pageURL }}" class="mb-1" >
+          <img src="{{ book.cover.small | relative_url }}" 
+               class="img-fluid mb-1 fx-flat-popin fx-light-zoom fx-fine-border"
+               alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" ></a>
+      {% else %}
         <img src="{{ book.cover.small | relative_url }}" 
-             class="img-fluid mb-1 fx-flat-popin fx-light-zoom fx-fine-border"
+             class="img-fluid mb-1 fx-fine-border"
              alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
-      </a>
-    {% else %}
-      <img src="{{ book.cover.small | relative_url }}" 
-           class="img-fluid mb-1 fx-fine-border"
-           alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] }}" >
-    {% endif %}
+      {% endif %}
+    <h3 class="h4">{{ title }}</h3>
   </div>
-  <div class="col-xs-12 col-sm-8 col-md-9 pl-2">
-    <h3 class="h4 media-heading">{{ title }}</h3>
-    <p>
-      {{ description | markdownify}}
-    </p>
-    
-    {% if pageURL %}
-      <hr class="fine">
-    
-      <a href="{{ pageURL }}" class="">
-        {{ site.data.i18n[ 'nav_see_more' ][ lang ] }}
-      </a>
-    {% endif %}
-    
-    {% if book.shop %}
-      <hr class="fine">
   
-      <ul class="list-inline list-unstyled">
-        {% for shop in book.shop %}
-          {% assign shopId  = shop[ 0 ] %}
-          {% assign shopURL = shop[ 1 ] %}
-          
-          {% assign shopInfo = site.data.store | where: "id", shopId | first %}
-          
-          {% if shopInfo.name[ lang ] %}
-            {% assign shopName = shopInfo.name[ lang ] %}
-          {% else %}
-            {% assign shopName = shopInfo.name %}
-          {% endif %}
+  {{ description | markdownify}}
 
-          {% if shopInfo.badge[ lang ] %}
-            {% assign shopIcon = shopInfo.badge[ lang ] %}
-          {% else %}
-            {% assign shopIcon = shopInfo.badge %}
-          {% endif %}
-          
-          <li class="list-inline-item mr-1 mb-1">
-            <a href="{{ shopURL }}">
-              <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
-                   alt="{{ shopName}}" 
-                   class="fx-flat-popin-borderless" >
-            </a>
-          </li>
+  {% if pageURL %}
+  <p>
+    <a href="{{ pageURL }}" class="">
+      {{ site.data.i18n[ 'nav_see_more' ][ lang ] }}
+    </a>
+  </p>
+  {% endif %}
 
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
+  {% if book.shop %}
+    <ul class="list-inline list-unstyled">
+      {% for shop in book.shop %}
+        {% assign shopId  = shop[ 0 ] %}
+        {% assign shopURL = shop[ 1 ] %}
+
+        {% assign shopInfo = site.data.store | where: "id", shopId | first %}
+
+        {% if shopInfo.name[ lang ] %}
+          {% assign shopName = shopInfo.name[ lang ] %}
+        {% else %}
+          {% assign shopName = shopInfo.name %}
+        {% endif %}
+
+        {% if shopInfo.badge[ lang ] %}
+          {% assign shopIcon = shopInfo.badge[ lang ] %}
+        {% else %}
+          {% assign shopIcon = shopInfo.badge %}
+        {% endif %}
+
+        <li class="list-inline-item mr-1 mb-1">
+          <a href="{{ shopURL }}">
+            <img src="{{ shopIcon | prepend: "/images/" | prepend: site.baseURL }}" 
+                 alt="{{ shopName}}" 
+                 class="fx-flat-popin-borderless" >
+          </a>
+        </li>
+
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
-

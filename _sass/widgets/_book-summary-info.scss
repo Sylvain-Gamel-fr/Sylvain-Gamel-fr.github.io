@@ -1,0 +1,48 @@
+
+
+.book-summary-info {
+    $leftColWidth: 12em;
+
+    // Use left padding to build cover column
+    padding-left: 0;
+    @include media-breakpoint-up(sm) {
+        padding-left: $leftColWidth;
+    }
+    
+    margin-bottom: 3em;
+    
+    // Standard horizontal ruler for heading element
+    // and make it full width
+    @include heading-top-border();
+    &:before {
+        left: 0;
+        right: 0;
+    }
+    
+    // Add some space on top to separate ruler from cover
+    .heading {
+        padding-top: 1em;
+    }
+    
+    // Remove title top border
+    h3:before {
+        content: none;
+    }
+    
+    // Cover image in heading
+    .heading img {
+        display: block;
+        margin: 0em auto 1em auto;
+        height: 7em;
+        max-width: $leftColWidth;
+        
+        @include media-breakpoint-up(sm) {
+            $rightMargin: 1em;
+            
+            display: inline-block;
+            margin: 1em $rightMargin 2em (- $leftColWidth);
+            height: auto;
+            float: left;
+        }
+    }
+}

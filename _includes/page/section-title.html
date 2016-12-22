@@ -9,11 +9,9 @@
   {% assign ariaAttr = "aria-hidden='true' role='presentation'" %}
 {% endif %}
 
-<div class="section-title" >
-  <h2>
-    <img src="{{ source | relative_url }}" alt="{{ description }}"
-         {{ ariaAttr }}
-         class="{{ fxClasses }}">
-    {{ title }}
-  </h2>
-</div>
+<h2 class="section-title">
+  <img src="{{ source | relative_url }}" alt="{{ description }}"
+       {{ ariaAttr }}
+       class="{{ fxClasses }}">
+  {{ title }}
+</h2>
