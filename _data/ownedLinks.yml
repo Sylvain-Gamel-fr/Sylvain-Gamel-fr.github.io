@@ -28,7 +28,7 @@
   description:
     en: For business contacts.
     fr: Pour des contacts pro.
-  
+
 - service: CodePen
   name: CodePen
   group: 10_code
@@ -105,3 +105,12 @@
     en: Old and recent drawings or digital arts.
     fr: Une archive d'anciens dessins et de travaux numériques.
         
+- service: Pinterest
+  name: Pinterest
+  group: 08_art
+  url: https://fr.pinterest.com/sylvaingamel/
+  icon: social-pinterest.svg
+  description:
+    en: Mostly design and inspiration stuffs.
+    fr: Essentiellement des éléments de design et des sources d'inspiration.
+  
