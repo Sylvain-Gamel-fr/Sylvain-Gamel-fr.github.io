@@ -71,4 +71,10 @@ Apprenez en plus sur mes compétences.
 
 N'hésitez pas à me contacter pour plus de renseignements.
 
+<div class="text-xs-center">
+{% include modals/contact-button.html %}
+</div>
+{% include modals/contact-form.html %}
+
+
 {% include resume/contact-info.html %}

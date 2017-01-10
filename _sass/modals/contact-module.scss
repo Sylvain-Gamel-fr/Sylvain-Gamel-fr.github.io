@@ -1,0 +1,27 @@
+.modal {
+    
+    .modal-header {
+        position: relative;
+        
+        h5 {
+            font-size: 1.25em;
+        }
+        
+        .close {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            padding: 8px 12px;
+        }
+    }
+    
+}
+
+
+.modal.contact-form {
+    .modal-header {
+        background-color: colorNamed(greenBase);
+    }
+}
+

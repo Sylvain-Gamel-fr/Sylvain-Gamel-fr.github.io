@@ -1,3 +1,8 @@
+all:
+    closeLabel:
+        en: Close
+        fr: Fermer
+
 top_nav:
     en: Site sections
     fr: Sections du site
@@ -124,3 +129,14 @@ paginator:
     current:
         en: Page $1 of $2
         fr: Page $1 sur $2
+
+contactForm:
+    showButton:
+        en: Contact me...
+        fr: Contactez-moi...
+    title:
+        en: Contact
+        fr: Contact
+    formFrame:
+        en: Please, fill in this form
+        fr: Merci de remplir ce formulaire

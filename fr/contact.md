@@ -7,6 +7,11 @@ lang: fr
 permalink: fr/contact.html
 ---
 
+<div class="mt-3 mb-3 text-xs-center">
+{% include modals/contact-button.html %}
+</div>
+{% include modals/contact-form.html %}
+
 {% include resume/contact-info.html %}
 
 <div class="row mt-3">
