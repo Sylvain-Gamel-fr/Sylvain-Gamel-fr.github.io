@@ -16,9 +16,9 @@ permalink: /en/about/
         <h2 class="card-title mt-0 mb-2 text-xs-left">Sylvain <span class="text-smallcaps">Gamel</span></h4>
         <div class="card-subtitle text-muted">
           <ul class="list-unstyled">
-            <li>Ingénieur développement,</li>
-            <li>Assistance Maîtrise d’ouvrage,</li>
-            <li>Interfaces et expérience utilisateur.</li>
+            <li>Software developer,</li>
+            <li>Functional specifications,</li>
+            <li>User interface and user experience.</li>
           </ul>
         </div>
       </div>
@@ -27,30 +27,30 @@ permalink: /en/about/
     <div class="row">
       <div class="col-xs-12 col-sm-8 mt-2">
         <p>
-          Je développe des logiciels depuis 1997 dans des contextes variés 
-          et avec des technologies diverses.
+          I have been developing software since 1997 in various contexts and 
+          wide range of technologies.
         </p>
 
         <p>
-          J'aime créer des logiciels, que ce soit du coté des serveurs (Java, NodeJS), 
-          ou face à vos utilisateurs, dans un navigateur web (HTML5/JS/CSS) 
-          ou sur son téléphone (iOS, web).
+          I like to create software, whether on the side of the servers (Java, NodeJS),
+          or in front of your users, in a web browser (HTML5 / JS / CSS) or on their 
+          phone (iOS, web).
         </p>
 
         <p>
-          Je peux également prendre en charge votre formation, ou celle de vos 
-          utilisateurs.
+          I can also take care of your training, or that of your users.
         </p>
 
         <p>
-          Il m'est tout autant possible de vous aider <em>en amont du développement</em>.
-          En collaboration avec vous et vos utilisateurs je peux définir le cahier 
-          des charges de votre projet et mener à terme les 
-          <em>spécifications fonctionnelles</em> et techniques de votre produit.
+          Helping you to <em>upstream the development</em> of your project is also
+          one part of my capabilities.
+          In collaboration with you and your users I can define the specifications 
+          of your project and carry out the <em>functional and technical specifications</em>
+          of your product.
         </p>
 
 
-        <h3>Quelques domaines d'activité</h3>
+        <h3>Areas of activity</h3>
         
         <ul>
           {% for project in site.data.resume_project_types %}
@@ -170,14 +170,15 @@ permalink: /en/about/
 
       <div class="col-xs-12 col-sm-4 mt-2" >
         <aside>
+          <h3 class="sr-only">Additional Information</h2>
           <h4>Resume</h4>
           
-          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr-2015.pdf' | absolute_url }}">
-            Download by resume...
+          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr.pdf' | absolute_url }}">
+            Download my resume...
           </a>
           (a <abbr>pdf</abbr> document)
           
-          <h4>Années clés</h4>
+          <h4>Milestone Years</h4>
 
           {% for timelineGroup in site.data.resume_timeline %}
             {% include resume/resume_list_timeline.html group=timelineGroup %}
