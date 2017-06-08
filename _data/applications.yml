@@ -64,4 +64,17 @@
         - D6QZ-m6DCJI
         - idKluIVLeSY
         
+- id: instantsizing
+  name: 
+    fr: Sizing Instantané 
+    en: Instant Sizing
+  pageCode: instant-sizing
+  shortDescription:
+    fr: Participez aux réunions de sizing avec des cartes virtuelles.
+    en: Virtual cards to participate in sizing meetings.
+  icon:
+    small: /images/apps/icon-instantSizing_150px.png
+    default: /images/apps/icon-instantSizing.svg
+  shop:
+    app_store: https://itunes.apple.com/us/app/instant-sizing-for-scrum/id1245353972?l=fr&ls=1&mt=8
 

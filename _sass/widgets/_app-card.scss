@@ -1,5 +1,11 @@
 // Images adjudting time depending on breakpoint
 
+.app-list .app-card.media {
+	@include media-breakpoint-up(md) {
+		min-height: 15em;
+	}
+}
+
 .media.app-card {
 
     img.media-object {
