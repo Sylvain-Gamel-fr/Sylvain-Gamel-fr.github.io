@@ -1,9 +1,9 @@
 - service: YouTube
   visibleIn: 
     - footer
-  name: "youtube.SylvainGamel.fr"
+  name: "youtube.fr/sgamel"
   group: 01_social
-  url: https://youtube.SylvainGamel.fr/
+  url: https://youtube.fr/sgamel/
   icon: social-youtube.svg
   description:
     en: My iOS and macOS tutorial channel on YoutTube.
