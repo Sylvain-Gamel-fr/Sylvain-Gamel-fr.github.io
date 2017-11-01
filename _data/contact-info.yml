@@ -13,7 +13,7 @@ company:
     legal:  
         - "E.U.R.L. au capital de 5000€"
         - "RDC Draguignan B 528 079 197"
-        - "SIRET 52807919700018"
+        - "SIRET 52807919700026"
         - "Code NAF (ex. APE) 6202A"
         - "TVA Intracommunautaire: FR41528079197"
 phone: "(+33) 6 42 42 56 52"
@@ -25,9 +25,6 @@ links:
     - name: Coding Blog
       icon: corporate
       url:  http://code.SylvainGamel.fr/
-    - name: Personnal Blog
-      icon: Tumblr
-      url:  http://tumblr.SylvainGamel.fr/
     - name: YouTube
       icon: YouTube
       url:  http://youtube.SylvainGamel.fr/

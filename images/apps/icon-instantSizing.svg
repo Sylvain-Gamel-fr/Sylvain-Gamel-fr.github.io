@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>app-icon-orange-arrows-rounded-web</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F8E71C" offset="0%"></stop>
+            <stop stop-color="#F89C1B" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="-51 54 -40.25 44 -39.5 54 -8 54 35 54 121 54 89 86 121 118 35 118 -8 118 -39.5 118 -40.25 128 -51 118 -83 86"></polygon>
+        <filter x="-31.4%" y="-38.1%" width="145.9%" height="176.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-32" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="153 138 163.75 128 164.5 138 196 138 239 138 325 138 293 170 325 202 239 202 196 202 164.5 202 163.75 212 153 202 121 170"></polygon>
+        <filter x="-31.4%" y="-38.1%" width="145.9%" height="176.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-32" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-icon-orange-arrows-rounded">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="256" height="256" rx="42"></rect>
+            <g id="Rectangle-2" transform="translate(19.000000, 86.000000) scale(-1, 1) rotate(-360.000000) translate(-19.000000, -86.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="8" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use stroke="#FFFFFF" stroke-width="8" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>
