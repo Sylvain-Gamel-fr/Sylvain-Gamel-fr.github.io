@@ -17,7 +17,7 @@ title: Sylvain Gamel
 slogan: Domptez l'informatique avant qu'elle ne vous dompte.
 email: contact@SGinTech.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Développement mobile ou internet. 
+  Développement mobile ou internet.
   Formations internet, mobilité et bureautique.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://SylvainGamel.fr" # the base hostname & protocol for your site
@@ -31,7 +31,7 @@ paginate_path: "/fr/blog/page:num/"
 markdown: kramdown
 #theme: sgit-sober
 
-exclude: [ "node_modules", "design", "gulpfile.js", "Gemfile*", "package.json", "nbproject" ]
+exclude: [ "scripts", "vendor", "node_modules", "design", "gulpfile.js", "Gemfile*", "package.json", "nbproject" ]
 
 production: true
 

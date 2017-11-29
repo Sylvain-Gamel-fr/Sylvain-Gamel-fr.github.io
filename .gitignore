@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 /nbproject/private/node_modules
 node_modules
-
+vendor
