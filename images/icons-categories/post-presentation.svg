@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <rect id="post-presentation-a" width="235" height="159" rx="8"/>
+    <circle id="post-presentation-b" cx="118" cy="187" r="7"/>
+    <path id="post-presentation-c" d="M46,55.5012413 C46,52.4629896 48.4686147,50 51.5,50 L51.5,50 C54.5375661,50 57,52.4700293 57,55.5024528 C57,55.5024528 57,101.856944 57,119 C56.3522457,123.063186 47.1981612,123.139072 46,119 C46,114.021148 46,55.5012413 46,55.5012413 Z"/>
+    <path id="post-presentation-d" d="M8.85517687,24.6602479 C10.1388072,20.4296098 14.7604886,17 19.1746118,17 L83.5060207,17 C87.9216569,17 92.5668377,20.4241358 93.877376,24.6353402 L102.63324,52.770905 C103.945546,56.987787 101.418701,60.4062453 97.0107476,60.4062453 L6.00801068,60.4062453 C1.59048845,60.4062453 -0.951693813,56.9821095 0.333597384,52.7459973 L8.85517687,24.6602479 Z"/>
+    <filter id="post-presentation-e" width="109.3%" height="116%" x="-5.8%" y="-2%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(33 25)">
+      <use fill="#FFF" xlink:href="#post-presentation-a"/>
+      <rect width="240" height="164" x="-2.5" y="-2.5" stroke="#323232" stroke-width="5" rx="8"/>
+      <path stroke="#323232" stroke-linecap="square" stroke-width="3" d="M118,161.588153 L118,179.366667"/>
+      <g>
+        <use fill="#FFF" xlink:href="#post-presentation-b"/>
+        <circle cx="118" cy="187" r="8" stroke="#323232" stroke-width="2"/>
+      </g>
+    </g>
+    <g transform="translate(185 154)">
+      <ellipse cx="51.5" cy="122" fill="#A2A2A2" rx="26.5" ry="8"/>
+      <use fill="#929292" xlink:href="#post-presentation-c"/>
+      <path stroke="#FFF" stroke-width="2" d="M45,55.5012413 C45,51.9127152 47.9143184,49 51.5,49 C55.0878923,49 58,51.9157827 58,55.5024528 L58,119 L57.9875298,119.157432 C57.1610693,124.341594 46.5168085,124.381672 45.0394363,119.27806 L45,119.141827 L45,55.5012413 Z"/>
+      <use fill="#646464" xlink:href="#post-presentation-d"/>
+      <path stroke="#FFF" stroke-width="2" d="M7.89825415,24.3699052 C9.30956623,19.7184486 14.3193485,16 19.1746118,16 L83.5060207,16 C88.3575273,16 93.3909924,19.7070791 94.832208,24.3381939 L103.588072,52.4737587 C105.099827,57.3315403 102.095779,61.4062453 97.0107476,61.4062453 L6.00801068,61.4062453 C0.917238497,61.4062453 -2.10288119,57.3320317 -0.623325341,52.4556546 L7.89825415,24.3699052 Z"/>
+      <g filter="url(#post-presentation-e)" transform="translate(21)">
+        <rect width="18" height="11" x="25" fill="#484848" rx="5.5"/>
+        <path stroke="#484848" stroke-width="3" d="M0.135633202,24.599186 C-0.641240017,15.7920356 1.91918908,9.59230694 7.8169205,6 C14.5566274,6 21.5409159,6 30.6711652,6"/>
+      </g>
+    </g>
+  </g>
+</svg>
