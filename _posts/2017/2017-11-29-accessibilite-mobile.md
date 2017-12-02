@@ -12,6 +12,11 @@ downloads:
     name: "Diapos et notes"
     url:  "/assets/2017/2017-11-29-meetup-dmca-a11y-mobile.pdf"
     tip: "Téléchargez diapos et notes."
+links:
+  -
+    url: "https://github.com/sylvaingml/AllDayJava"
+    title: "Retrouvez le projet example sur Github"
+    label: "AllDayJava, l'application exemple"
 presentationURL:
     name: "La présentation (format HTML)"
     url:  "/assets/2017/2017-11-29-meetup-dmca-a11y-mobile/"
@@ -42,3 +47,10 @@ en arrière et en avant.
 
 Les diapos de cette présentation avec des notes
 complémentaires et références sont téléchargeables dans ce billet.
+
+-----
+
+**[Mises à jour]**
+
+- 2017-12-02: _Ajout du lien vers le projet présenté comme exemple
+  dans la présentation_.
