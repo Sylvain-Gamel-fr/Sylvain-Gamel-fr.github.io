@@ -6,7 +6,7 @@ all:
 top_nav:
     en: Site sections
     fr: Sections du site
-    
+
 nav_menu_label:
     en: Site navigation menu
     fr: Menu de navigation
@@ -36,26 +36,30 @@ book_cover_alt:
 book_buyNow_title:
     en: Buy it now
     fr: Achetez le maintenant
-    
+
 download_now:
     en: "Download here:"
     fr: "Téléchargez ici:"
 download_iconAlt:
     en: "Get file from the web"
     fr: "Téléchargez le fichier à partir d'internet"
-    
+
+extern_link:
+    en: "External links:"
+    fr: "Liens externes&nbsp;:"
+
 music_label:
     en: "Music:"
     fr: "Musique&nbsp;:"
 music_info:
     en: "_$1_, by $2"
     fr: "«&nbsp;_$1_&nbsp;», de $2"
-    
+
 navigation:
     current:
         en: "[current item]"
         fr: "(élément actif)"
-    
+
 youtube_frame:
     en: Video player
     fr: Lecteur de vidéo
@@ -69,7 +73,7 @@ page_banner_alt:
 
 post:
     inline_video:
-        en: Integrated video 
+        en: Integrated video
         fr: Vidéo include
     published_on:
         en: Published on
@@ -81,41 +85,41 @@ post:
         subscribe_text:
             en: Never miss a video, [go and subscribe](http://youtube.SylvainGamel.fr/) to my channel.
             fr: Ne ratez aucune vidéo et [abonnez-vous](http://youtube.SylvainGamel.fr/) à ma chaine.
-    
+
 resume_scope:
     en: Project scope
     fr: Périmètre fonctionnel
 resume_listOfTechno:
     en: Applied technologies
-    fr: Technologies mises en œuvre    
-    
+    fr: Technologies mises en œuvre
+
 expand_all:
     en: Expand all
     fr: Tout déplier
 collapse_all:
     en: Collapse all
     fr: Tout plier
-    
+
 postIconLabels:
-    post-default.svg: 
+    post-default.svg:
         en: Generic post
         fr: Billet d'actualité
-    post-book.svg: 
+    post-book.svg:
         en: Book
         fr: Livre
-    post-ios.svg: 
+    post-ios.svg:
         en: iOS, iPhone and iPad
         fr: iOS, iPhone et iPad
-    post-macOS.svg: 
+    post-macOS.svg:
         en: macOS
         fr: macOS
-    post-think.svg: 
+    post-think.svg:
         en: Thinking
         fr: Réflexions
-    post-youtube.svg: 
+    post-youtube.svg:
         en: YouTube Video
         fr: Vidéo YouTube
-            
+
 paginator:
     label:
         en: Page browser

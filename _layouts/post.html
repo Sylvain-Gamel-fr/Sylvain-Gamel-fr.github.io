@@ -11,13 +11,13 @@ layout: default
         {% endif %}
 
         {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
-        
+
         {% if page.logo %}
         <div class="media-left" >
             <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="92px" alt="{{ iconLabel }}">
         </div>
         {% endif %}
-        
+
         <div class="media-body">
             <h2 class="media-heading text-xs-left mb-1" >{{ page.title }}</h2>
             {% if page.subtitle %}
@@ -26,7 +26,7 @@ layout: default
             <p class="small mt-0 mb-1">{{ page.date | date: "%Y-%m-%d" }}</p>
         </div>
     </header>
-    
+
     <div class="container" itemprop="articleBody" >
       {% if page.youtube_id %}
         {% assign videoTitle = site.data.i18n.post.inline_video[ page.lang ] %}
@@ -38,7 +38,7 @@ layout: default
         <div class="col-xs-12 col-md-8 col-lg-9">
           {{ content }}
         </div>
-        
+
         <div class="col-xs-12 col-md-4 col-lg-3">
           <aside>
             {% if page.downloads %}
@@ -47,7 +47,18 @@ layout: default
                 {% include widgets/download_link.html name=item.name url=item.url tip=item.tip %}
               {% endfor %}
             {% endif %}
-            
+
+            {% if page.links %}
+              <h3 class="h4">{{ site.data.i18n.extern_link[ page.lang ] }}</h3>
+              <ul class="list-unstyled">
+              {% for item in page.links %}
+                <li>
+                    <a href="{{ item.url }}" title="{{ item.title }}">{{ item.label }}</a>
+                </li>
+              {% endfor %}
+              </ul
+            {% endif %}
+
             {% if page.youtube_id %}
               {% assign ytLink = site.data.ownedLinks | where_exp: "item", "item.service == 'YouTube'" | first %}
 
@@ -56,16 +67,16 @@ layout: default
               {% else %}
                 {% assign theName = ytLink.name %}
               {% endif %}
-              
+
               <h3 class="h4">
-                <img class="social-icon img-as-inline-icon" 
-                     src="{{ "/images/social/" | append: ytLink.icon | relative_url }}" 
+                <img class="social-icon img-as-inline-icon"
+                     src="{{ "/images/social/" | append: ytLink.icon | relative_url }}"
                      alt="{{ theName }}">
                 {{ site.data.i18n.post.aside.subscribe_heading[ page.lang ] }}
               </h3>
               {{ site.data.i18n.post.aside.subscribe_text[ page.lang ] | markdownify }}
             {% endif %}
-            
+
             {% if page.music %}
               <h3 class="h4">{{ site.data.i18n.music_label[ page.lang ] }}</h3>
               {% include widgets/music_info.html track=page.music.track artist=page.music.artist %}
@@ -74,5 +85,5 @@ layout: default
         </div>
       </div>
     </div>
-  
+
 </article>
