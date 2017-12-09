@@ -10,7 +10,7 @@ tags: iOS, accessibilité, présentation
 downloads:
   -
     name: "Diapos et notes"
-    url:  "/assets/2017/2017-11-29-meetup-dmca-a11y-mobile.pdf"
+    url:  "https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/web/2017/2017-11-29-meetup-dmca-a11y-mobile.pdf"
     tip: "Téléchargez diapos et notes."
 links:
   -
@@ -19,7 +19,7 @@ links:
     label: "AllDayJava, l'application exemple"
 presentationURL:
     name: "La présentation (format HTML)"
-    url:  "/assets/2017/2017-11-29-meetup-dmca-a11y-mobile/"
+    url:  "https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/web/2017/2017-11-29-meetup-dmca-a11y-mobile/index.html"
 ---
 
 _Une introduction à l’accessibilité sur iOS, pour les développeurs._
