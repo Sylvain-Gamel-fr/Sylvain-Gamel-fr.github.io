@@ -173,18 +173,19 @@ permalink: /fr/a-propos/
           <h3 class="sr-only">Informations complémentaires</h2>
           <h4>Curriculum Vitae</h4>
 
-          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr.pdf' | absolute_url }}"
-             title="CV français et anglais en PDF.">
-            Téléchargez mon <span class="text-smallcaps">cv</span>...
-          </a>
-          (document au format <abbr>pdf</abbr>, 1,1Mo)
-
-          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-Fr-overview.pdf' | absolute_url }}"
-             title="Fiche synthétique de parcours et de compétences en PDF.">
-            Téléchargez ma fiche synthétique...
-          </a>
+          <p>
+              <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr.pdf' | absolute_url }}"
+                 title="CV français et anglais en PDF.">
+                 Téléchargez mon <span class="text-smallcaps">cv</span>...</a><br>
+              (document au format <abbr>pdf</abbr>, 1,1Mo)
+          </p>
+          <p>
+              <a href="{{ 'downloads/about/CV-Sylvain-Gamel-Fr-overview.pdf' | absolute_url }}"
+                 title="Fiche synthétique de parcours et de compétences en PDF.">
+              Téléchargez ma fiche synthétique...</a><br>
           (document au format <abbr>pdf</abbr>, 250Ko)
-
+          </p>
+          
           <h4>Années clés</h4>
 
           {% for timelineGroup in site.data.resume_timeline %}
