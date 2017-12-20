@@ -23,35 +23,35 @@ permalink: /fr/a-propos/
         </div>
       </div>
     </header>
-    
+
     <div class="row">
       <div class="col-xs-12 col-sm-8 mt-2">
         <p>
-          Je développe des logiciels depuis 1997 dans des contextes variés 
+          Je développe des logiciels depuis 1997 dans des contextes variés
           et avec des technologies diverses.
         </p>
 
         <p>
-          J'aime créer des logiciels, que ce soit du coté des serveurs (Java, NodeJS), 
-          ou face à vos utilisateurs, dans un navigateur web (HTML5/JS/CSS) 
+          J'aime créer des logiciels, que ce soit du coté des serveurs (Java, NodeJS),
+          ou face à vos utilisateurs, dans un navigateur web (HTML5/JS/CSS)
           ou sur son téléphone (iOS, web).
         </p>
 
         <p>
-          Je peux également prendre en charge votre formation, ou celle de vos 
+          Je peux également prendre en charge votre formation, ou celle de vos
           utilisateurs.
         </p>
 
         <p>
           Il m'est tout autant possible de vous aider <em>en amont du développement</em>.
-          En collaboration avec vous et vos utilisateurs je peux définir le cahier 
-          des charges de votre projet et mener à terme les 
+          En collaboration avec vous et vos utilisateurs je peux définir le cahier
+          des charges de votre projet et mener à terme les
           <em>spécifications fonctionnelles</em> et techniques de votre produit.
         </p>
 
 
         <h3>Quelques domaines d'activité</h3>
-        
+
         <ul>
           {% for project in site.data.resume_project_types %}
             {% if project.title[ page.lang ] %}
@@ -59,13 +59,13 @@ permalink: /fr/a-propos/
             {% else %}
               {% assign prjTitle = project.title %}
             {% endif %}
-          
+
             <li>
               <a href="#project_type_{{ project.id }}">{{ prjTitle }}</a>
             </li>
           {% endfor %}
         </ul>
-        
+
         <div class="text-xs-right">
           <button type="button" class="btn btn-link btn-sm"
                   onclick="$('[role=tablist] [role=tabpanel]').collapse('show');" >
@@ -76,8 +76,8 @@ permalink: /fr/a-propos/
             {{ site.data.i18n[ 'collapse_all' ][ page.lang ] }}
           </button>
         </div>
-        
-        
+
+
         {% for project in site.data.resume_project_types %}
           {% include resume/project_type.html project=project %}
         {% endfor %}
@@ -108,7 +108,7 @@ permalink: /fr/a-propos/
 
         <ul>
           <li>
-            Objective-C (j'ai même commis <a href="/fr/books">un livre</a> 
+            Objective-C (j'ai même commis <a href="/fr/books">un livre</a>
             sur le sujet)&nbsp;;
           </li>
           <li>Swift</li>
@@ -122,7 +122,7 @@ permalink: /fr/a-propos/
           <li>C ;</li>
           <li>Perl ;</li>
           <li>
-            Oui j'ai aussi fait du PHP, mais c'est trop ancien pour oser 
+            Oui j'ai aussi fait du PHP, mais c'est trop ancien pour oser
             en parler ouvertement.
           </li>
         </ul>
@@ -172,19 +172,26 @@ permalink: /fr/a-propos/
         <aside>
           <h3 class="sr-only">Informations complémentaires</h2>
           <h4>Curriculum Vitae</h4>
-          
-          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr.pdf' | absolute_url }}">
-            Télécharger mon <span class="text-smallcaps">cv</span>...
+
+          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-En-Fr.pdf' | absolute_url }}"
+             title="CV français et anglais en PDF.">
+            Téléchargez mon <span class="text-smallcaps">cv</span>...
           </a>
-          (document au format <abbr>pdf</abbr>)
-          
+          (document au format <abbr>pdf</abbr>, 1,1Mo)
+
+          <a href="{{ 'downloads/about/CV-Sylvain-Gamel-Fr-overview.pdf' | absolute_url }}"
+             title="Fiche synthétique de parcours et de compétences en PDF.">
+            Téléchargez ma fiche synthétique...
+          </a>
+          (document au format <abbr>pdf</abbr>, 250Ko)
+
           <h4>Années clés</h4>
-          
+
           {% for timelineGroup in site.data.resume_timeline %}
             {% include resume/resume_list_timeline.html group=timelineGroup %}
           {% endfor %}
 
-        </aside> 
+        </aside>
       </div>
     </div>
 
