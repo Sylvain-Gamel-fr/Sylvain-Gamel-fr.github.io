@@ -12,7 +12,7 @@ tags: Apple
 
 
 Je vais vous raconter cette petite histoire à la veille de Noël
-parcequ'elle fini plutôt bien.
+parcequ'elle finit plutôt bien.
 
 *Mais commençons par poser le décor...*
 
@@ -66,7 +66,7 @@ fin de journée.
 
 Je prends donc quelques minutes pour aller voir de près ces iPhones X si tentants.
 Juste assez de temps pour entendre un visiteur basher Apple en traitant
-l'ami qui l'accompagne de pigeon prêt à se faire plumer...
+l’ami qui l’accompagne de pigeon prêt à se faire plumer...
 
 ### Le soir venu, de retour chez Apple
 
