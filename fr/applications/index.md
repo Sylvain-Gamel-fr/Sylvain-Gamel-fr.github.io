@@ -12,11 +12,28 @@ logoImage: "/images/picto/section-mobile-app.svg"
 
 {% assign lang = page.lang %}
 
+### Applications pour macOS
+
+{% assign appPages = site.pages | sort: "order" %}
+{% for current in appPages %}
+    {% if current.categories contains page.subcategory and current.family == "macOS" %}
+        {%  assign sectionActive = false %}
+        {% if page.categories contains current.category %}
+            {%  assign sectionActive = true %}
+        {% endif %}
+        {% if current.order != -1 and current.title and current.lang == page.lang %}
+
+{% include apps/app-info.html lang=lang appId=current.id %}
+
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
 ### Applications pour iOS
 
 {% assign appPages = site.pages | sort: "order" %}
 {% for current in appPages %}
-    {% if current.categories contains page.subcategory %}
+    {% if current.categories contains page.subcategory and current.family == "iOS" %}
         {%  assign sectionActive = false %}
         {% if page.categories contains current.category %}
             {%  assign sectionActive = true %}

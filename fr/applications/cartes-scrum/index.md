@@ -3,6 +3,7 @@ layout: page_app
 title: Cartes SCRUM
 slogan: Le planning agile au bout des doigts
 categories: apps
+family: iOS
 lang: "fr"
 order: 2
 id: scrumcards

@@ -28,7 +28,12 @@ layout: default
 <article role="main" >
   <header id="art-head">
     {% assign iconAlt = site.data.i18n.app_icon_alt[ lang ] | replace: '$1', appName %}
-    {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
+    {% if app.type == "iOS" %}
+      {% include page/section-title.html title=appName src=app.icon.default fxClasses="fx-app-icon-shadow" %}
+    {% else %}
+      {% include page/section-title.html title=appName src=app.icon.default %}
+    {% endif %}
+    
   </header>
   
   <div class="mt-3 mb-2">

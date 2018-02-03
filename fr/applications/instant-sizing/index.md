@@ -3,6 +3,7 @@ layout: page_app
 title: Sizing Instantané
 slogan: Pour des sizing simples, rapides et efficaces.
 categories: apps
+family: iOS
 lang: "fr"
 order: 4
 id: instantsizing

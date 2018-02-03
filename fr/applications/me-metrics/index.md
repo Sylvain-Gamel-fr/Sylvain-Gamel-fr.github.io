@@ -3,6 +3,7 @@ layout: page_app
 title: me-Metrics
 slogan: Comptez ce qui compte pour vous !
 categories: apps
+family: iOS
 lang: "fr"
 order: 3
 id: memetrics

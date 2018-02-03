@@ -1,4 +1,29 @@
+- id: chapter-splitter
+  type: macOS
+  name: 
+    fr: Chapter Splitter
+    en: Chapter Splitter
+  pageCode:
+    fr: chapter-splitter
+    en: chapter-splitter
+  slogan:
+    fr: Votre découpeuse de film. Un chapitre, une vidéo.
+    en: Your movie slicer. One chapter, one video.
+  shortDescription:
+    fr: Exporter rapidement les chapitre d'un film en autant de vidéos.
+    en: Quick export of a movie chapter in as many video files.
+  icon:
+    small: /images/apps/icon-chapter-splitter_150px.png
+    default: /images/apps/icon-chapter-splitter.svg
+  shop:
+    mac_app_store: https://itunes.apple.com/us/app/video-chapter-splitter/id1341668646?l=fr&ls=1&mt=12
+  XXXyoutube:
+    intro: 
+        en: _6pTfm-ashY
+        fr: jn1jY7RykVc
+
 - id: vatcalc
+  type: iOS
   name: 
     fr: Calculette TVA
     en: VAT Calculator
@@ -23,6 +48,7 @@
   
 
 - id: scrumcards
+  type: iOS
   name: 
     fr: Cartes SCRUM
     en: SCRUM Cards
@@ -44,6 +70,7 @@
 
 
 - id: memetrics
+  type: iOS
   name: 
     fr: me-Metrics
     en: me-Metrics
@@ -65,6 +92,7 @@
         - idKluIVLeSY
         
 - id: instantsizing
+  type: iOS
   name: 
     fr: Sizing Instantané 
     en: Instant Sizing

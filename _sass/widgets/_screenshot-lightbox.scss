@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 févr. 2018, 22:04:35
+    Author     : Sylvain Gamel <contact@SylvainGamel.fr>
+*/
+
+.btn.btn-screenshot {
+    border: 0px solid transparent;
+    background: transparent;
+
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+        
+    &:active,
+    &:focus,
+    &:hover {
+        border: 0px solid #d0d0d0;
+        border-radius: 5px;
+        background: #fefefe;
+        box-shadow: 0 1px 2px #909090;
+        transform: scale(1.05);
+        
+        transition: all 0.1s ease-in-out;
+    }
+}

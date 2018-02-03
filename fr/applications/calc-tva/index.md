@@ -3,6 +3,7 @@ layout: page_app
 title: Calculette TVA
 slogan: La TVA facile
 categories: apps
+family: iOS
 lang: "fr"
 order: 1
 id: vatcalc

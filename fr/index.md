@@ -28,7 +28,7 @@ dans les nouvelles technologies de l’information et de la communication (NTIC)
     title="Applications Mobiles"
     src="/images/picto/section-mobile-app.svg" %}
 
-{% include apps/card-list.html lang=lang appList=site.data.applications %}
+{% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
 
 Je peux également écrire vos application mobiles ou web sur demande.
 

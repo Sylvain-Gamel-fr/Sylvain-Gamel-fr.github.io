@@ -14,3 +14,9 @@
     fr: icons/appstore-badge-fr.svg
     en: icons/appstore-badge-en.svg
 
+- id: mac_app_store
+  name: Mac App Store
+  badge: 
+    fr: icons/mac-appstore-badge-fr.svg
+    en: icons/mac-appstore-badge-en.svg
+
