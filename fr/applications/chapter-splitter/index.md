@@ -99,3 +99,10 @@ Une action Automator simple à configurer et
         src="web-automator-workflow.png" imgAlt=workflowScreenshot
         description=workflowDescription %}
 
+La vidéo ci-dessous vous montre comment contruire un processus d'exportation
+en quelques clics.
+
+{% capture demoAutomatorLabel %}
+Un processus simple d'exportation
+{% endcapture %}
+{% include widgets/youtube.html videoId="eAN4gHLQ44M" title=demoAutomatorLabel %}

@@ -17,10 +17,10 @@
     default: /images/apps/icon-chapter-splitter.svg
   shop:
     mac_app_store: https://itunes.apple.com/us/app/video-chapter-splitter/id1341668646?l=fr&ls=1&mt=12
-  XXXyoutube:
+  youtube:
     intro: 
-        en: _6pTfm-ashY
-        fr: jn1jY7RykVc
+        en: S-_iBP-yjJg
+        fr: S-_iBP-yjJg
 
 - id: vatcalc
   type: iOS
