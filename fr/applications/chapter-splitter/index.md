@@ -32,31 +32,31 @@ sideNote:
 Chapter Splitter est une application conçue pour vous aider à découper
 une vidéo en plusieurs fichiers.
 
-Pour cela elle utilise les marqueurs de chapitre que vous pouvez
-ajouter avec votre logiciel de montage vidéo ou de capture d'écran.
+Pour cela, elle utilise les marqueurs de chapitre que vous pouvez
+ajouter avec votre logiciel de montage vidéo ou de capture d’écran.
 
-Ce genre de traitement est extrèment utile surtout lorsque vous réalisez
-des enregistrements d'écrans pour des formations ou des formations.
+Ce genre de traitement est extrêmement utile surtout lorsque vous réalisez
+des enregistrements d’écrans ou des formations.
 
-Inutile de vous questionnez. 
+Inutile de vous questionner. 
 Enregistrez votre présentation et une fois dans votre logiciel de montage
-il vous suffit d'indiquer les marques de chapitre. 
+il vous suffit d’indiquer les marques de chapitre. 
 
 > Un utilitaire simple et efficace pour découper vos vidéos.
 
 ### Fonctionnalités
 
-Une interface minimaliste mais efficace.
+Une interface minimaliste, mais efficace.
 
 {% capture windowDescription %}
 
 Sélectionnez la vidéo et un dossier de destination
-et il ne vous reste plus qu'à lancer l'exportation.
+et il ne vous reste plus qu’à lancer l’exportation.
 
 {% endcapture %}
 {% capture windowScreenshot %}
 
-Une fois la vidéo sélectionnée, la liste des chapitre s'affiche.
+Une fois la vidéo sélectionnée, la liste des chapitres s’affiche.
 
 {% endcapture %}
 {% include widgets/screenshot-lightbox.html 
@@ -67,20 +67,20 @@ Une fois la vidéo sélectionnée, la liste des chapitre s'affiche.
 
 Une utilisation simple :
 
-1. ouvrez la vidéo source ;
-2. sélectionnez un dossier de destination ;
-3. lancez l'exportation.
+1. ouvrez la vidéo source ;
+2. sélectionnez un dossier de destination ;
+3. lancez l’exportation.
 
 Une configuration minimale pour ajuster les noms des fichiers.
 
-Et si vous souhaitez un maximum de souplesse, utilisez l'action
+Et si vous souhaitez un maximum de souplesse, utilisez l’action
 directement avec Automator.
 
 ### Construit pour Automator
 
-Parceque rien n'est mieux que laisser votre Mac
-travailler à votre place, ChapterSplitter est
-construit pour Automator.
+Parce que rien n’est mieux que laisser votre Mac
+travailler à votre place, Chapter Splitter est
+construite pour Automator.
 
 {% capture workflowDescription %}
 
@@ -99,10 +99,10 @@ Une action Automator simple à configurer et
         src="web-automator-workflow.png" imgAlt=workflowScreenshot
         description=workflowDescription %}
 
-La vidéo ci-dessous vous montre comment contruire un processus d'exportation
+La vidéo ci-dessous vous montre comment construire un processus d’exportation
 en quelques clics.
 
 {% capture demoAutomatorLabel %}
-Un processus simple d'exportation
+Un processus simple d’exportation
 {% endcapture %}
 {% include widgets/youtube.html videoId="eAN4gHLQ44M" title=demoAutomatorLabel %}

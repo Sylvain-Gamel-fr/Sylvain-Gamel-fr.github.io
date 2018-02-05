@@ -3,6 +3,7 @@ layout: page_app
 title: Instant Sizing
 slogan: For simple, fast and efficient sizing meeting.
 categories: apps
+family: iOS
 lang: "en"
 order: 4
 id: instantsizing

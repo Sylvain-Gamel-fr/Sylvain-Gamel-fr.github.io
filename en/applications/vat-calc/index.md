@@ -3,6 +3,7 @@ layout: page_app
 title: VAT Calculator
 slogan: Easy VAT, for all of us
 categories: apps
+family: iOS
 lang: "en"
 order: 1
 id: vatcalc

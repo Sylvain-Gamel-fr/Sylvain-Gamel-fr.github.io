@@ -3,6 +3,7 @@ layout: page_app
 title: SCRUM Cards
 slogan: Agile planning at your fingertips
 categories: apps
+family: iOS
 lang: "en"
 order: 2
 id: scrumcards

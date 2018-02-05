@@ -3,6 +3,7 @@ layout: page_app
 title: me-Metrics
 slogan: Count what matters to you!
 categories: apps
+family: iOS
 lang: "en"
 order: 3
 id: memetrics

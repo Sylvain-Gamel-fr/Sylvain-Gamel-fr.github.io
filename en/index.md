@@ -27,7 +27,7 @@ in new information and communication technologies (ICTs).
     title="Mobile Applications"
     src="/images/picto/section-mobile-app.svg" %}
 
-{% include apps/card-list.html lang=lang appList=site.data.applications %}
+{% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
 
 I can also write your mobile or web applications on demand.
 
