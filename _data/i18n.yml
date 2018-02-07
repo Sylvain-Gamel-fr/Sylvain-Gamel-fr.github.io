@@ -44,6 +44,10 @@ download_iconAlt:
     en: "Get file from the web"
     fr: "Téléchargez le fichier à partir d'internet"
 
+intern_link:
+    en: "Links:"
+    fr: "Liens&nbsp;:"
+
 extern_link:
     en: "External links:"
     fr: "Liens externes&nbsp;:"

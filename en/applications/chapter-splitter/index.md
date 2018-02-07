@@ -7,6 +7,7 @@ family: macOS
 lang: "en"
 order: 1
 id: chapter-splitter
+permalink: en/applications/chapter-splitter/
 header_banner: banner_chapter-splitter.jpg
 sideNote:
         <p>

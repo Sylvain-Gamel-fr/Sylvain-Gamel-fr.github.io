@@ -48,6 +48,37 @@ layout: default
               {% endfor %}
             {% endif %}
 
+            {% if page.appId %}
+              {% assign matchingApp = site.data.applications | where: "id", page.appId %}
+              {% assign app = matchingApp.first %}
+              {% assign lang = page.lang %}
+
+              {% if app.name[ page.lang ] %}
+                {% assign appName = app.name[ page.lang ] %}
+              {% else %}
+                {% assign appName = app.name %}
+              {% endif %}
+
+              {% if app.shortDescription[ page.lang ] %}
+                {% assign description = app.shortDescription[ page.lang ] %}
+              {% else %}
+                {% assign description = app.shortDescription %}
+              {% endif %}
+              
+              {% include widgets/shop-link-list.html shopList=app.shop titleKey='app_getNow_title' %}
+            {% endif %}
+            
+            {% if page.internalLinks %}
+              <h3 class="h4">{{ site.data.i18n.intern_link[ page.lang ] }}</h3>
+              <ul class="list-unstyled">
+              {% for item in page.internalLinks %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ item.url }}" title="{{ item.title }}">{{ item.label }}</a>
+                </li>
+              {% endfor %}
+              </ul
+            {% endif %}
+
             {% if page.links %}
               <h3 class="h4">{{ site.data.i18n.extern_link[ page.lang ] }}</h3>
               <ul class="list-unstyled">
