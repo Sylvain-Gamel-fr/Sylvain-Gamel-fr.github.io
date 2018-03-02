@@ -28,6 +28,7 @@ sideNote:
         Découvrez le sur le site 
         <a href="http://automatisez.net/" title="site externe">Automatisez.net&nbsp;!</a>
         </p>
+        <p><em>L'application est disponible en français et en anglais.</em></p>
 ---
 
 Chapter Splitter est une application conçue pour vous aider à découper
@@ -36,12 +37,11 @@ une vidéo en plusieurs fichiers.
 Pour cela, elle utilise les marqueurs de chapitre que vous pouvez
 ajouter avec votre logiciel de montage vidéo ou de capture d’écran.
 
-Ce genre de traitement est extrêmement utile surtout lorsque vous réalisez
+Ce genre de traitement est extrêmement utile par exemple si vous réalisez
 des enregistrements d’écrans ou des formations.
 
-Inutile de vous questionner. 
 Enregistrez votre présentation et une fois dans votre logiciel de montage
-il vous suffit d’indiquer les marques de chapitre. 
+il vous suffit d’indiquer les marques de chapitres. 
 
 > Un utilitaire simple et efficace pour découper vos vidéos.
 
@@ -63,7 +63,7 @@ Une fois la vidéo sélectionnée, la liste des chapitres s’affiche.
 {% include widgets/screenshot-lightbox.html 
         lang=lang 
         appId=page.id 
-        src="web-app-screenshot.png" imgAlt=windowScreenshot
+        src="web-app-screenshot.fr.png" imgAlt=windowScreenshot
         description=windowDescription %}
 
 Une utilisation simple :
@@ -82,6 +82,8 @@ directement avec Automator.
 Parce que rien n’est mieux que laisser votre Mac
 travailler à votre place, Chapter Splitter est
 construite pour Automator.
+
+#### Découpez vos vidéos
 
 {% capture workflowDescription %}
 
@@ -107,3 +109,41 @@ en quelques clics.
 Un processus simple d’exportation
 {% endcapture %}
 {% include widgets/youtube.html videoId="eAN4gHLQ44M" title=demoAutomatorLabel %}
+
+#### Récupérez la liste des chapitres
+
+Vous pouvez également exporter facilement la liste de chapitres d'une ou
+de plusieurs vidéos :
+
+- une seule vidéo si vous utilisez l'application.
+- une liste de vidéos si vous créer un processus Automator.
+
+{% capture exportCSVDescription %}
+
+Une fois la vidéo sélectionnée dans l'application, utilisez l'outil
+d'exportation CSV pour créer un fichier utilisable dans un tableur ou 
+une base de données.
+
+Il permet d'ajuster le format de votre fichier de sortie.
+
+{% endcapture %}
+{% capture exportCSVScreenshot %}
+
+L'outil d'exportation CSV permet d'ajuster le format de votre fichier de sortie.
+
+{% endcapture %}
+{% include widgets/screenshot-lightbox.html 
+        lang=lang 
+        appId=page.id 
+        src="app-export-csv.fr.png" imgAlt=exportCSVScreenshot
+        description=exportCSVDescription %}
+
+L'outil d'exportation CSV permet d'ajuster le format de votre fichier de sortie.
+
+Si votre vidéo défini des traduction pour les titres de chapitres, elles
+seront exportées comme des colonnes indépendantes.
+
+{% capture demoExportCSVLabel %}
+Exportez les chapitres dans un fichier CSV
+{% endcapture %}
+{% include widgets/youtube.html videoId="308N4cQSFjQ" title=demoExportCSVLabel %}

@@ -25,6 +25,9 @@ sideNote:
         Find everything you need on 
         <a href="http://automatisez.net/" title="external web site (french)">Automatisez.net&nbsp;!</a>
         </p>
+        <p>
+        <em>Application is available in English and French.</em>
+        </p>
 ---
 
 
@@ -61,7 +64,7 @@ Once the video is selected, the application will display the list of chapters.
 {% include widgets/screenshot-lightbox.html 
         lang=lang 
         appId=page.id 
-        src="web-app-screenshot.png" imgAlt=windowScreenshot
+        src="web-app-screenshot.en.png" imgAlt=windowScreenshot
         description=windowDescription %}
 
 Simple use in three steps:
@@ -80,6 +83,8 @@ to build your own workflows.
 Because nothing is better than leaving your Mac
 work for you, Chapter Splitter is
 built for Automator.
+
+#### Video slicing
 
 {% capture workflowDescription %}
 
@@ -105,3 +110,41 @@ in a few clicks.
 A simple export process
 {% endcapture %}
 {% include widgets/youtube.html videoId="eAN4gHLQ44M" title=demoAutomatorLabel %}
+
+#### Extracting list of chapters
+
+You can easily extract the list of chapter from one or more video to
+a CSV file:
+
+- only from the selected video when using the application.
+- from a list of source videos if you use an Automator workflow.
+
+{% capture exportCSVDescription %}
+
+Once the video is selected in the application, use the export to CSV tool
+to build a text file in the CSV format that can be opened in a spreadsheet
+or a database tool.
+
+This tool window allow you to adjust the output format.
+
+{% endcapture %}
+{% capture exportCSVScreenshot %}
+
+CSV export tool allow to adjust output format to match your needs.
+
+{% endcapture %}
+{% include widgets/screenshot-lightbox.html 
+        lang=lang 
+        appId=page.id 
+        src="app-export-csv.en.png" imgAlt=exportCSVScreenshot
+        description=exportCSVDescription %}
+
+CSV export tool provides enough customization to match you personnal need.
+
+If your video chapters are provided in multiple languages, each translation
+will be shown in a separate column.
+
+{% capture demoExportCSVLabel %}
+Export list of chapter in a CSV file.
+{% endcapture %}
+{% include widgets/youtube.html videoId="308N4cQSFjQ" title=demoExportCSVLabel %}
