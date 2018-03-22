@@ -1,0 +1,11 @@
+{% assign lang=include.lang %}
+{% assign trainingList=include.trainingList %}
+
+<ul class="list-unstyled training-list">
+{% for training in trainingList %}
+  <li class="training-list-item" >
+    {% include trainings/card-training.html lang=lang training=training %}
+  </li>
+{% endfor %}
+</ul>
+

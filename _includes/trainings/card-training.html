@@ -1,0 +1,40 @@
+{% assign lang = include.lang %}
+{% assign training = include.training %}
+
+{% if training.title[ lang ] %}
+  {% assign title = training.title[ lang ] %}
+{% else %}
+  {% assign title = training.title %}
+{% endif %}
+
+
+{% if training.description[ lang ] %}
+  {% assign description = training.description[ lang ] %}
+{% else %}
+  {% assign description = training.description %}
+{% endif %}
+
+<div class="training-card mt-2 mb-2">
+  <div class="training-media">
+    <a href="{{ training.url }}" class="media-left">
+      <img class="media-object fx-flat-popin fx-light-shrink fx-fine-border" 
+           src="{{ training.cover.small | relative_url }}" 
+           alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] | replace: '$1', title }}" >
+    </a>
+    <div>
+      {% if "beginner" == training.level %}
+      <span class="badge badge-pill badge-success">Débutant</span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="training-body">
+    <h3 class="h4 media-heading">{{ title }}</h3>
+    <div>
+      {{ description | markdownify }}
+    </div>
+    <a href="{{ training.url }}" class="btn btn-outline-primary float-right">
+        Suivre ce cours...
+    </a>
+  </div>
+</div>
+

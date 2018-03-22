@@ -1,0 +1,17 @@
+- id: html_css
+  title: "Initiation au web : HTML, CSS"
+  url: https://www.udemy.com/initiation-au-web-html-css/
+  first_publication_year: 2018
+  level: beginner
+  description:
+    fr: Une introduction aux technologies du web. En commençant par le langage
+        HTML pour construire vos document, jusqu'au langage CSS pour construire
+        la présentation de vos sites.
+        Apprennez comment fonctionne le web, et comment coder votre tout
+        premier site internet.
+    en: An introduction to web technologies, starting from HTML document language
+        to CSS presentation. Learn how the web is working and how to code your 
+        very first web site.
+  cover:
+    small:  /images/trainings/2018-html-css.svg
+    medium: /images/trainings/2018-html-css.svg

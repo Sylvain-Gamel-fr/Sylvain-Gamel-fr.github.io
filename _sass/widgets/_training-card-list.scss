@@ -1,0 +1,31 @@
+// Images adjudting time depending on breakpoint
+
+
+
+.training-list .training-card {
+    display: grid;
+    
+    grid-template-columns: 100%;
+    grid-gap: 1.5em;
+
+    .training-media img {
+        width: calc(100vw - 32px);
+    }
+    
+    @include media-breakpoint-up(sm) {
+        grid-template-columns: 10em auto;
+        
+        .training-media img {
+            width: 10em;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        grid-template-columns: 14em auto;
+        
+        .training-media img {
+            width: 14em;
+        }
+    }
+    
+}
+

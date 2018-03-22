@@ -9,11 +9,32 @@ permalink: /fr/services/
 logoImage: "/images/picto/section-services.svg"
 ---
 
+
+### Formez vous au numérique
+
+> Le numérique est partout.
+> <br>
+> Ne devenez pas des illettrés du XXI<sup>ème</sup> siècle
+
+Quel que soit votre niveau, débutant ou confirmé, vous devez acquérir les
+connaissances de base.
+
+Que ce soit pour maitriser un outil ou apprendre les bases du code,
+je peux vous aider à aborder le sujet tranquillement.
+
+[Contactez moi](/fr/contact.html) pour une proposition détaillée et personnalisée.
+
+#### Formations en lignes
+
+{% include trainings/card-list.html lang=lang trainingList=site.data.trainings %}
+
+
 ### Obtenez une adresse personnalisée
 
 > _Vous êtes_ un particulier ou une entreprise.
->
-> Vous tenez à maitrise _votre identité_ sur internet.
+> <br>
+> Vous avez besoin de maitriser _votre identité_ sur internet.
+
 
 Alors pourquoi utiliser une adresse email attachée à un tiers&nbsp;?
 Pourquoi ne pas avoir votre propre nom de domaine&nbsp;?
@@ -30,18 +51,3 @@ service et ne plus pouvoir en changer.
 
 [Contactez moi](/fr/contact.html) pour une proposition détaillée et personnalisée.
 
-
-### Formez vous au numérique
-
-> Le numérique est partout.
->
-> Ne devenez pas des illettrés du XXI<sup>ème</sup> siècle
-
-Quel que soit votre niveau, débutant ou confirmé, vous devez acquérir les
-connaissances de base.
-
-Que ce soit pour maitriser un outil ou apprendre les bases du code,
-je peux vous aider à aborder le sujet tranquillement.
-
-
-[Contactez moi](/fr/contact.html) pour une proposition détaillée et personnalisée.
