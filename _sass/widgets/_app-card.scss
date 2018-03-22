@@ -1,9 +1,27 @@
 // Images adjudting time depending on breakpoint
 
+.app-list {
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5em;
+    
+    .app-list-item {
+    }
+    
+    @include media-breakpoint-up(sm) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
 .app-list .app-card.media {
-	@include media-breakpoint-up(md) {
-		min-height: 15em;
-	}
+    @include media-breakpoint-up(md) {
+            min-height: 15em;
+    }
 }
 
 .media.app-card {

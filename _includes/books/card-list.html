@@ -3,10 +3,10 @@
 
 <hr>
 
-<div class="row">
+<div class="book-list">
 {% for book in bookList %}
   {% if book.promoted %}
-    <div class="col-xs-12 col-lg-6" >
+    <div class="book-list-item XXcol-xs-12 XXcol-lg-6" >
     {% include books/card-book.html lang=lang book=book %}
     </div>
   {% endif %}

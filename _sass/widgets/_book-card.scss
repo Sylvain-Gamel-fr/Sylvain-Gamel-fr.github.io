@@ -1,5 +1,16 @@
 // Images adjudting time depending on breakpoint
 
+.book-list {
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5em;
+
+    @include media-breakpoint-up(md) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .media.book-card {
 
     img.media-object {
