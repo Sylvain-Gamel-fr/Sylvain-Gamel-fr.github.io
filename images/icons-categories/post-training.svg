@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <rect id="post-training-a" width="285" height="180" rx="8"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(8 60)">
+    <use fill="#FFF" xlink:href="#post-training-a"/>
+    <rect width="280" height="175" x="2.5" y="2.5" stroke="#4A4A4A" stroke-width="5" rx="8"/>
+    <path stroke="#9B9B9B" stroke-linecap="square" stroke-width="2" d="M98.4816738,25 L187.550537,25"/>
+    <g stroke="#9B9B9B" stroke-linecap="square" transform="translate(121 119)">
+      <path stroke-width="2" d="M.207384073 1L67 1M.207384073 16L67 16"/>
+    </g>
+    <g stroke="#9B9B9B" stroke-linecap="square" transform="translate(30 51)">
+      <path stroke-width="2" d="M0 1L225 1M0 13L225 13M0 26L225 26M0 38L225 38"/>
+    </g>
+    <g fill="#FFF" stroke="#4A4A4A" transform="translate(201 85)">
+      <path stroke-width="3" d="M16,10 L41,10 L41,86 C41,86 32.8057635,72.7895599 28.5,72.7895599 C24.4724302,72.7895599 16,86 16,86 L16,10 Z"/>
+      <polygon stroke-width="3" points="28.5 52.725 21.124 56.029 16.388 49.479 8.347 48.653 7.521 40.612 .971 35.876 4.275 28.5 .971 21.124 7.521 16.388 8.347 8.347 16.388 7.521 21.124 .971 28.5 4.275 35.876 .971 40.612 7.521 48.653 8.347 49.479 16.388 56.029 21.124 52.725 28.5 56.029 35.876 49.479 40.612 48.653 48.653 40.612 49.479 35.876 56.029"/>
+    </g>
+  </g>
+</svg>

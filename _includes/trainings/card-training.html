@@ -19,11 +19,17 @@
     <a href="{{ training.url }}" class="media-left">
       <img class="media-object fx-flat-popin fx-light-shrink fx-fine-border" 
            src="{{ training.cover.small | relative_url }}" 
-           alt="{{ site.data.i18n[ 'book_cover_alt' ][ lang ] | replace: '$1', title }}" >
+           alt="{{ site.data.i18n.training.cover_alt[ lang ] | replace: '$1', title }}" >
     </a>
-    <div>
+    <div class="text-xs-center mt-1">
       {% if "beginner" == training.level %}
-      <span class="badge badge-pill badge-success">Débutant</span>
+        <span class="level level-beginner">{{ site.data.i18n.training.level.beginner[ lang ] }}</span>
+      {% endif %}
+      {% if "advanced" == training.level %}
+        <span class="level level-advanced">{{ site.data.i18n.training.level.advanced[ lang ] }}</span>
+      {% endif %}
+      {% if "expert" == training.level %}
+        <span class="level level-expert">{{ site.data.i18n.training.level.expert[ lang ] }}</span>
       {% endif %}
     </div>
   </div>
@@ -32,8 +38,8 @@
     <div>
       {{ description | markdownify }}
     </div>
-    <a href="{{ training.url }}" class="btn btn-outline-primary float-right">
-        Suivre ce cours...
+    <a href="{{ training.url }}" class="btn btn-outline-primary float-xs-right">
+        {{ site.data.i18n.training.start_now[ lang ] }}
     </a>
   </div>
 </div>

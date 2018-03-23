@@ -27,5 +27,20 @@
         }
     }
     
+    
+    .level {
+        display: inline-block;
+        padding: 4px 16px;
+        border: none;
+        border-radius: 20rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-shadow: black 0px 1px 1px;
+        
+        &.level-beginner {
+            color: colorNamed(white);
+            background-color: colorNamed(greenMedium);
+        }
+    }
 }
 

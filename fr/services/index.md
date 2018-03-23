@@ -26,7 +26,7 @@ je peux vous aider à aborder le sujet tranquillement.
 
 #### Formations en lignes
 
-{% include trainings/card-list.html lang=lang trainingList=site.data.trainings %}
+{% include trainings/card-list.html lang=page.lang trainingList=site.data.trainings %}
 
 
 ### Obtenez une adresse personnalisée

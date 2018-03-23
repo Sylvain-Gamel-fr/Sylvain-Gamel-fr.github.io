@@ -4,14 +4,27 @@
   first_publication_year: 2018
   level: beginner
   description:
-    fr: Une introduction aux technologies du web. En commençant par le langage
-        HTML pour construire vos document, jusqu'au langage CSS pour construire
-        la présentation de vos sites.
-        Apprennez comment fonctionne le web, et comment coder votre tout
-        premier site internet.
-    en: An introduction to web technologies, starting from HTML document language
-        to CSS presentation. Learn how the web is working and how to code your 
-        very first web site.
+    fr: Apprenez comment fonctionne le web. 
+    
+        Lancez-vous pour coder votre tout premier site internet.
+        
+        Ce cours inclut une découverte des technologies qui sont au cœur du web. 
+
+        Nous commencerons par le langage HTML qui permet d’écrire vos documents, pour finir avec le CSS qui est utilisé pour décrire la présentation de vos pages.
+
+        À la fin de ce cours, vous devriez être capable de créer un site internet simple et de prendre en main du code web.
+
+    en: Learn how the web works.
+        
+        Get started to code your very first website.
+
+        This course includes a discovery of technologies that are at the heart of the web.
+
+        We will start with the HTML language that allows you to write your 
+        documents, to finish with the CSS that is used to describe the presentation of your pages.
+
+        At the end of this course, you should be able to create a simple website 
+        and take charge of web code.
   cover:
     small:  /images/trainings/2018-html-css.svg
     medium: /images/trainings/2018-html-css.svg

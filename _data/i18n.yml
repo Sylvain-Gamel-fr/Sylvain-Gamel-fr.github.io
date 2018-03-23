@@ -148,3 +148,21 @@ contactForm:
     formFrame:
         en: Please, fill in this form
         fr: Merci de remplir ce formulaire
+
+training:
+    cover_alt:
+        en: Course visual
+        fr: Image du cours
+    start_now:
+        en: Start course now... 
+        fr: Commencez le cours...
+    level:
+        beginner:
+            en: Beginner
+            fr: Débutant
+        advanced:
+            en: Advanced
+            fr: Poussé
+        expert:
+            en: Expert
+            fr: Expert
