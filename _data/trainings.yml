@@ -4,27 +4,22 @@
   first_publication_year: 2018
   level: beginner
   description:
-    fr: Apprenez comment fonctionne le web. 
-    
-        Lancez-vous pour coder votre tout premier site internet.
-        
-        Ce cours inclut une découverte des technologies qui sont au cœur du web. 
-
-        Nous commencerons par le langage HTML qui permet d’écrire vos documents, pour finir avec le CSS qui est utilisé pour décrire la présentation de vos pages.
-
-        À la fin de ce cours, vous devriez être capable de créer un site internet simple et de prendre en main du code web.
-
-    en: Learn how the web works.
-        
-        Get started to code your very first website.
-
-        This course includes a discovery of technologies that are at the heart of the web.
-
+    fr: <p>Apprenez comment fonctionne le web.</p>
+        <p>Lancez-vous pour coder votre tout premier site internet.</p>
+        <p>Ce cours inclut une découverte des technologies qui sont au cœur du web.</p>
+        <p>Nous commencerons par le langage HTML qui permet d’écrire vos documents, pour finir avec le CSS qui est utilisé pour décrire la présentation de vos pages.</p>
+        <p>À la fin de ce cours, vous devriez être capable de créer un site internet simple et de prendre en main du code web.</p>
+    en: <p>Learn how the web works.</p>
+        <p>Get started to code your very first website.</p>
+        <p>This course includes a discovery of technologies that are at the heart of the web.</p>
+        <p>
         We will start with the HTML language that allows you to write your 
         documents, to finish with the CSS that is used to describe the presentation of your pages.
-
+        </p>
+        <p>
         At the end of this course, you should be able to create a simple website 
         and take charge of web code.
+        </p>
   cover:
     small:  /images/trainings/2018-html-css.svg
     medium: /images/trainings/2018-html-css.svg

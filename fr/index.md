@@ -45,9 +45,9 @@ ou former votre personnel, à l’utilisation des nouvelles technologies ?
 
 > L'absence de connaissances de l'outil numérique est un nouvel illétrisme.
 
-Contactez moi pour définir votre plan de formation.
+[Contactez moi](/fr/contact.html) pour définir votre plan de formation.
 
-
+[En savoir plus...](/fr/services)
 
 {% include page/section-title.html 
     title="Développement"
@@ -69,7 +69,7 @@ Apprenez en plus sur mes compétences.
     src="/images/picto/section-mail.svg" %}
 
 
-N'hésitez pas à me contacter pour plus de renseignements.
+N'hésitez pas à [me contacter](/fr/contact.html) pour plus de renseignements.
 
 <div class="text-xs-center">
 {% include modals/contact-button.html %}
