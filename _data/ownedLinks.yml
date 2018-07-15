@@ -78,16 +78,7 @@
     en: The square photographic diary.
     fr: Mon journal en photos carrées.
         
-- service: 500px
-  name: "500px"
-  group: 07_photo
-  url: https://www.500px.com/sgamel/
-  icon: social-500px.svg
-  description:
-    en: A more selective set of my photographic works.
-    fr: Une sélection plus réduite de mes photographies.
-        
-- service: Flick
+- service: Flickr
   name: "Flickr"
   group: 07_photo
   url: https://www.flickr.com/sgamel/
