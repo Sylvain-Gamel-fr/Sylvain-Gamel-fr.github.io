@@ -35,7 +35,8 @@ exclude: [ "scripts", "vendor", "node_modules", "design", "gulpfile.js", "Gemfil
 
 production: true
 
-google_analytics_id: UA-88645488-1
+# disabling Google Analytics
+# google_analytics_id: UA-88645488-1
 
 gems:
   - jekyll-redirect-from
