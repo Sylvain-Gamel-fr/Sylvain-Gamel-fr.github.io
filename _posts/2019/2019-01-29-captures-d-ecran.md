@@ -22,7 +22,8 @@ sans une capture d'écran?
 
 Comment documenter une application, un site web ou une procédure complexe sans s'appuyer sur quelques captures d'écran, ou même mieux, une vidéo?
 
-Une image veut souvent bien mieux qu'un long discours. Et c'est bien tout l'objet du nouveau livre d'Audrey. 
+Une image vaut souvent bien mieux qu'un long discours. 
+Et c'est bien tout l'objet du nouveau livre d'Audrey. 
 
 Nous avons tous, auteurs, utilisateur ou développeur, eu besoin de 
 réaliser des captures d'écrans sur nos Mac. 
