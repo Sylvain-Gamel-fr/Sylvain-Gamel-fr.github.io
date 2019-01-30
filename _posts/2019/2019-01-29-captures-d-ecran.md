@@ -43,7 +43,7 @@ Non, macOS propose bien plus:
 - fenêtre, écran, morceau d'interface, portions arbitraire de l'écran;
 - avec ou sans l'ombre caractéristique des fenêtres de macOS.
 
-C'est un liste impressionnante de fonctions qui cohabitent dans votre 
+C'est une liste impressionnante de fonctions qui cohabitent dans votre 
 Mac pour vous aider à construire vos parfaites captures d'écrans.
 
 Et dans cette forêt d'options et d'outils, Audrey se propose de vous 
@@ -52,7 +52,7 @@ des possibilités que vous n'imaginiez pas, mais elle réussi à le
 faire sans vous noyer, avec la simplicité que vous connaissez peut-être 
 déjà [dans ses vidéos](https://tinyurl.com/yc4jlzve).
 
-Quelque soit votre niveau sur Mac vous apprendrez certainement 
+Quel que soit votre niveau sur Mac vous apprendrez certainement 
 quelque chose dans ce petit livre à tout petit prix. 
 Alors n'hésitez pas!
 
