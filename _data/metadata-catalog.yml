@@ -1,0 +1,29 @@
+post-categories:
+    - id: default
+      label: Vide
+      icon: post-default.svg
+    - id: book
+      label: Livre
+      icon: post-book.svg
+    - id: ios
+      label: iOS
+      icon: post-iOS.svg
+    - id: macos
+      label: macOS
+      icon: post-macOS.svg
+    - id: presentation
+      label: Présentation
+      icon: post-presentation.svg
+    - id: think
+      label: iOS
+      icon: post-think.svg
+    - id: training
+      label: Formation
+      icon: post-training.svg
+    - id: youtube
+      label: YouTube ou vidéos
+      icon: post-youttube.svg
+  
+  
+  
+
