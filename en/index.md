@@ -9,9 +9,9 @@ permalink: en/
 {% assign lang = page.lang %}
 
 
-My name is Sylvain Gamel and I am an independent consultant specialized 
-in new information and communication technologies (ICTs).
-
+Welcome on my personnal site.
+Here, you will find all about my books, softwares, trainings and of course, 
+a blog.
 
 {% include page/section-title.html 
     title="Books"
@@ -22,14 +22,11 @@ in new information and communication technologies (ICTs).
 [Learn more...](/en/books)
 
 
-
 {% include page/section-title.html 
-    title="Mobile Applications"
+    title="Software"
     src="/images/picto/section-mobile-app.svg" %}
 
 {% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
-
-I can also write your mobile or web applications on demand.
 
 [Learn more...](/en/applications)
 
@@ -39,27 +36,10 @@ I can also write your mobile or web applications on demand.
     title="Trainings"
     src="/images/picto/section-training.svg" %}
 
-You are an individual, or a company, and you want to train, 
-or train your staff, in the use of new technologies?
-
 > Lack of digital competency is already a new illiteracy.
 
-Contact me to define your training plan.
-
-
-{% include page/section-title.html 
-    title="Development"
-    src="/images/picto/section-dev.svg" %}
-
-
-Do you need software development, advice or technical expertise?
-
-*I am ready to help you to carry out your projects.*
-
-Learn more about my skills.
-
-
-[Learn more...](/fr/a-propos)
+Your computer is a tool. 
+You just need to learn how to use it, and I can help you.
 
 
 {% include page/section-title.html 

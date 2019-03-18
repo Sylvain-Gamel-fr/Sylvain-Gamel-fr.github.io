@@ -9,9 +9,9 @@ permalink: fr/
 {% assign lang = page.lang %}
 
 
-Je m’appelle Sylvain Gamel et je suis un consultant indépendant spécialisé 
-dans les nouvelles technologies de l’information et de la communication (NTIC).
-
+Bienvenu sur mon site personnel.
+En plus de mon blog, vous y trouverez le descriptif des mes différents
+livres, application et formations.
 
 
 {% include page/section-title.html 
@@ -23,58 +23,38 @@ dans les nouvelles technologies de l’information et de la communication (NTIC)
 [En savoir plus...](/fr/books)
 
 
-
 {% include page/section-title.html 
-    title="Applications Mobiles"
+    title="Logiciels"
     src="/images/picto/section-mobile-app.svg" %}
 
 {% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
 
-Je peux également écrire vos application mobiles ou web sur demande.
-
 [En savoir plus...](/fr/applications)
-
 
 
 {% include page/section-title.html 
     title="Formations"
     src="/images/picto/section-training.svg" %}
 
-Vous êtes un particulier, ou une entreprise, et vous souhaitez vous former, 
-ou former votre personnel, à l’utilisation des nouvelles technologies ?
-
 > L'absence de connaissances de l'outil numérique est un nouvel illétrisme.
 
-[Contactez moi](/fr/contact.html) pour définir votre plan de formation.
+Votre ordinateur n'est qu'un outil.
+Vous devez simplement apprendre à vous en servir pour faire une vraie différence.
 
 [En savoir plus...](/fr/services)
-
-{% include page/section-title.html 
-    title="Développement"
-    src="/images/picto/section-dev.svg" %}
-
-
-Vous avez besoin d’un développement logiciel, de conseils ou d’une expertise 
-technique ? 
-
-*Je suis prêt à vous aider pour mener à bien vos projets.*
-
-Apprenez en plus sur mes compétences.
-
-[En savoir plus...](/fr/a-propos)
-
 
 {% include page/section-title.html 
     title="Contact"
     src="/images/picto/section-mail.svg" %}
 
+{% include resume/contact-info.html %}
 
 N'hésitez pas à [me contacter](/fr/contact.html) pour plus de renseignements.
 
 <div class="text-xs-center">
 {% include modals/contact-button.html %}
 </div>
+
 {% include modals/contact-form.html %}
 
 
-{% include resume/contact-info.html %}
