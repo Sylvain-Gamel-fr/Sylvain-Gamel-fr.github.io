@@ -1,4 +1,5 @@
 - id: html_css
+  group: web
   title: "Initiation au web : HTML, CSS"
   url: https://www.udemy.com/initiation-au-web-html-css/
   first_publication_year: 2018

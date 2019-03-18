@@ -1,23 +1,19 @@
 ---
 layout: page_section
-title: Services
+title: Formations
 topNavigation: true
-subcategory: services
+subcategory: formations
 lang: "fr"
 order: 3
-permalink: /fr/services/
-logoImage: "/images/picto/section-services.svg"
+permalink: /fr/formations/
+logoImage: "/images/picto/section-training.svg"
 ---
-
-
-### Formations en lignes
 
 > Le numérique est partout.
 > <br>
 > Ne devenez pas des illettrés du XXI<sup>ème</sup> siècle
 
-Quel que soit votre niveau, débutant ou confirmé, vous devez acquérir les
-connaissances de base.
+### Développement web
 
 {% include trainings/card-list.html lang=page.lang trainingList=site.data.trainings %}
 

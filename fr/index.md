@@ -41,7 +41,7 @@ livres, application et formations.
 Votre ordinateur n'est qu'un outil.
 Vous devez simplement apprendre à vous en servir pour faire une vraie différence.
 
-[En savoir plus...](/fr/services)
+[En savoir plus...](/fr/formations)
 
 {% include page/section-title.html 
     title="Contact"
