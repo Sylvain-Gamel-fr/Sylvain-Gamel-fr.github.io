@@ -58,17 +58,6 @@
     en: My space dedicated to automatization like Automator.
     fr: L'espace dédié aux outils d'automatisation comme Automator.
   
-- service: Facebook
-  name: "Page Facebook"
-  visibleIn: 
-    - footer
-  group: 01_social
-  url: https://www.facebook.com/SGinTech/
-  icon: social-facebook.svg
-  description:
-    en: Like, or subscribe to, ma Facebook page.
-    fr: Aimez, ou abonnez-vous à, ma page Facebook.
-        
 - service: Instagram
   name: "Instagram"
   group: 07_photo
@@ -77,15 +66,6 @@
   description:
     en: The square photographic diary.
     fr: Mon journal en photos carrées.
-        
-- service: Flickr
-  name: "Flickr"
-  group: 07_photo
-  url: https://www.flickr.com/sgamel/
-  icon: social-flickr.svg
-  description:
-    en: My most ancien photo gallery.
-    fr: Mon plus ancien espace de photos.
         
 - service: DeviantArt
   name: "DeviantArt"
