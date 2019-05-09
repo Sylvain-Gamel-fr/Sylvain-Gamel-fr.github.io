@@ -2,10 +2,10 @@
 layout: default
 ---
 <article class="">
-    <header class="media m-b-3">
-        {% if page.logo %}
+    <header class="media mb-3">
+        {% if page.logo.url %}
         <div class="media-left" >
-            <img class="media-object" src="/img/icon-posts/{{page.logo}}.png" width="92" alt="Logo">
+            <img class="media-object" src="{{page.logo.url}}" width="92" alt="{{page.logo.label}}">
         </div>
         {% endif %}
         

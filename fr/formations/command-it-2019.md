@@ -3,7 +3,9 @@ layout: page
 title: Conférence Command-iT 2019
 lang: "fr"
 permalink: /fr/formations/command-it-2019.html
-logoImage: "/images/picto/section-training.svg"
+logo: 
+    url: "/images/icons-categories/post-presentation.svg"
+    label: Présentation
 attachments:
     - name: Command-IT 2019 Atelier préparations.pdf (460Ko)
       url: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/Command-IT+2019+Atelier+préparations.pdf
