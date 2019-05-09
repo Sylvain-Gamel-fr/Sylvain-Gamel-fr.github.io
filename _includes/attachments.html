@@ -2,7 +2,7 @@
     <hr class="hidden-md-up m-t-3">
     <h3 class="responsive">{{ include.title }}</h3>
     {% for item in page.attachments %}
-        {% assign icon_src="cloud-download" %}
+        {% assign icon_src="icon-download" %}
         {% if item.icon %}
             {% assign icon_src=item.icon %}
         {% endif %}
@@ -11,9 +11,16 @@
                 {{item.name}}
             </div>
             <div class="card-block text-xs-center">
+              {% if item.path %}
                 <a class="link-download" href="/downloads/{{item.path}}">
-                    <img src="/img/open-iconic/{{icon_src}}.svg" alt="{{item.name}}" width="64" >
+                    <img src="/images/icons/{{icon_src}}.svg" alt="{{item.name}}" width="64" >
                 </a>
+              {% endif %}
+              {% if item.url %}
+                <a class="link-download" href="{{item.url}}">
+                    <img src="/images/icons/{{icon_src}}.svg" alt="{{item.name}}" width="64" >
+                </a>
+              {% endif %}
             </div>
             <div class="card-footer">{{item.description}}</div>
         </div>
