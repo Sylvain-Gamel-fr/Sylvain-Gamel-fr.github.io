@@ -30,31 +30,3 @@ livres, application et formations.
 {% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
 
 [En savoir plus...](/fr/applications)
-
-
-{% include page/section-title.html 
-    title="Formations"
-    src="/images/picto/section-training.svg" %}
-
-> L'absence de connaissances de l'outil numérique est un nouvel illétrisme.
-
-Votre ordinateur n'est qu'un outil.
-Vous devez simplement apprendre à vous en servir pour faire une vraie différence.
-
-[En savoir plus...](/fr/formations)
-
-{% include page/section-title.html 
-    title="Contact"
-    src="/images/picto/section-mail.svg" %}
-
-{% include resume/contact-info.html %}
-
-N'hésitez pas à [me contacter](/fr/contact.html) pour plus de renseignements.
-
-<div class="text-xs-center">
-{% include modals/contact-button.html %}
-</div>
-
-{% include modals/contact-form.html %}
-
-
