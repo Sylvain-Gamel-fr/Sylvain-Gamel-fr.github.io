@@ -36,7 +36,7 @@ Sommaire:
     - [Kit de bienvenue](#welcome)
     - [Les ateliers](#go)
 
-> N'oubliez pas de visiter [Automatisez.net](https://Automatisez.net)
+> N'oubliez pas de visiter [Automatisez.net](https://www.Automatisez.net)
 > pour continuer l'aventure. 
 > N'hésitez pas à me proposez votre propres scripts et processus!
 
