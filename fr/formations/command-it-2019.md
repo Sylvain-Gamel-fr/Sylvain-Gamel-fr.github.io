@@ -29,6 +29,14 @@ le matériel des ateliers.
 > Retrouvez plus d'information sur _Automator_ en visitant le site
 > dédié [Automatisez.net](https://Automatisez.net)
 
+Sommaire:
+
+- [Présentation](#presentation)
+- [Ateliers](#workshops)
+    - [Kit de bienvenue](#welcome)
+    - [Les ateliers](#go)
+
+<div id="presentation"></div>
 
 ### Présentation
 
@@ -50,6 +58,8 @@ La WWDC 2019 lèvera-t-elle enfin le voile sur un renouveau
 et une homogénéisation de l’automatisation entre macOS et iOS ?
 
 _Replay à venir_
+
+<div id="workshops"></div>
 
 ### Ateliers
 
@@ -75,6 +85,8 @@ rapidement Raccourcis sur iOS.
 Vous allez créer un processus capable d’interroger notre serveur de 
 tickets avec son API REST.
 
+<div id="welcome"></div>
+
 #### Matériel préparatoire
 
 Le matériel préparatoire est disponible au téléchargement dans la barre latérale
@@ -91,6 +103,8 @@ soit directement en utilisant NodeJS, soit avec un conteneur Docker.
 
 N’hésitez pas à me contacter si vous avez des questions.
 
+<div id="go"></div>
+
 ### Ateliers
 
 1. [Introduction à Automator](#wk1)
@@ -102,16 +116,15 @@ N’hésitez pas à me contacter si vous avez des questions.
 #### Introduction à Automator
 
 
-Ce premier exemple est une introduction à Automator pour voir comment :
+Ce premier exemple propose une introduction à Automator pour voir comment :
 
-- construire un module d'impression ;
-- utiliser des variables ;
-- utiliser un Script _Python_ et des API Cocoa native pour chiffrer un PDF ;
-- comment s'appuyer sur le shell pour définir la valeur d'une variable ;
-- enfin, comment cette dernier fonction permet de sécuriser le processus 
-  pour qu'il n'intègre plus de donnée sensible. 
+- construire un module d’impression ;
+- utiliser des variables ;
+- utiliser un Script _Python_ et des API Cocoa natives pour chiffrer un PDF ;
+- comment s’appuyer sur le shell pour définir la valeur d’une variable ;
+- enfin, comment cette dernière fonction permet de sécuriser le processus pour qu’il n’intègre plus de données sensibles. 
 
-Les instructions sont disponibles dans [ce document][workshop1].
+Les instructions sont disponibles dans [ce document] [workshop1].
 
 
 <div id="wk2"></div>
@@ -121,62 +134,62 @@ Les instructions sont disponibles dans [ce document][workshop1].
 Ce second exemple montre comment Automator peut non seulement contrôler des
 logiciels sur votre Mac, mais aussi des serveurs en utilisant des API REST.
 
-Dans ce second exemple il est nécessaire d'avoir deux éléments supplémentaires :
+Dans ce second exemple, il est nécessaire d’avoir deux éléments supplémentaires :
 
 1. Une action personnalisée Automator pour fournir un formulaire
-   qui permet de renseigner les informations de base d'un ticket de support.
+   qui permet de renseigner les informations de base d’un ticket de support.
 2. Un serveur avec une API REST. 
    Le kit de démarrage propose un serveur simpliste construit avec Swagger et
    fonctionnant en NodeJS. 
 
-Les instructions sont disponibles dans [ce document][workshop2].
+Les instructions sont disponibles dans [ce document] [workshop2].
 
 ##### Action Automator 
 
-L'action Automator a été développée par mes soins. 
-Le code source est fourni dans kit de l'atelier, mais un billet de blog (à venir) détaillera en détails comment créer votre propre action. 
-Promis: _ce n'est absolument pas compliqué_. 
+L’action Automator a été développée par mes soins. 
+Le code source est fourni dans kit de l’atelier. Un billet de blog (à venir) détaillera comment vous pouvez créer vos propres actions. 
+Promis : _ce n’est absolument pas compliqué_. 
 
-Installez cette action simplement d'un double clic. 
-Après un dialogue pour confirmer cette installation, l'action sera _deplacée_ dans le dossier "Bibliothèques/Automator" de votre dossier personnel. 
+Installez cette action simplement d’un double clic. 
+Après un dialogue pour confirmer cette installation, l’action sera _deplacée_ dans le dossier « Bibliothèques/Automator » de votre dossier personnel. 
 
 ##### Serveur de test
 
-L'API du serveur a besoin d'une clé d'API pour l'authentification.
-Cette clé n'est pas transmise comme donnée des requêtes à l'API, mais plus comme
-donnée d'en-tête de celle-ci.
+L’API du serveur a besoin d’une clé d’API pour l’authentification.
+Cette clé n’est pas transmise comme donnée des requêtes à l’API, mais plus comme
+donnée d’en-tête de celle-ci.
 
-La méthode d'authentification va évidemment dépendre du service que vous ciblez.
+La méthode d’authentification va évidemment dépendre du service que vous ciblez.
 
 
 <div id="wk3"></div>
 
 #### API REST sur Raccourcis pour iOS
 
-Avec ce dernier exemple vous quitterez le Mac pour passer sur iOS et explorer Raccourcis (l'application). 
+Avec ce dernier exemple, vous quitterez le Mac pour passer sur iOS et explorer Raccourcis (l’application). 
 
 Nous allons construire un raccourci (processus) qui va se connecter sur notre serveur de test. 
 
-Pour ce test vous devrez évidement:
-- avoir le serveur de test fonctionnel sur votre Mac ;
-- disposez de l'adresse IP ou du nom de votre Mac pour y accéder à partir de l'iPad ;
+Pour ce test, vous devrez évidemment :
+- avoir le serveur de test fonctionnel sur votre Mac ;
+- disposez de l’adresse IP ou du nom de votre Mac pour y accéder à partir de l’iPad ;
 - avoir votre iPad sur le même réseau que le Mac. 
 
-Dans le raccourci d'exemple nous allons mettre en application les concepts suivants:
+Dans le raccourci d’exemple, nous allons mettre en application les concepts suivants :
 
 - Vous allez utiliser des variables magiques. 
-  Elles vous évitent d'ajouter des actions pour définir des variables 
-  à partir d'un résultat d'action. 
+  Elles vous évitent d’ajouter des actions pour définir des variables 
+  à partir d’un résultat d’action. 
   Raccourcis fait ça pour vous. 
 - Vous allez construire une URL pour cibler une API spécifique de votre serveur. 
-  Cette URL sera construite en combinant du texte et la valeur d'une variable. 
+  Cette URL sera construite en combinant du texte et la valeur d’une variable. 
 - Vous devrez extraire des informations à partir de la réponse du serveur. 
 - Vous devrez manipuler des dictionnaires de valeurs 
   (table associant une clé à une valeur)
-- Vous construirez un menu pour que l'utilisateur puisse sélectionner un 
+- Vous construirez un menu pour que l’utilisateur puisse sélectionner un 
   ticket de support et consulter les détails du ticket. 
 
-Le détail des instructions est disponible dans [ce document][workshop3].
+Les instructions détailées sont disponibles dans [ce document][workshop3].
 
 
 [cit]: https://Command-iT.fr/
