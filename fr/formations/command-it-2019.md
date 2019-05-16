@@ -113,6 +113,11 @@ Ce premier exemple est une introduction à Automator pour voir comment :
 
 Les instructions sont disponibles dans [ce document][workshop1].
 
+Les différentes étapes de constructions, ainsi que le raccourci final sont
+disponibles dans l'archive suivante:
+
+> **[Solutions Atelier 1][final1]**
+
 
 <div id="wk2"></div>
 
@@ -130,6 +135,11 @@ Dans ce second exemple il est nécessaire d'avoir deux éléments supplémentair
    fonctionnant en NodeJS. 
 
 Les instructions sont disponibles dans [ce document][workshop2].
+
+Les différentes étapes de constructions, ainsi que le raccourci final sont
+disponibles dans l'archive suivante:
+
+> **[Solutions Atelier 2][final2]**
 
 ##### Action Automator 
 
@@ -177,6 +187,11 @@ Dans le raccourci d'exemple nous allons mettre en application les concepts suiva
   ticket de support et consulter les détails du ticket. 
 
 Le détail des instructions est disponible dans [ce document][workshop3].
+
+Les différentes étapes de constructions, ainsi que le raccourci final sont
+disponibles dans l'archive suivante:
+
+> **[Solutions Atelier 3][final3]**
 
 
 [cit]: https://Command-iT.fr/
