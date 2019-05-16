@@ -88,5 +88,61 @@ soit directement en utilisant NodeJS, soit avec un conteneur Docker.
 
 N’hésitez pas à me contacter si vous avez des questions.
 
+### Ateliers
+
+1. [Introduction à Automator](#wk1)
+2. [API REST avec Automator](#wk2)
+3. [API REST sur Raccourcis pour iOS](#wk3)
+
+<div id="wk1"></div>
+
+#### Introduction à Automator
+
+
+Ce premier exemple est une introduction à Automator pour voir comment :
+
+- construire un module d'impression ;
+- utiliser des variables
+- utiliser un Script _Python_ et des API Cocoa native pour chiffrer un PDF
+- comment s'appuyer sur le shell pour définir la valeur d'une variable
+
+Les instructions sont disponibles dans [ce document][workshop1].
+
+
+<div id="wk2"></div>
+
+#### API REST avec Automator
+
+Ce second exemple montre comment Automator peut non seulement contrôler des
+logiciels sur votre Mac, mais aussi des serveurs en utilisant des API REST.
+
+Dans ce second exemple il est nécessaire d'avoir deux éléments supplémentaires :
+
+1. Une action personnalisée Automator pour fournir un formulaire
+   qui permet de renseigner les informations de base d'un ticket de support.
+2. Un serveur avec une API REST. 
+   Le kit de démarrage propose un serveur simpliste construit avec Swagger et
+   fonctionnant en NodeJS. 
+
+L'API du serveur a besoin d'une clé d'API pour l'authentification.
+Cette clé n'est pas transmise comme donnée des requêtes à l'API, mais plus comme
+donnée d'en-tête de celle-ci.
+
+Les instructions sont disponibles dans [ce document][workshop2].
+
+<div id="wk3"></div>
+
+#### API REST sur Raccourcis pour iOS
+
+Les instructions sont disponibles dans [ce document][workshop3].
+
 
 [cit]: https://Command-iT.fr/
+
+[workshop1]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/presentations/Command-IT+2019+Atelier+01-intro-automator.pdf
+[workshop2]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/presentations/Command-IT+2019+Atelier+02-creer-ticket.pdf
+[workshop3]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/presentations/Command-IT+2019+Atelier+03-voir-tickets.pdf
+
+[final1]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/correctifs/01-service-impression.zip
+[final2]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/correctifs/02-automator-ticket-support.zip
+[final3]: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/correctifs/03-raccourcis-liste-tickets.zip
