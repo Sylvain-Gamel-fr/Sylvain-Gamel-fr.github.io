@@ -20,9 +20,9 @@ livres, application et formations.
 
 <div class="text-xs-center">
     <a href="/fr/formations/command-it-2019.html" 
-       title="Command-iT téléchargez le matériel de présentation" 
+       title="Command iT ma présentation et les ateliers" 
        class="btn btn-lg btn-success">
-    Préparez-vous pour Command iT
+    Toutes les ressources pour Command iT
     </a>
 </div>
 
