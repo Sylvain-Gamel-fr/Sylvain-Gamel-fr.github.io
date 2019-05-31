@@ -59,7 +59,7 @@ N'hésitez pas à me contacter si vous en rencontrez de nouveaux.
 
 ## Commande vocale
 
-Créez très facile une commande vocale pour pouvoir
+Créez très facilement une commande vocale pour pouvoir
 piloter vos clics avec la voix.
 
 1. ouvrez Automator ;
