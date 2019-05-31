@@ -37,6 +37,9 @@ book_buyNow_title:
     en: Buy it now
     fr: Achetez le maintenant
 
+download:
+    en: "Download"
+    fr: "Téléchargez"
 download_now:
     en: "Download here:"
     fr: "Téléchargez ici:"
