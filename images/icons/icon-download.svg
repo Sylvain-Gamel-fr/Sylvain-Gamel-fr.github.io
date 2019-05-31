@@ -1,75 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="240px" height="340px" viewBox="0 0 240 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-download</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <circle id="path-1" cx="120" cy="102" r="80"></circle>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="160" height="160" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <linearGradient x1="10.1169222%" y1="60.2051694%" x2="100%" y2="50%" id="linearGradient-3">
-            <stop stop-color="#323232" stop-opacity="0" offset="0%"></stop>
-            <stop stop-color="#323232" offset="100%"></stop>
-        </linearGradient>
-        <ellipse id="path-4" cx="120" cy="102" rx="40" ry="80"></ellipse>
-        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="160" fill="white">
-            <use xlink:href="#path-4"></use>
-        </mask>
-        <ellipse id="path-6" cx="120" cy="102" rx="40" ry="80"></ellipse>
-        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="160" fill="white">
-            <use xlink:href="#path-6"></use>
-        </mask>
-        <ellipse id="path-8" cx="120" cy="102" rx="30" ry="80"></ellipse>
-        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="160" fill="white">
-            <use xlink:href="#path-8"></use>
-        </mask>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
-            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </linearGradient>
-        <ellipse id="path-11" cx="120.186533" cy="101.782032" rx="21" ry="80"></ellipse>
-        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42" height="160" fill="white">
-            <use xlink:href="#path-11"></use>
-        </mask>
-        <circle id="path-13" cx="157.526857" cy="69.5268567" r="15"></circle>
-        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
-            <use xlink:href="#path-13"></use>
-        </mask>
-        <circle id="path-15" cx="44.5268567" cy="113.526857" r="15"></circle>
-        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
-            <use xlink:href="#path-15"></use>
-        </mask>
-        <path d="M150,269 L150,198.998964 C150,194.574878 146.418927,191 142.00145,191 L97.9985496,191 C93.5735893,191 90,194.581258 90,198.998964 L90,269 L60,269 L120,329 L180,269 L150,269 Z" id="path-17"></path>
-        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="138" fill="white">
-            <use xlink:href="#path-17"></use>
-        </mask>
-        <circle id="path-19" cx="90.5268567" cy="133.526857" r="15"></circle>
-        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
-            <use xlink:href="#path-19"></use>
-        </mask>
-        <circle id="path-21" cx="109.526857" cy="26.5268567" r="15"></circle>
-        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
-            <use xlink:href="#path-21"></use>
-        </mask>
-        <circle id="path-23" cx="168.526857" cy="132.526857" r="15"></circle>
-        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
-            <use xlink:href="#path-23"></use>
-        </mask>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-download" stroke-width="10">
-            <use id="Oval" stroke="#4A4A4A" mask="url(#mask-2)" xlink:href="#path-1"></use>
-            <use id="Oval" stroke="url(#linearGradient-3)" mask="url(#mask-5)" transform="translate(120.000000, 102.000000) rotate(-270.000000) translate(-120.000000, -102.000000) " xlink:href="#path-4"></use>
-            <use id="Oval" stroke="url(#linearGradient-3)" mask="url(#mask-7)" transform="translate(120.000000, 102.000000) rotate(-225.000000) translate(-120.000000, -102.000000) " xlink:href="#path-6"></use>
-            <use id="Oval" stroke="url(#linearGradient-3)" mask="url(#mask-9)" transform="translate(120.000000, 102.000000) rotate(-180.000000) translate(-120.000000, -102.000000) " xlink:href="#path-8"></use>
-            <use id="Oval" stroke="url(#linearGradient-10)" mask="url(#mask-12)" transform="translate(120.186533, 101.782032) rotate(-330.000000) translate(-120.186533, -101.782032) " xlink:href="#path-11"></use>
-            <use id="Oval-Copy" stroke="#4A4A4A" mask="url(#mask-14)" fill="#FFFFFF" transform="translate(157.526857, 69.526857) rotate(-22.000000) translate(-157.526857, -69.526857) " xlink:href="#path-13"></use>
-            <use id="Oval" stroke="#4A4A4A" mask="url(#mask-16)" fill="#FFFFFF" transform="translate(44.526857, 113.526857) rotate(-22.000000) translate(-44.526857, -113.526857) " xlink:href="#path-15"></use>
-            <use id="Combined-Shape" stroke="#4A4A4A" mask="url(#mask-18)" fill="#FFFFFF" xlink:href="#path-17"></use>
-            <use id="Oval-Copy" stroke="#4A4A4A" mask="url(#mask-20)" fill="#FFFFFF" transform="translate(90.526857, 133.526857) rotate(-22.000000) translate(-90.526857, -133.526857) " xlink:href="#path-19"></use>
-            <use id="Oval" stroke="#4A4A4A" mask="url(#mask-22)" fill="#FFFFFF" transform="translate(109.526857, 26.526857) rotate(-22.000000) translate(-109.526857, -26.526857) " xlink:href="#path-21"></use>
-            <use id="Oval-Copy-2" stroke="#4A4A4A" mask="url(#mask-24)" fill="#FFFFFF" transform="translate(168.526857, 132.526857) rotate(-22.000000) translate(-168.526857, -132.526857) " xlink:href="#path-23"></use>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="340" viewBox="0 0 240 340">
+  <defs>
+    <linearGradient id="icon-download-a" x1="10.117%" y1="60.205%" y2="50%">
+      <stop offset="0%" stop-color="#323232" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#323232"/>
+    </linearGradient>
+    <linearGradient id="icon-download-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="120" cy="102" r="77.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5"/>
+    <ellipse cx="120" cy="102" stroke="url(#icon-download-a)" stroke-width="5" rx="37.5" ry="77.5" transform="rotate(90 120 102)"/>
+    <ellipse cx="120" cy="102" stroke="url(#icon-download-a)" stroke-width="5" rx="37.5" ry="77.5" transform="rotate(135 120 102)"/>
+    <ellipse cx="120" cy="102" stroke="url(#icon-download-a)" stroke-width="5" rx="27.5" ry="77.5" transform="rotate(-180 120 102)"/>
+    <ellipse cx="120.187" cy="101.782" stroke="url(#icon-download-b)" stroke-width="5" rx="18.5" ry="77.5" transform="rotate(30 120.187 101.782)"/>
+    <circle cx="157.527" cy="69.527" r="12.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5" transform="rotate(-22 157.527 69.527)"/>
+    <circle cx="44.527" cy="113.527" r="12.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5" transform="rotate(-22 44.527 113.527)"/>
+    <path fill="#FFF" stroke="#4A4A4A" stroke-width="5" d="M66.0355339,271.5 L120,325.464466 L173.964466,271.5 L147.5,271.5 L147.5,198.998964 C147.5,195.958073 145.040699,193.5 142.00145,193.5 L97.9985496,193.5 C94.9572767,193.5 92.5,195.958993 92.5,198.998964 L92.5,271.5 L66.0355339,271.5 Z"/>
+    <circle cx="90.527" cy="133.527" r="12.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5" transform="rotate(-22 90.527 133.527)"/>
+    <circle cx="109.527" cy="26.527" r="12.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5" transform="rotate(-22 109.527 26.527)"/>
+    <circle cx="168.527" cy="132.527" r="12.5" fill="#FFF" stroke="#4A4A4A" stroke-width="5" transform="rotate(-22 168.527 132.527)"/>
+  </g>
 </svg>

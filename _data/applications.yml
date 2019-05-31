@@ -1,3 +1,25 @@
+- id: mousebot
+  type: macOS
+  name: 
+    fr: MouseBot
+    en: MouseBot
+  pageCode:
+    fr: mousebot
+    en: mousebot
+  slogan:
+    fr: Automatisez votre pointeur!
+    en: Automate your mouse!
+  shortDescription:
+    fr: Un outil pour piloter votre souris à la voix ou au clavier.
+    en: A small utility to drive your mouse with voice or keyboard.
+  icon:
+    small:   /images/apps/icon-mousebot_150px.png
+    default: /images/apps/icon-mousebot.svg
+  youtube:
+    intro: 
+        en: rkuo5OiQu84
+        fr: rkuo5OiQu84
+
 - id: chapter-splitter
   type: macOS
   name: 

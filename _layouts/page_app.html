@@ -71,6 +71,8 @@ layout: default
         </div>
         {% endif %}
 
+        {% assign downloadText=site.data.i18n[ 'download' ][ lang ] %}
+        {% include attachments.html title=downloadText %}
 
         {% if app.youtube.demo %}
           <div class="card">
