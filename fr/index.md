@@ -13,10 +13,7 @@ Bienvenu sur mon site personnel.
 En plus de mon blog, vous y trouverez le descriptif des mes différents
 livres, application et formations.
 
-> [Command iT][cit] c'est les 15 et 16 mai.
->
-> Si vous participez à la conférence, préparez votre participation
-> en téléchargeant le matériel de base.
+> [Command iT][cit] c'était les 15 et 16 mai.
 
 <div class="text-xs-center">
     <a href="/fr/formations/command-it-2019.html" 
