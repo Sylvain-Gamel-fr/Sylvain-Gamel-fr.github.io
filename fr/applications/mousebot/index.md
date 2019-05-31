@@ -1,7 +1,7 @@
 ---
 layout: page_app
 title: MouseBot
-slogan: Automaisez votre pointeur !
+slogan: Automatisez votre pointeur !
 categories: apps
 family: macOS
 lang: "fr"
