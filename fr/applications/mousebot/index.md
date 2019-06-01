@@ -71,7 +71,7 @@ piloter vos clics avec la voix.
 Enregistrez cette commande et associez lui une phrase clé à prononcer pour
 qu'elle se déclenche.
 
-La première fois il l'action vous demandera à l'autoriser à contrôler 
+La première fois, l'action vous demandera l'autoriser de contrôler 
 l'interface. 
 Suivez le processus tel qu'il est décrit dans la vidéo en haut de page.
 
