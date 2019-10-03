@@ -5,7 +5,7 @@ slogan: Agile planning at your fingertips
 categories: apps
 family: iOS
 lang: "en"
-order: 2
+order: 4
 id: scrumcards
 sideNote:
     Always carry in your pocket all cards for your next SCRUM planning meeting.

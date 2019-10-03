@@ -63,7 +63,10 @@ question cruciale : _l’optimisme est-il d’actualité ?_
 La WWDC 2019 lèvera-t-elle enfin le voile sur un renouveau 
 et une homogénéisation de l’automatisation entre macOS et iOS ?
 
-_Replay à venir_
+{% capture presentatonLabel %}
+Vers Raccourcis, et au delà
+{% endcapture %}
+{% include widgets/youtube.html videoId="XHnFYZ9Lu6M" title=presentatonLabel %}
 
 <div id="workshops"></div>
 
@@ -108,6 +111,11 @@ Gagnez du temps avant le début de l’atelier en préparant votre serveur :
 soit directement en utilisant NodeJS, soit avec un conteneur Docker.
 
 N’hésitez pas à me contacter si vous avez des questions.
+
+{% capture workshopLabel %}
+Automatisez, de votre bureau jusqu’au fond de vos poches
+{% endcapture %}
+{% include widgets/youtube.html videoId="W__4A6xOGeo" title=workshopLabel %}
 
 <div id="go"></div>
 

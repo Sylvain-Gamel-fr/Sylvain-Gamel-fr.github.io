@@ -5,7 +5,7 @@ slogan: Le planning agile au bout des doigts
 categories: apps
 family: iOS
 lang: "fr"
-order: 2
+order: 4
 id: scrumcards
 sideNote:
     Ayez toujours dans la poche toutes les cartes pour 

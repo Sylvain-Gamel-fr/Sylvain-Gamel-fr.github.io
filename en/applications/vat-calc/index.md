@@ -5,7 +5,7 @@ slogan: Easy VAT, for all of us
 categories: apps
 family: iOS
 lang: "en"
-order: 1
+order: 2
 id: vatcalc
 header_banner: banner_calcTVA-iPhone-16-9.jpg
 sideNote:

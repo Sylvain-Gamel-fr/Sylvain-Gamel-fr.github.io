@@ -14,6 +14,15 @@ Here, you will find all about my books, softwares, trainings and of course,
 a blog.
 
 {% include page/section-title.html 
+    title="Software"
+    src="/images/picto/section-mobile-app.svg" %}
+
+{% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
+
+[Learn more...](/en/applications)
+
+
+{% include page/section-title.html 
     title="Books"
     src="/images/picto/section-book.svg" %}
 
@@ -22,10 +31,3 @@ a blog.
 [Learn more...](/en/books)
 
 
-{% include page/section-title.html 
-    title="Software"
-    src="/images/picto/section-mobile-app.svg" %}
-
-{% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
-
-[Learn more...](/en/applications)

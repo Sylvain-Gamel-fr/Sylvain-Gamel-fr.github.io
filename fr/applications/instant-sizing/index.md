@@ -5,7 +5,7 @@ slogan: Pour des sizing simples, rapides et efficaces.
 categories: apps
 family: iOS
 lang: "fr"
-order: 4
+order: 3
 id: instantsizing
 sideNote:
     Pourquoi utiliser du papier quand vous avez un écran dans la poche?

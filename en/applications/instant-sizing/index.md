@@ -5,7 +5,7 @@ slogan: For simple, fast and efficient sizing meeting.
 categories: apps
 family: iOS
 lang: "en"
-order: 4
+order: 3
 id: instantsizing
 sideNote:
     Why should you use paper when you got a screen in your pocket?

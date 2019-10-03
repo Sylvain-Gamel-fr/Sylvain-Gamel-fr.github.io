@@ -5,7 +5,7 @@ slogan: Count what matters to you!
 categories: apps
 family: iOS
 lang: "en"
-order: 3
+order: 5
 id: memetrics
 header_banner: banner_me-metrics.jpg
 sideNote:

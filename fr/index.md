@@ -13,24 +13,6 @@ Bienvenu sur mon site personnel.
 En plus de mon blog, vous y trouverez le descriptif des mes différents
 livres, application et formations.
 
-> [Command iT][cit] c'était les 15 et 16 mai.
-
-<div class="text-xs-center">
-    <a href="/fr/formations/command-it-2019.html" 
-       title="Command iT ma présentation et les ateliers" 
-       class="btn btn-lg btn-success">
-    Toutes les ressources pour Command iT
-    </a>
-</div>
-
-{% include page/section-title.html 
-    title="Livres"
-    src="/images/picto/section-book.svg" %}
-
-{% include books/card-list.html lang=lang bookList=site.data.books %}
-
-[En savoir plus...](/fr/books)
-
 
 {% include page/section-title.html 
     title="Logiciels"
@@ -40,4 +22,11 @@ livres, application et formations.
 
 [En savoir plus...](/fr/applications)
 
-[cit]: https://Command-iT.fr/
+{% include page/section-title.html 
+    title="Livres"
+    src="/images/picto/section-book.svg" %}
+
+{% include books/card-list.html lang=lang bookList=site.data.books %}
+
+[En savoir plus...](/fr/books)
+

@@ -5,7 +5,7 @@ slogan: La TVA facile
 categories: apps
 family: iOS
 lang: "fr"
-order: 1
+order: 2
 id: vatcalc
 header_banner: banner_calcTVA-iPhone-16-9.jpg
 sideNote:

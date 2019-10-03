@@ -44,6 +44,28 @@
         en: S-_iBP-yjJg
         fr: S-_iBP-yjJg
 
+- id: mygroups
+  type: iOS
+  name: 
+    fr: mes Groupes
+    en: my Group Manager
+  pageCode:
+    fr: mygroups
+    en: mygroups
+  slogan:
+    fr: Vos contacts. Vos groupes. À votre façon.
+    en: Your contacts. Your groups. Your way.
+  shortDescription:
+    fr: Gérez enfin vos groupes de contacts directement à partir de votre 
+        iPhone et votre iPad, sans dépendre de votre Mac.
+    en: Finally manage your groups of contacts from your iPhone and iPad devices
+        without depending on your Mac.
+  icon:
+    small: /images/apps/icon-mygroups_150px.png
+    default: /images/apps/icon-mygroups.svg
+  shop:
+    app_store: https://itunes.apple.com/app/apple-store/id1471822418?pt=476347&ct=ownweb&mt=8
+
 - id: vatcalc
   type: iOS
   name: 
