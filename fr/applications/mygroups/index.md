@@ -19,10 +19,17 @@ sideNote: >
     <img src="/images/icons-categories/post-book.svg" alt="Livre" style="width: 70%; display: block; margin: 2rem auto 1rem;"/>
     </html>
 
+    <hr>
+
     Découvrez comment tirer le meilleur de l'application
     _Contacts_ avec [le livre « Tout savoir sur Contacts »](https://formationsapple.fr/2019/08/14/livre-tout-savoir-sur-contacts/)
     d'Audrey Couleau.
 
+    <hr>
+
+    **Ils en parlent:**
+
+    [Slice42](http://slice42.com/ipad/2019/10/mes-groupes-enfin-une-app-pour-gerer-les-groupes-de-contacts-sur-ios-83278/)
 ---
 
 Cette application simple et efficace vous permet d'organiser
