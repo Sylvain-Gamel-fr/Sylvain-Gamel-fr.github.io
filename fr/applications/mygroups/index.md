@@ -42,6 +42,14 @@ fonctionnalités indispensables :
 
 > Un outil simple et respecteux de votre vie privée
 
+Un grand merci à Audrey Couleau qui a réalisé cette excellente vidéo de
+présentation. 
+N'hésitez pas à vous abonnez à sa chaine YouTube, vous y apprendrez 
+plein d'astuces.
+
+{% include widgets/youtube.html videoId="PIG5CUfPwKc" fill=true %}
+
+
 ### Gérez vos groupes
 
 {% capture groupesDescription %}
