@@ -1,6 +1,6 @@
 {% if paginator.total_pages > 1 %}
   {% assign navLabel = site.data.i18n.paginator.label[ lang ] %}
-  <nav class="btn-toolbar btn-group-sm m-t-2 text-xs-center" 
+  <nav class="btn-toolbar btn-group-sm m-t-2 text-center" 
        aria-label="{{ navLabel }}" >
     {% if paginator.previous_page %}
       <a class="btn btn-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Précédent</a>

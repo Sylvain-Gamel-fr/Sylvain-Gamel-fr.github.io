@@ -7,7 +7,7 @@ lang: en
 permalink: en/contact.html
 ---
 
-<div class="mt-3 mb-3 text-xs-center">
+<div class="mt-3 mb-3 text-center">
 {% include modals/contact-button.html %}
 </div>
 {% include modals/contact-form.html %}

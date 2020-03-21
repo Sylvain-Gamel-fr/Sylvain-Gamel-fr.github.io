@@ -2,12 +2,12 @@
   <div class="container" >
 
     <div class="row">
-      <div class="col-xs-12 col-sm-5 offset-sm-1 col-lg-6 offset-lg-0 small ">
+      <div class="col-12 col-sm-5 offset-sm-1 col-lg-6 offset-lg-0 small ">
         <strong>{{ site.title }}</strong>
         <p>{{ site.description }}</p>
       </div>
 
-      <div class="col-xs-12 col-sm-6 small">
+      <div class="col-12 col-sm-6 small">
         <ul class="list-unstyled">
           <li class="rss-subscribe">
             <a href="{{ "/feed.xml" | prepend: site.baseurl }}">fils RSS</a>
@@ -19,7 +19,7 @@
     <hr class="fine" >
     
     <div class="row">
-      <div class="col-xs-12 col-sm-5 offset-sm-1 col-lg-6 offset-lg-0">
+      <div class="col-12 col-sm-5 offset-sm-1 col-lg-6 offset-lg-0">
         <ul class="list-unstyled list-social small" >
           {% assign linkList = site.data.ownedLinks | where_exp: "item", "item.visibleIn contains 'footer'" %}
           {% for currentLink in linkList %}
@@ -40,7 +40,7 @@
         
       </div>
 
-      <div class="col-xs-12 col-sm-6 small">
+      <div class="col-12 col-sm-6 small">
         {% include page/footer_specialPages.html %}
       </div>
     </div>    

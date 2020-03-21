@@ -17,37 +17,37 @@
     {% endif %}
   </div>
   
-  <div class="body card-block">
+  <div class="card-body">
     <div class="middle-decoration clearfix mb-1" role="presentation" >
       <img src="{{ '/images/assets/background-stripes.svg' | relative_url }}" 
            class="decoration" alt="" role="presentation" aria-hidden="true" >
       <img src="{{ '/images/assets/desktop-computer.svg' | relative_url }}" 
-           class="float-xs-left hidden-sm-down shall-cut" alt="" role="presentation" aria-hidden="true" >
+           class="float-left d-none d-md-inline-block shall-cut" alt="" role="presentation" aria-hidden="true" >
       <img src="{{ '/images/assets/tablet.svg' | relative_url }}" 
-           class="float-xs-left hidden-xs-down" alt="" role="presentation" aria-hidden="true" >
+           class="float-left d-none d-md-inline-block" alt="" role="presentation" aria-hidden="true" >
       <img src="{{ '/images/assets/mobile-phone.svg' | relative_url }}" 
-           class="float-xs-left" alt="" role="presentation" aria-hidden="true" >
+           class="float-left" alt="" role="presentation" aria-hidden="true" >
 
     </div>
     <div class="row">
-      <div class="address col-xs-12 col-md-6 mb-2">
-        <hr class="hidden-sm-up">
+      <div class="address col-12 col-md mb-2">
+        <hr class="d-md-none">
         {% for addrRow in contact.address.street %}
           <div>{{ addrRow }}</div>
         {% endfor %}
         <div class="row">
-          <div class="col-xs-3">
+          <div class="col-3">
             <span class="city">{{ contact.address.zip }}</span>
           </div>
-          <div class="col-xs-9 text-smallcaps">
+          <div class="col-9 text-smallcaps">
             <span class="city">{{ contact.address.city }}</span>
             <span class="country">{{ contact.address.country }}</span>
           </div>
         </div>
       </div>
       
-      <div class="col-xs-12 col-md-6 mb-2" >
-        <hr class="hidden-sm-up">
+      <div class="col-12 col-md mb-2" >
+        <hr class="d-md-none">
         <dl>
           <dt>Tél.&nbsp;:</dt>
           <dd>
@@ -63,7 +63,7 @@
   </div>
   
   {% if contact.company %}
-  <div class="card-footer text-xs-center">
+  <div class="card-footer text-center">
     <ul class="list-unstyled list-inline list-text-separator mb-0" >
       {% for legal in contact.company.legal %}
         <li class="list-inline-item">{{ legal }}</li>

@@ -6,7 +6,7 @@
 
 <div class="app-list">
 {% for app in appList %}
-  {% if app.type == appType %}
+  {% if app.type == appType  %}
     <div class="app-list-item" >
     {% include apps/card-app.html lang=lang app=app %}
     </div>

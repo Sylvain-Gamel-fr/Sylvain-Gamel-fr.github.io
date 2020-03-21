@@ -8,9 +8,9 @@
   {% assign imgAlt=site.data.i18n[ 'app_screenshot_alt' ][ lang ] %} 
 {% endunless %} 
 {% if description %} 
-  {% assign imgColSpec="col-xs-12 col-sm-6 col-md-4" %} 
+  {% assign imgColSpec="col-12 col-sm-6 col-md-4" %} 
 {% else %} 
-  {% assign imgColSpec="col-xs-12 mb-1" %} 
+  {% assign imgColSpec="col-12 mb-1" %} 
 {% endif %}
 
 {% assign modalId=(imgSrc|replace: ".", "_") %}
@@ -18,17 +18,17 @@
 
 <div class="row mt-1 mb-2">
   {% if "right" != imgAlign %}
-  <div class="{{ imgColSpec }} text-xs-center text-sm-left">
+  <div class="{{ imgColSpec }} text-center text-sm-left">
     <button type="button" class="btn btn-screenshot" data-toggle="modal" data-target="#{{ modalId }}">
       <img src="{{ imgSrc | prepend: "/" | prepend: appId | prepend: "/images/screenshots/" | relative_url }}" alt="{{ imgAlt | normalize_whitespace }}" class="img-fluid mb-1">
     </button>
   </div>
   {% endif %} {% if description %}
-  <div class="col-xs-12 col-sm-6 col-md-8">
+  <div class="col-12 col-sm-6 col-md-8">
     {{ description | markdownify }}
   </div>
   {% endif %} {% if "right" == imgAlign %}
-  <div class="{{ imgColSpec }} text-xs-center text-sm-left">
+  <div class="{{ imgColSpec }} text-center text-sm-left">
     <img src="{{ imgSrc | prepend: "/" | prepend: appId | prepend: "/images/screenshots/" | relative_url }}" alt="{{ imgAlt | normalize_whitespace }}" class="img-fluid mb-1">
   </div>
   {% endif %}

@@ -6,7 +6,9 @@
  * 
  */
 
+
 // ===== CONFIGURATION
+
 
 var target_dir = ".";
 
@@ -24,7 +26,9 @@ var destination_img   = target_dir + "/img";
 
 // ===== DEPENDENCIES
 
-var gulp = require('gulp');
+
+const gulp = require('gulp');
+const { series } = require('gulp');
 
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -34,11 +38,26 @@ var concat = require('gulp-concat');
 var copy = require('gulp-copy');
 
 
-// ===== DEFAULT TASK
+// ===== CLEAN
 
-gulp.task('default', [ 'clean', 'build' ]);
+
+gulp.task('clean:css', function () {
+  return del([
+    destination_css
+  ]);
+});
+
+gulp.task('clean:javascript', function () {
+  return del([
+    destination_js
+  ]);
+});
+
+gulp.task('clean', series('clean:css', 'clean:javascript'));
+
 
 // ===== CSS
+
 
 gulp.task('fontawesome-css', function () {
   return gulp.src([
@@ -54,7 +73,7 @@ gulp.task('fontawesome-fonts', function () {
     .pipe(gulp.dest(destination_fonts));
 });
 
-gulp.task('fontawesome', [ "fontawesome-css", "fontawesome-fonts" ]);
+gulp.task('fontawesome', series("fontawesome-css", "fontawesome-fonts"));
 
 
 gulp.task('css-libs-src', function () {
@@ -66,7 +85,7 @@ gulp.task('css-libs-src', function () {
 
 gulp.task('css-libs', function () {
   return gulp.src([
-      __dirname + '/node_modules/tether/dist/css/tether*.min.css',
+      // __dirname + '/node_modules/tether/dist/css/tether*.min.css',
       __dirname + '/node_modules/bootstrap/dist/css/bootstrap.min.css*'
   ])
     .pipe(gulp.dest(destination_css));
@@ -74,13 +93,7 @@ gulp.task('css-libs', function () {
 
 
 
-gulp.task('clean:css', function () {
-  return del([
-    destination_css
-  ]);
-});
-
-gulp.task('build:css', [ "css-libs", "css-libs-src" ]);
+gulp.task('build:css', series("css-libs", "css-libs-src"));
 
 
 // ===== JAVASCRIPT
@@ -89,36 +102,28 @@ gulp.task('build:css', [ "css-libs", "css-libs-src" ]);
 gulp.task('js-libs', function () {
   return gulp.src([
       __dirname + '/node_modules/jquery/dist/jquery.min.js',
-      __dirname + '/node_modules/tether/dist/js/tether.min.js',
+      // __dirname + '/node_modules/tether/dist/js/tether.min.js',
       __dirname + '/node_modules/bootstrap/dist/js/bootstrap.min.js'
   ])
     .pipe(gulp.dest(destination_js));
 });
 
 
-gulp.task('build:javascript', [ 
-    'js-libs'
-]);
-
-
-gulp.task('clean:javascript', function () {
-  return del([
-    destination_js
-  ]);
-});
-
-
-// ===== PRODUCTION DEPLOYMENT
-
-gulp.task('default', [ 'build' ]);
+gulp.task('build:javascript', series('js-libs'));
 
 
 // ===== BUILD
 
-gulp.task('build', [ 'build:css', 'build:javascript' ]);
+
+gulp.task('build', series('build:css', 'build:javascript'));
 
 
-// ===== CLEAN
+// ===== DEFAULT TASK
 
-gulp.task('clean', [ 'clean:css', 'clean:javascript' ]);
 
+gulp.task('default', series('clean', 'build'));
+
+
+// ===== PRODUCTION DEPLOYMENT
+
+gulp.task('default', series('build'));

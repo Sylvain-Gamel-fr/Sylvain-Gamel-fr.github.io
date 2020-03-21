@@ -18,7 +18,8 @@ livres, application et formations.
     title="Logiciels"
     src="/images/picto/section-mobile-app.svg" %}
 
-{% include apps/card-list.html lang=lang appList=site.data.applications type="iOS" %}
+{% assign frontApps = site.data.applications | where: "frontPage", true %}
+{% include apps/card-list.html lang=lang appList=frontApps type="iOS" %}
 
 [En savoir plus...](/fr/applications)
 

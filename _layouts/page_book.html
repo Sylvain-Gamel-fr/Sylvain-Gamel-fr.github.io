@@ -38,7 +38,7 @@ layout: naked
 <section class="container pt-0">
   <article role="main">
     <header class="container-fluid pl-0 pr-0">
-      <h2 class="text-xs-left w-100 mb-1 book-title">
+      <h2 class="text-left w-100 mb-1 book-title">
         {{ bookTitle }}
       </h2>
       <div class="opening-book">
@@ -71,11 +71,11 @@ layout: naked
     </div>
 
     <div class="row">
-      <div class="col-xs-12 col-md-9 mt-2">
+      <div class="col-12 col-md-9 mt-2">
         {{ content }}
       </div>
 
-      <div class="col-xs-12 col-md-3 mt-2">
+      <div class="col-12 col-md-3 mt-2">
         <aside>
           {% if slogan %}
             <p class="text-muted">{{ slogan }}</p>
@@ -99,12 +99,12 @@ layout: naked
               </div>
               <ul class="list-unstyled">
               {% for videoId in book.youtube.demo %}
-                <li class="mb-1 text-xs-right">
+                <li class="mb-1 text-right">
                   {% include widgets/youtube.html videoId=videoId fill=true %}
 
                   <a href="https://www.youtube.com/watch?v={{videoId}}" 
                      target="_blank" 
-                     class="text-xs-right small">
+                     class="text-right small">
                     {{ site.data.i18n[ 'youtube_link' ][ lang ] }}
                   </a>
                 </li>
@@ -145,7 +145,7 @@ layout: naked
                         </div>
 
                         {% if post.logo %}
-                            <div class="media-right text-xs-right" >
+                            <div class="media-right text-right" >
                                 <img class="media-object" src="/img/icon-posts/{{post.logo}}.png" width="92" alt="Logo">
                             </div>
                         {% endif %}

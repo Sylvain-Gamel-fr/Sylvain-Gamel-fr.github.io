@@ -1,5 +1,5 @@
 {% if page.attachments %}
-    <hr class="hidden-md-up m-t-3">
+    <hr class="d-md-none m-t-3">
     <h3 class="responsive">{{ include.title }}</h3>
     {% for item in page.attachments %}
         {% assign icon_src="icon-download" %}
@@ -7,10 +7,10 @@
             {% assign icon_src=item.icon %}
         {% endif %}
         <div class="card sidebar">
-            <div class="card-header text-xs-center">
+            <div class="card-header text-center">
                 {{item.name}}
             </div>
-            <div class="card-block text-xs-center">
+            <div class="card-block text-center">
               {% if item.path %}
                 <a class="link-download" href="/downloads/{{item.path}}">
                     <img src="/images/icons/{{icon_src}}.svg" alt="{{item.name}}" width="64" >

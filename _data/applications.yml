@@ -65,6 +65,7 @@
     default: /images/apps/icon-mygroups.svg
   shop:
     app_store: https://itunes.apple.com/app/apple-store/id1471822418?pt=476347&ct=ownweb&mt=8
+  frontPage: yes
 
 - id: vatcalc
   type: iOS
@@ -89,6 +90,7 @@
     intro: 
         en: _6pTfm-ashY
         fr: jn1jY7RykVc
+  frontPage: yes
   
 
 - id: scrumcards
@@ -111,7 +113,23 @@
     intro:
         en: -anKt0mJ_Vo
         fr: C2xU9gu-Gj4
+  frontPage: yes
 
+
+- id: instantsizing
+  type: iOS
+  name: 
+    fr: Sizing Instantané 
+    en: Instant Sizing
+  pageCode: instant-sizing
+  shortDescription:
+    fr: Participez aux réunions de sizing avec des cartes virtuelles.
+    en: Virtual cards to participate in sizing meetings.
+  icon:
+    small: /images/apps/icon-instantSizing_150px.png
+    default: /images/apps/icon-instantSizing.svg
+  shop:
+    app_store: https://itunes.apple.com/us/app/instant-sizing-for-scrum/id1245353972?l=fr&ls=1&mt=8
 
 - id: memetrics
   type: iOS
@@ -135,18 +153,3 @@
         - D6QZ-m6DCJI
         - idKluIVLeSY
         
-- id: instantsizing
-  type: iOS
-  name: 
-    fr: Sizing Instantané 
-    en: Instant Sizing
-  pageCode: instant-sizing
-  shortDescription:
-    fr: Participez aux réunions de sizing avec des cartes virtuelles.
-    en: Virtual cards to participate in sizing meetings.
-  icon:
-    small: /images/apps/icon-instantSizing_150px.png
-    default: /images/apps/icon-instantSizing.svg
-  shop:
-    app_store: https://itunes.apple.com/us/app/instant-sizing-for-scrum/id1245353972?l=fr&ls=1&mt=8
-

@@ -31,10 +31,10 @@
     <div class="container">
       {% if title and "" != title and false == page.topNavigation %}
         <div class="row">
-          <div class="col-xs-12 col-sm-4 push-sm-8">
-            <div class="h1 text-xs-right site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
+          <div class="col-12 col-sm-4 push-sm-8">
+            <div class="h1 text-right site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
           </div>
-          <div class="col-xs-12 col-sm-8 pull-sm-4">
+          <div class="col-12 col-sm-8 pull-sm-4">
             <h1>{{ title }}</h1>
             {% if page.slogan %}
             <p class="mt-0 mb-1 small">{{ page.slogan }}</p>
@@ -57,14 +57,17 @@
     {% assign navLabel = site.data.i18n.top_nav[ lang ] %}
     {% assign navMenuLabel = site.data.i18n.nav_menu_label[ lang ] %}
     
-    <nav class="navbar" aria-label="{{ navLabel }}">
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" 
-              data-target="#rootNavigation">&#9776; {{ navMenuLabel }}</button>
+    <nav class="navbar navbar-dark navbar-expand-md" aria-label="{{ navLabel }}">
+      <button class="navbar-toggler" type="button" 
+              data-toggle="collapse" 
+              data-target="#rootNavigation"
+              aria-controls="rootNavigation"
+              aria-expanded="false">&#9776; <span class="title">{{ navMenuLabel }}</span></button>
       <div id="rootNavigation" 
-           class="collapse navbar-toggleable-xs" >
+           class="collapse navbar-collapse justify-content-md-between align-items-baseline " >
         {% include nav/sections-nav.html lang=lang %}
         <!-- Change language menu -->
-        <hr class="hidden-sm-up">
+        <hr class="d-md-none">
         {% include nav/lang-nav.html lang=lang %}
       </div>
     </nav>

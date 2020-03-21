@@ -24,11 +24,13 @@ h3 {
     margin: 1.5em 0 1em 0;
 }
 
-section h3 {
+section h3,
+section .h3 {
     @include heading-top-border();
 }
 
-h4 {
+h4,
+.h4 {
     font-size: 1.5em;
     font-weight: 200;
     
@@ -39,6 +41,13 @@ h4 {
     
     margin: 1.5em 0 1em 0;
 }
+
+section .h4 {
+    &::before { 
+        display: none; 
+    }
+}
+
 
 
 p {

@@ -21,7 +21,7 @@ layout: naked
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
         <li class="mb-2">
-          <div class="media">
+          <div class="media align-items-baseline">
             {% if post.logo %}
               {% assign iconFile = post.logo %}
             {% else %}
@@ -30,7 +30,7 @@ layout: naked
 
             {% assign iconLabel = site.data.i18n.postIconLabels[ iconFile ][ page.lang ] %}
 
-            <a class="media-left" href="{{ post.url }}">
+            <a href="{{ post.url }}">
               <img class="media-object" src="/images/icons-categories/{{ iconFile }}" width="64px" alt="{{ iconLabel }}">
             </a>
             <div class="media-body">

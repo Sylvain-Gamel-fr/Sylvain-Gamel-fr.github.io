@@ -21,7 +21,7 @@
            src="{{ training.cover.small | relative_url }}" 
            alt="{{ site.data.i18n.training.cover_alt[ lang ] | replace: '$1', title }}" >
     </a>
-    <div class="text-xs-center mt-1">
+    <div class="text-center mt-1">
       {% if "beginner" == training.level %}
         <span class="level level-beginner">{{ site.data.i18n.training.level.beginner[ lang ] }}</span>
       {% endif %}
@@ -34,11 +34,11 @@
     </div>
   </div>
   <div class="training-body">
-    <h3 class="h4 media-heading">{{ title }}</h3>
+    <h4 class="media-heading">{{ title }}</h4>
     <div>
       {{ description | markdownify }}
     </div>
-    <a href="{{ training.url }}" class="btn btn-outline-primary float-xs-right">
+    <a href="{{ training.url }}" class="btn btn-outline-primary float-right">
         {{ site.data.i18n.training.start_now[ lang ] }}
     </a>
   </div>

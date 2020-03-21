@@ -1,19 +1,19 @@
 
-<div class="card link-card col-xs-12 col-sm-6 col-md-4 col-lg-3 text-xs-center" >
+<div class="card link-card col-12 col-sm-6 col-md-4 col-lg-3 text-center" >
   <div class="card-block">
     <div class="fx-flat-popin fx-light-zoom fx-medium-shadow ml-1 mr-1 mt-1 mb-1 pl-1 pr-1 pt-1 pb-1">
 
       <div class="mb-1">
         <a href="{{ include.href }}" >
           <img src="{{ include.image}}" alt="{{ include.imageAlt }}"
-               class="img-fluid text-xs-center" >
+               class="img-fluid text-center" >
         </a>
       </div>
 
       <a href="{{ include.href }}" >{{ include.name }}</a>
 
       {% if include.details %}
-      <p class="link-details text-xs-left small mt-1 mb-0">{{ include.details }}</p>
+      <p class="link-details text-left small mt-1 mb-0">{{ include.details }}</p>
       {% endif %}
     </div>
   </div>
