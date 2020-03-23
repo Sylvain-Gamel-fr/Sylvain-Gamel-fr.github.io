@@ -1,0 +1,46 @@
+{% assign lang=include.lang %}
+{% assign appId=include.appId %}
+{% assign videoSrc=include.src %}
+{% assign noVideoAlt=include.noVideoText %}
+{% assign description=include.description %}
+{% assign videoAlign=include.align %}
+{% assign loop=include.loop %}
+
+
+{% if description %}
+  {% assign videoColSpec = "col-12 col-sm" %}
+{% else %}
+  {% assign videoColSpec = "col-12 mb-1" %}
+{% endif %}
+{% assign videoPath = videoSrc | prepend: "/" | prepend: appId | prepend: "/videos/" | relative_url%}
+
+<div class="row mt-1 mb-2">
+  
+  {% if description %}
+    {% if "right" == videoAlign %}
+      <div class="col-12 col-sm">
+        {{ description | markdownify }}
+      </div>
+    {% endif %}
+  {% endif %}
+  
+  <div class="{{ videoColSpec }} text-center text-sm-left">
+    <video controls 
+           {% if loop %} loop {% endif %}
+           width="100%">
+      <source src="{{ videoPath }}"
+              
+              type="video/mp4">
+      {{ noVideoAlt }}
+    </video>
+  </div>
+  
+  {% if description %}
+    {% if "right" != videoAlign %}
+      <div class="col-12 col-sm">
+        {{ description | markdownify }}
+      </div>
+    {% endif %}
+  {% endif %}
+
+</div>
