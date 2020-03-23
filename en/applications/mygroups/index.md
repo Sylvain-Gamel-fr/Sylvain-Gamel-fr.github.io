@@ -28,11 +28,22 @@ features:
 - create, rename and delete groups of contacts;
 - export [vCards](https://fr.wikipedia.org/wiki/VCard) of members;
 - merge multiple groups as a single one.
+- send email to group of users (**new in v1.1**)
 
 
 > A simple tool respecting your privacy.
 
-### Managing Groups
+-----
+
+**Content**
+
+- [Organize your contacts](#manage)
+- [Send an email to group members](#mailing)
+- [Premium features](#premium)
+- [Multiple address books?](#addr-books)
+
+
+<h3 id="manage">Managing Groups</h3>
 
 {% capture groupesDescription %}
 
@@ -61,7 +72,117 @@ Main screen, list of groups.
         description=groupesDescription %}
 
 
-### Premium Features
+<h3 id="mailing">Send an email to group members</h3>
+
+> <span class="badge badge-pill badge-primary">New</span> 
+> in version 1.1 of _My Groups_.
+>
+> A premium feature that you can test thanks to free
+> trial and without engagement.
+
+_Mail_ app already allows you to select a group as recipients,
+but "_My Groups_" goes a steps further.
+
+- _spot_ contacts without emails;
+- _target_ specific address labels in priority;
+- _eliminate_ address labels that must not receive a message.
+
+You have the control on which email will get your message,
+without losing your time on case by case micro-management.
+
+Targetting is very easy and only rely on two criterias:
+
+1. email address labels taht must receive the message ;
+2. and those that shall not receive it.
+
+{% capture mailingDescription %}
+
+First section of the screen gives information on recipiers,
+contacts without email, and those that are excluded because of
+filtering.
+
+You provide those criterias in the second section.
+
+{% endcapture %}
+{% capture mailingScreenshot %}
+Targetting the recipients
+{% endcapture %}
+{% include widgets/app-screenshot.html 
+        lang=lang 
+        appId=page.id 
+        src="mailing-iphone.png" imgAlt=directoryScreenshot
+        description=mailingDescription %}
+
+
+#### Supervise the recipient list
+
+Main screen contains three lists:
+
+1. recipients: contact with at least one email that 
+   will get the message;
+2. list of contacts that have no email address defined;
+3. List of contacts that will not get the message.
+
+{% capture videoNoEmailDescription %}
+If a contact lacks an email address, you can update their
+information right from this screen to add one.
+
+All without going back and forth in the application, 
+nor with _Contacts_.
+{% endcapture %}
+{% capture videoNavigateurEmailAlt %}
+Your browser does not support videos.
+{% endcapture %}
+{% include widgets/app-video.html 
+        lang=lang 
+        appId=page.id 
+        src="mesGroupes_noEmail.mp4" 
+        loop=true
+        noVideoText=videoNavigateurEmailAlt
+        description=videoNoEmailDescription %}
+
+If a contact remains excluded from the distribution list,
+it is either that he has no address, or that the
+criteria eliminate it.
+
+#### Target Address Labels
+
+How shall you select the addresses that will receive your message?
+
+{% capture videoFilterDescription %}
+You only need to define two criteria:
+
+1. the list of address labels which must receive the message;
+2. labels which should not receive the message.
+{% endcapture %}
+{% capture videoNavigateurFilterAlt %}
+Your browser does not support videos.
+{% endcapture %}
+{% include widgets/app-video.html 
+        lang=lang 
+        appId=page.id 
+        src="mesGroupes_filter.mp4" 
+        loop=true
+        noVideoText=videoNavigateurFilterAlt
+        description=videoFilterDescription %}
+
+On this basis, the message will be sent to all the 
+addresses of the group's contacts:
+
+- who have a "priority" label;
+- who do not have a label marked as "excluded".
+
+The message will never be sent to an address 
+with a label marked as "excluded".
+
+Note that it is possible to send the duplicate email to a contact.
+
+If addresses with the "personal" label have priority, 
+and a contact has two addresses, one with this label 
+and the other with "football club":
+the message will be sent to these two addresses.
+
+<h3 id="premium">Premium Features</h3>
 
 <html>
 <img src="/images/apps/mygroups/message-locked.svg" 
@@ -69,28 +190,36 @@ Main screen, list of groups.
      style="width: 7rem; margin: 1rem auto; display: block;">
 </html>
 
-Merging groups and sharing are premium features that can be
-unlocked through an in-app purchase.
+Merging groups, export through sharing and email to groups
+are premium features that can be unlocked through an 
+in-app purchase.
+
+> A single purchase, **no subscription**, permanently 
+> unlocks these _premium_ functions.
 
 <img src="/images/apps/mygroups/free-trial.svg" 
      alt="Free Trial"
      style="float: left; width: 30px; margin-right: 2rem;">
 You may test those features for free for a limited time by activating
 a free trial.
+ 
+> The purchase of 0$ for the trial offer **is not** 
+> a subscription.
+> It only serves to *temporarily* unlock these features to try 
+> them out.
 
-> The free purchase **is not** a subscription.
-> It only allows the temporary unlock of premium features.
+If these functions are not useful to you, they will simply be 
+deactivated at the end of the trial period.
 
-If you were finding those useless for you, they will be disabled at the end
-of the trial period.
+The application will remain functional and you can continue to 
+use it for free, except for these few more advanced functions.
 
-After this, the application will remain fully functional and you will be
-able to use freely, exceptiing those small more advanced features.
+_If you enjoyed this application, I hope you will see this 
+purchase as a way to support my work and its future 
+developments._
 
-_If you find this app useful to you, I hope that you will see this purchase
-as a direct support of my work and it future evolutions._
 
-### Multiple Directories
+<h3 id="addr-books">Multiple Directories</h3>
 
 <html>
 <img src="/images/apps/mygroups/address-book-picker.svg" 

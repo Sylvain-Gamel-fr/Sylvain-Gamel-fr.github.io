@@ -19,10 +19,16 @@ logoImage: "/images/picto/section-training.svg"
 
 -----
 
-### Conférence [Command-iT 2019](https://www.command-it.fr)
+### Conférence Command-iT 2019
 
-Ma conférence sur l'automatisation sur les plateformes Apple et 
-l'atelier pratique seront bientôt disponibles en vidéos.
+J'ai eu le privilère d'être invité à l'édition 2019 de cette 
+évènement pour y parler d'automatisation.
 
-Tous les détails sur le contenu des ateliers est 
+Les vidéos de ma conférence et de l'atelier que j'y ai animé sont
+visibles sur [la chaine YouTube][cmdIT_YT] de [Command-IT][cmdIT].
+
+Retrouvez tous les détails sur la conférence et le contenu des ateliers 
 [sur la page dédiée](command-it-2019.html).
+
+[cmdIT]: https://www.command-it.fr
+[cmdIT_YT]: https://www.youtube.com/channel/UCqzukWKnnqeVG88Pyd_DMCQ/featured
