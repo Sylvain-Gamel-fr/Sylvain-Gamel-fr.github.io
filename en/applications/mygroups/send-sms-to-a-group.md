@@ -42,7 +42,7 @@ shortcuts.
 {% capture videoLabel %}
 This video shows how to install and how to use it.
 {% endcapture %}
-{% include widgets/youtube.html videoId="ELlWicsVUUs" title=videoLabel %}
+{% include widgets/youtube.html videoId="qUu-i1zVyBM" title=videoLabel %}
 
 
 **Note:** This shortcut is compatible with the iOS 13 version.

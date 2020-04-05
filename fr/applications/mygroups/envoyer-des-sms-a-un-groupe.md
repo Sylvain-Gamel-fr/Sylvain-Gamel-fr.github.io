@@ -43,7 +43,7 @@ Cette vidéo vous montre comment installer le raccourcis et comment
 l'utiliser avec « _Mes Groupes_ ».
 This video shows how to install and how to use it.
 {% endcapture %}
-{% include widgets/youtube.html videoId="AzoQ60j8_F4" title=videoLabel %}
+{% include widgets/youtube.html videoId="ELlWicsVUUs" title=videoLabel %}
 
 **Note:** Ce raccourci est compatible avec la version iOS 13.
 
