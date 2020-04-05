@@ -14,6 +14,13 @@ sideNote: >
     Application is available in the App Store.
     It is compatible with iPhone, iPod touch and iPad.
 
+    <hr>
+
+    <h3 class="h4">Add-ons</h3>
+
+    [Send SMS to a group](send-sms-to-a-group.html)
+    using a _shortcut_ and action sheet sharing feature.
+
 ---
 
 This simple and efficient app will let you organize

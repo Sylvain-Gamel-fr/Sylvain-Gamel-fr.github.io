@@ -15,6 +15,15 @@ sideNote: >
     C'est une application compatible 
     à la fois pour iPhone, iPod touch et iPad.
 
+    <hr>
+
+    <h3 class="h4">Compléments</h3>
+
+    [Envoyer des SMS à un groupe](envoyer-des-sms-a-un-groupe.html)
+    avec un raccourcis et la fonction de partage.
+
+    <hr>
+
     <html>
     <img src="/images/icons-categories/post-book.svg" alt="Livre" style="width: 70%; display: block; margin: 2rem auto 1rem;"/>
     </html>

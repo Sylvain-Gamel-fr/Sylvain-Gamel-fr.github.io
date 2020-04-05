@@ -8,6 +8,9 @@
         @include media-breakpoint-up(md) {
             width: auto;
         }
+        
+        border-radius: .8rem;
+        border-width: 2px;
     }
     
     & > * {

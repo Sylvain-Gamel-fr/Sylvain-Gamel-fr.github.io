@@ -8,9 +8,7 @@ User-agent: *
 {% if site.production != true %}
   Disallow: /
 {% else %}
-  {% assign hasNoindexPages = (noindexPages.size > 0) %}
-  {% assign hasNoindexDoc   = (noindexDocuments.size > 0) %}
-  {% if hasNoindexPages or hasNoindexDoc %}
+  {% if noindexPages.size > 0 or noindexDocuments.size > 0 %}
     {% for node in noindexPages %}
       Disallow: {{ node.url }}
     {% endfor %}
