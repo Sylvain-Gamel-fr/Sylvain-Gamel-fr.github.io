@@ -50,4 +50,4 @@ This video shows how to install and how to use it.
 
 
 [automatisezNet]: https://Automatisez.net/
-[articleShortcut]: https://Automatisez.net/
+[articleShortcut]: https://www.automatisez.net/raccourcis/2020/04/05/envoyer-des-sms-a-un-groupe.html
