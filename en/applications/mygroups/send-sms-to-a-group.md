@@ -47,7 +47,21 @@ This video shows how to install and how to use it.
 
 **Note:** This shortcut is compatible with the iOS 13 version.
 
+<h3 class="h5">Common Issue</h3>
 
+You might encounter an error from _Shortcuts_ when trying to
+install this shortcut.
+
+This is because on iOS, you are not allowed, by default, to install
+a shortcut from untrusted sources.
+
+_To fix this issue_ you shall open the _Settings_ app:
+
+1. go to the _Shortcuts_ section;
+2. check the option “**Allow Untrusted Shortcuts**”
+
+This is explained in [a how-to from Apple][howto].
 
 [automatisezNet]: https://Automatisez.net/
 [articleShortcut]: https://www.automatisez.net/raccourcis/2020/04/05/envoyer-des-sms-a-un-groupe.html
+[howto]: https://support.apple.com/en-us/HT210628

@@ -47,7 +47,24 @@ This video shows how to install and how to use it.
 
 **Note:** Ce raccourci est compatible avec la version iOS 13.
 
+----
+
+<h3 class="h5">Problème Courant</h3>
+
+Il est possible que _Raccourcis_ refuse d’installer ce raccourci.
+
+Par sécurité, le système iOS refuse d’installer automatiquement un
+raccourci qui provient d’une origine non fiable.
+
+Vous pouvez _corriger ce problème_ facilement en ouvrant l’application
+_Réglages_ :
+
+1. allez dans la section dédiée à _Raccourcis_ ;
+2. cochez l’option « **autoriser les raccourcis non fiables** »
+
+Cette manipulation est expliquée dans la [note technique d’Apple][howto].
 
 
 [automatisezNet]: https://Automatisez.net/
 [articleShortcut]: https://www.automatisez.net/raccourcis/2020/04/05/envoyer-des-sms-a-un-groupe.html
+[howto]: https://support.apple.com/fr-fr/HT210628
