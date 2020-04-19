@@ -10,11 +10,6 @@ attachments:
     - name: Command-IT 2019 Atelier préparations.pdf (460Ko)
       url: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/Command-IT+2019+Atelier+préparations.pdf
       description: Guide de mise en place pour l'atelier.
-    - name: Ateliers-materiel-de-bienvenue.tgz (354,4Mo)
-      url: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/Ateliers-materiel-de-bienvenue.tgz
-      description: Le kit de démarrage pour l'atelier. 
-        Contient l'action personnalisée ainsi que le source du serveur
-        et une image Docker pour l'exécuter.
     - name: Ateliers-materiel-de-bienvenue-no-docker.tgz (3,2Mo)
       url: https://s3.eu-central-1.amazonaws.com/assets.sgintech.fr/command-it/Ateliers-materiel-de-bienvenue-no-docker.tgz
       description: Le kit <em>sans l'image Docker</em> pour un téléchargement plus léger.
