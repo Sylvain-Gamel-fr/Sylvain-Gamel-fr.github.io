@@ -35,15 +35,25 @@
         {% for addrRow in contact.address.street %}
           <div>{{ addrRow }}</div>
         {% endfor %}
-        <div class="row">
-          <div class="col-3">
-            <span class="city">{{ contact.address.zip }}</span>
+        {% if contact.address %}
+          <div class="row">
+            <div class="col-3">
+              <span class="city">{{ contact.address.zip }}</span>
+            </div>
+            <div class="col-9 text-smallcaps">
+              <span class="city">{{ contact.address.city }}</span>
+              <span class="country">{{ contact.address.country }}</span>
+            </div>
           </div>
-          <div class="col-9 text-smallcaps">
-            <span class="city">{{ contact.address.city }}</span>
-            <span class="country">{{ contact.address.country }}</span>
-          </div>
-        </div>
+        {% endif %}
+        {% if contact.links %}
+          <strong>Web:</strong>
+          <ul class="list-unstyled">
+          {% for web in contact.links %}
+          <li><a href="{{ web.url }}" target="_blank">{{ web.name }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
       </div>
       
       <div class="col-12 col-md mb-2" >

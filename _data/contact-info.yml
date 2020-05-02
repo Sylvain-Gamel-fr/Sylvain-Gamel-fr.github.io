@@ -19,9 +19,9 @@ name:
 phone: "(+33) 6 42 42 56 52"
 email: contact+web@SylvainGamel.fr
 links:
-    - name: Coding Blog
-      icon: corporate
-      url:  http://code.SylvainGamel.fr/
+    - name: Photos
+      icon: photos
+      url:  http://photos.SylvainGamel.fr/
     - name: YouTube
       icon: YouTube
       url:  http://youtube.SylvainGamel.fr/
