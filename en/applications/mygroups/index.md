@@ -23,6 +23,19 @@ sideNote: >
 
 ---
 
+> <span class="badge badge-pill badge-success">iOS 14</span><br/>
+> The application _My Groups_ if fully compatible with latest iPhone and 
+> iPad operating system.
+>
+> <span class="badge badge-pill badge-warning">Mail and groups</span><br/>
+> Apple removed from _Mail_ the possibility to send a message to a group.
+>
+> When you enter a group name as recipient, the message "no member" will be 
+> shown and you won't be able to add the group as email recipient.
+>
+> You still can send an email to a group using [integrated email feature](#mailing)
+> of _My Groups_.
+
 This simple and efficient app will let you organize
 your address book in groups of contacts.
 

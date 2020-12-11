@@ -34,12 +34,20 @@ sideNote: >
     _Contacts_ avec [le livre « Tout savoir sur Contacts »](https://formationsapple.fr/2019/08/14/livre-tout-savoir-sur-contacts/)
     d'Audrey Couleau.
 
-    <hr>
-
-    **Ils en parlent:**
-
-    [Slice42](http://slice42.com/ipad/2019/10/mes-groupes-enfin-une-app-pour-gerer-les-groupes-de-contacts-sur-ios-83278/)
 ---
+
+> <span class="badge badge-pill badge-success">iOS 14</span><br/>
+> L'application _Mes Groupes_ est parfaitement compatible avec les dernières version
+> du logiciel de vos iPhones et iPads.
+>
+> <span class="badge badge-pill badge-warning">Mail et groupes</span><br/>
+> Apple a retiré de l'application _Mail_ la possibilité 
+> d'envoyer un message à un groupe.
+>
+> Si vous entrez un nom de groupe comme destinataire, le message «~aucun membre~»
+> s'affiche et il n'est pas possible d'ajouter le groupe en destinataire d'un email.
+>
+> Vous pouvez cependant utiliser [la fonction email](#mailing) de _Mes Groupes_.
 
 Cette application simple et efficace vous permet d'organiser
 votre carnet d'adresses en groupes de contacts.

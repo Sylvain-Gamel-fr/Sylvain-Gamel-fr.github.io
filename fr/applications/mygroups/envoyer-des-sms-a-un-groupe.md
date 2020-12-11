@@ -4,7 +4,8 @@ title: Envoyer un SMS à un groupe de contacts
 categories: apps
 family: iOS
 lang: "fr"
-id: mygroups
+id: mygroupsSendSMS
+order: -1
 header_banner: my-groups-banner.jpg
 sideNote: >
     <p>Créez des groupes de contacts.</p>
