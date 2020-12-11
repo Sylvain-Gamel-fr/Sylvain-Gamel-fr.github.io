@@ -1,85 +1,78 @@
 {% assign contact = site.data.contact-info %}
 
 <div class="contact card">
-  <div class="card-header">
-    <span class="name">
+    <div class="card-header">
+        <span class="name">
       {{ contact.name.first }} 
       <span class="text-smallcaps">{{ contact.name.last }}</span>
-    </span>
-    {% if contact.company %}
-      <span class="hidden-sm-down">—</span>
-      <span class="cie-name">
+        </span>
+        {% if contact.company %}
+        <span class="hidden-sm-down">—</span>
+        <span class="cie-name">
         <span class="text-smallcaps">
           {{ contact.company.status }}
+        </span> {{ contact.company.name }}
         </span>
-        {{ contact.company.name }}
-      </span>
+        {% endif %}
+    </div>
+
+    <div class="card-body">
+        <div class="middle-decoration clearfix mb-1" role="presentation">
+            <img src="{{ '/images/assets/background-stripes.svg' | relative_url }}" class="decoration" alt="" role="presentation" aria-hidden="true">
+            <img src="{{ '/images/assets/desktop-computer.svg' | relative_url }}" class="float-left d-none d-md-inline-block shall-cut" alt="" role="presentation" aria-hidden="true">
+            <img src="{{ '/images/assets/tablet.svg' | relative_url }}" class="float-left d-none d-md-inline-block" alt="" role="presentation" aria-hidden="true">
+            <img src="{{ '/images/assets/mobile-phone.svg' | relative_url }}" class="float-left" alt="" role="presentation" aria-hidden="true">
+
+        </div>
+        <div class="row">
+            <div class="address col-12 col-md mb-2">
+                <hr class="d-md-none"> {% for addrRow in contact.address.street %}
+                <div>{{ addrRow }}</div>
+                {% endfor %} {% if contact.address %}
+                <div class="row">
+                    <div class="col-3">
+                        <span class="city">{{ contact.address.zip }}</span>
+                    </div>
+                    <div class="col-9 text-smallcaps">
+                        <span class="city">{{ contact.address.city }}</span>
+                        <span class="country">{{ contact.address.country }}</span>
+                    </div>
+                </div>
+                {% endif %} {% if contact.links %}
+                <strong>Web:</strong>
+                <ul class="list-unstyled">
+                    {% for web in contact.links %}
+                    <li><a href="{{ web.url }}" target="_blank">{{ web.name }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+
+            <div class="col-12 col-md mb-2">
+                <hr class="d-md-none">
+                <dl>
+                    {% if contact.phone %}
+                    <dt>Tél.&nbsp;:</dt>
+                    <dd>
+                        {{ contact.phone }}
+                    </dd>
+                    {% endif %}
+                    <dt>Courriel.&nbsp;:</dt>
+                    <dd>
+                        {{ contact.email }}
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    {% if contact.company %}
+    <div class="card-footer text-center">
+        <ul class="list-unstyled list-inline list-text-separator mb-0">
+            {% for legal in contact.company.legal %}
+            <li class="list-inline-item">{{ legal }}</li>
+            {% endfor %}
+        </ul>
+    </div>
     {% endif %}
-  </div>
-  
-  <div class="card-body">
-    <div class="middle-decoration clearfix mb-1" role="presentation" >
-      <img src="{{ '/images/assets/background-stripes.svg' | relative_url }}" 
-           class="decoration" alt="" role="presentation" aria-hidden="true" >
-      <img src="{{ '/images/assets/desktop-computer.svg' | relative_url }}" 
-           class="float-left d-none d-md-inline-block shall-cut" alt="" role="presentation" aria-hidden="true" >
-      <img src="{{ '/images/assets/tablet.svg' | relative_url }}" 
-           class="float-left d-none d-md-inline-block" alt="" role="presentation" aria-hidden="true" >
-      <img src="{{ '/images/assets/mobile-phone.svg' | relative_url }}" 
-           class="float-left" alt="" role="presentation" aria-hidden="true" >
-
-    </div>
-    <div class="row">
-      <div class="address col-12 col-md mb-2">
-        <hr class="d-md-none">
-        {% for addrRow in contact.address.street %}
-          <div>{{ addrRow }}</div>
-        {% endfor %}
-        {% if contact.address %}
-          <div class="row">
-            <div class="col-3">
-              <span class="city">{{ contact.address.zip }}</span>
-            </div>
-            <div class="col-9 text-smallcaps">
-              <span class="city">{{ contact.address.city }}</span>
-              <span class="country">{{ contact.address.country }}</span>
-            </div>
-          </div>
-        {% endif %}
-        {% if contact.links %}
-          <strong>Web:</strong>
-          <ul class="list-unstyled">
-          {% for web in contact.links %}
-          <li><a href="{{ web.url }}" target="_blank">{{ web.name }}</a></li>
-          {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-      
-      <div class="col-12 col-md mb-2" >
-        <hr class="d-md-none">
-        <dl>
-          <dt>Tél.&nbsp;:</dt>
-          <dd>
-            {{ contact.phone }}
-          </dd>
-          <dt>Courriel.&nbsp;:</dt>
-          <dd>
-            {{ contact.email }}
-          </dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-  
-  {% if contact.company %}
-  <div class="card-footer text-center">
-    <ul class="list-unstyled list-inline list-text-separator mb-0" >
-      {% for legal in contact.company.legal %}
-        <li class="list-inline-item">{{ legal }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
 </div>
-
