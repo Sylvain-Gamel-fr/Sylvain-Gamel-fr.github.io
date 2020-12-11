@@ -5,13 +5,16 @@ slogan: Comptez ce qui compte pour vous !
 categories: apps
 family: iOS
 lang: "fr"
-order: 5
+order: -1
 id: memetrics
 header_banner: banner_me-metrics.jpg
 sideNote:
     Comptez ce qui compte pour vous, à votre façon !
 
 ---
+
+> <span class="badge rounded-pill px-4 py-2 text-light bg-dark">À la retraite</span><br/>
+> Cette application n'est plus maintenue et a été retirée de l'AppStore.
 
 - Une application ;
 - Un widget pour la vue Aujourd'hui ;

@@ -5,13 +5,16 @@ slogan: Count what matters to you!
 categories: apps
 family: iOS
 lang: "en"
-order: 5
+order: -1
 id: memetrics
 header_banner: banner_me-metrics.jpg
 sideNote:
     Count what matters to you, your way!
 
 ---
+
+> <span class="badge rounded-pill px-4 py-2 text-light bg-dark">Retired</span><br/>
+> This app is no longer maintained and has been removed from  the AppStore.
 
 - An application ;
 - A widget for the Today view;
