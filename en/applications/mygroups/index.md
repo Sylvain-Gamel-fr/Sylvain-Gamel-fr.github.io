@@ -28,10 +28,9 @@ sideNote: >
 > iPad operating system.
 >
 > <span class="badge badge-pill badge-warning">Mail and groups</span><br/>
-> Apple removed from _Mail_ the possibility to send a message to a group.
+> Apple introduced a bug in _Mail_ that broke the possibility to send a message to a group.
 >
-> When you enter a group name as recipient, the message "no member" will be 
-> shown and you won't be able to add the group as email recipient.
+> _This bug is fixed in iOS 14.3 (available since 2020, Dec 14)._
 >
 > You still can send an email to a group using [integrated email feature](#mailing)
 > of _My Groups_.

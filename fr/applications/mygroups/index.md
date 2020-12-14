@@ -41,13 +41,13 @@ sideNote: >
 > du logiciel de vos iPhones et iPads.
 >
 > <span class="badge badge-pill badge-warning">Mail et groupes</span><br/>
-> Apple a retiré de l'application _Mail_ la possibilité 
-> d'envoyer un message à un groupe.
+> Apple a introduit un bug dans l'application _Mail_ et l'envoi  
+> d'un message à un groupe n'était plus fonctionnel.
 >
-> Si vous entrez un nom de groupe comme destinataire, le message «~aucun membre~»
-> s'affiche et il n'est pas possible d'ajouter le groupe en destinataire d'un email.
+> _Ce bug est corrigé dans iOS 14.3 (disponible depuis le 14 décembre 2020)_.
 >
-> Vous pouvez cependant utiliser [la fonction email](#mailing) de _Mes Groupes_.
+> Vous pouvez toujours utiliser [la fonction email](#mailing) de _Mes Groupes_
+> qui offre un contrôle plus fin des emails destinataires.
 
 Cette application simple et efficace vous permet d'organiser
 votre carnet d'adresses en groupes de contacts.
