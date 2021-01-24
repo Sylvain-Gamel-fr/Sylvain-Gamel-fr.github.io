@@ -16,24 +16,16 @@ sideNote: >
 
     <hr>
 
-    <h3 class="h4">Add-ons</h3>
+    <h3 class="h4">More</h3>
+
+    [Your groups and iOS14](ios14.html)
+
 
     [Send SMS to a group](send-sms-to-a-group.html)
     using a _shortcut_ and action sheet sharing feature.
 
 ---
 
-> <span class="badge badge-pill badge-success">iOS 14</span><br/>
-> The application _My Groups_ if fully compatible with latest iPhone and 
-> iPad operating system.
->
-> <span class="badge badge-pill badge-warning">Mail and groups</span><br/>
-> Apple introduced a bug in _Mail_ that broke the possibility to send a message to a group.
->
-> _This bug is fixed in iOS 14.3 (available since 2020, Dec 14)._
->
-> You still can send an email to a group using [integrated email feature](#mailing)
-> of _My Groups_.
 
 This simple and efficient app will let you organize
 your address book in groups of contacts.
@@ -47,7 +39,7 @@ features:
 - create, rename and delete groups of contacts;
 - export [vCards](https://fr.wikipedia.org/wiki/VCard) of members;
 - merge multiple groups as a single one.
-- send email to group of users (**new in v1.1**)
+- send e-mail or SMS to group of users
 
 
 > A simple tool respecting your privacy.
@@ -93,12 +85,6 @@ Main screen, list of groups.
 
 <h3 id="mailing">Send an email to group members</h3>
 
-> <span class="badge badge-pill badge-primary">New</span> 
-> in version 1.1 of _My Groups_.
->
-> A premium feature that you can test thanks to free
-> trial and without engagement.
-
 _Mail_ app already allows you to select a group as recipients,
 but "_My Groups_" goes a steps further.
 
@@ -106,100 +92,18 @@ but "_My Groups_" goes a steps further.
 - _target_ specific address labels in priority;
 - _eliminate_ address labels that must not receive a message.
 
-You have the control on which email will get your message,
-without losing your time on case by case micro-management.
-
-Targetting is very easy and only rely on two criterias:
-
-1. email address labels taht must receive the message ;
-2. and those that shall not receive it.
-
-{% capture mailingDescription %}
-
-First section of the screen gives information on recipiers,
-contacts without email, and those that are excluded because of
-filtering.
-
-You provide those criterias in the second section.
-
-{% endcapture %}
-{% capture mailingScreenshot %}
-Targetting the recipients
-{% endcapture %}
-{% include widgets/app-screenshot.html 
-        lang=lang 
-        appId=page.id 
-        src="mailing-iphone.png" imgAlt=directoryScreenshot
-        description=mailingDescription %}
+Get more details on [dedicated page](email.html).
 
 
-#### Supervise the recipient list
+<h3 id="sms">Send a SMS to a group</h3>
 
-Main screen contains three lists:
+With «_My Groups_» you can go beyond iOS and allows you to send 
+a SMS to a group of contacts.
 
-1. recipients: contact with at least one email that 
-   will get the message;
-2. list of contacts that have no email address defined;
-3. List of contacts that will not get the message.
+- _identify_ contact that are missing phone number;
+- _include_ or _exclude_ numbers by their number label;
+- _write_ message in before switching to _Messages_.
 
-{% capture videoNoEmailDescription %}
-If a contact lacks an email address, you can update their
-information right from this screen to add one.
-
-All without going back and forth in the application, 
-nor with _Contacts_.
-{% endcapture %}
-{% capture videoNavigateurEmailAlt %}
-Your browser does not support videos.
-{% endcapture %}
-{% include widgets/app-video.html 
-        lang=lang 
-        appId=page.id 
-        src="mesGroupes_noEmail.mp4" 
-        loop=true
-        noVideoText=videoNavigateurEmailAlt
-        description=videoNoEmailDescription %}
-
-If a contact remains excluded from the distribution list,
-it is either that he has no address, or that the
-criteria eliminate it.
-
-#### Target Address Labels
-
-How shall you select the addresses that will receive your message?
-
-{% capture videoFilterDescription %}
-You only need to define two criteria:
-
-1. the list of address labels which must receive the message;
-2. labels which should not receive the message.
-{% endcapture %}
-{% capture videoNavigateurFilterAlt %}
-Your browser does not support videos.
-{% endcapture %}
-{% include widgets/app-video.html 
-        lang=lang 
-        appId=page.id 
-        src="mesGroupes_filter.mp4" 
-        loop=true
-        noVideoText=videoNavigateurFilterAlt
-        description=videoFilterDescription %}
-
-On this basis, the message will be sent to all the 
-addresses of the group's contacts:
-
-- who have a "priority" label;
-- who do not have a label marked as "excluded".
-
-The message will never be sent to an address 
-with a label marked as "excluded".
-
-Note that it is possible to send the duplicate email to a contact.
-
-If addresses with the "personal" label have priority, 
-and a contact has two addresses, one with this label 
-and the other with "football club":
-the message will be sent to these two addresses.
 
 <h3 id="premium">Premium Features</h3>
 
